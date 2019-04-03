@@ -3,9 +3,24 @@
 # Translation files used for web- and mobile wallet!
 
 
-### How To Translate
+## How To Translate
 
 Coming soon...
+
+### Translations:
+- English: too many people
+- French: gnock
+- Serbian cyrillic: girugameshh
+- German: F0sching, Alex Nnian
+- Hungarian: Gelesztaa
+- Greek: GeraltOfTrivia
+- Russian, Ukrainian: Aiwe
+- Persian: M4hdi1995
+- Japanse: ```need translator```
+- Korean: Xecute0101
+- Chinese: ```need translator```
+- Arabic: ```need translator```
+- Hindi: ```need translator```
 
 ## Donate
 

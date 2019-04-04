@@ -4,8 +4,21 @@
 
 
 ## How To Translate
+Download our translation files:
+```
+    git clone https://github.com/qwertycoin-org/translation-mobileweb
+```
 
-Coming soon...
+[Download][zip] our latest Version of the QWC Translation Editor
+
+Open the cloned folder with the translationfiles aaand lets go: 
+
+![screenshot-mainwindow](https://github.com/qwertycoin-org/JsonTranslationEditor/blob/master/QWCTranslationEditor/Assets/Images/screenshot1.png "Main Window")
+
+## And then?
+
+Coming soon ...
+
 
 ### Translations:
 - English: too many people
@@ -21,6 +34,7 @@ Coming soon...
 - Chinese: ```need translator```
 - Arabic: ```need translator```
 - Hindi: ```need translator```
+- Turkish: ```need translator```
 
 ## Donate
 
@@ -46,3 +60,5 @@ ETN: etnkJXJFqiH9FCt6Gq2HWHPeY92YFsmvKX7qaysvnV11M796Xmovo2nSu6EUCMnniqRqAhKX9AQ
 #### Thanks
 
 Qwertycoin Community
+
+[zip]: https://github.com/qwertycoin-org/JsonTranslationEditor/releases/download/v1.0.1/Qwertycoin-Translation-Editor_v1.0.1.7.zip

@@ -6,7 +6,7 @@
 ## How To Translate
 Download our translation files:
 ```
-    git clone https://github.com/qwertycoin-org/translation-mobileweb
+git clone https://github.com/qwertycoin-org/translation-mobileweb
 ```
 
 [Download][zip] our latest Version of the QWC Translation Editor

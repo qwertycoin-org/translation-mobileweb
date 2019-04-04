@@ -1,498 +1,531 @@
 {
-  "website":{
-	"title":"Hivatalos Qwertycoin webtárca",
-	"description":"A Qwertycoin hivatalos online tárcája - névtelen, biztonságos és teljes mértékben böngészőből kezelt az optimális biztonság érdekében"
+  "date": {
+    "long": {
+      "day": "numeric",
+      "hour": "numeric",
+      "hour12": "False",
+      "minute": "numeric",
+      "month": "short",
+      "weekday": "short",
+      "year": "numeric"
+    },
+    "short": {
+      "day": "numeric",
+      "month": "short",
+      "year": "numeric"
+    }
   },
   "messages": {
-	"menu": {
-	  "home": "Kezdőlap",
-	  "account": "Számla",
-	  "send": "Küldés",
-	  "receive": "Fogadás",
-	  "export": "Exportálás",
-	  "donate": "Adományozás",
-	  "settings": "Beállítások",
-	  "disconnect": "Szétkapcsolás",
-	  "network": "Hálózati statisztika",
-	  "mining": "Bányászás"
-	},
-	"global": {
-	  "loading": "Betöltés",
-	  "disableSecurity":"Biztonság kikapcsolása, megértettem a kockázatot",
-	  "passwordInvalidRequirements":"A jelszónak legalább 8 karakterből kell állnia és tartalmaznia kell egy nagybetűt, egy kisbetűt, egy számot és egy különleges karaktert",
-	  "passwordConfirmationNotMatching":"A megadott jelszavak nem egyeznek",
-	  "download":"Letöltés",
-	  "newVersionModal":{
-		"title":"Elérhető egy új verzió",
-		"content":"Szeretnéd újratölteni az oldalt az új verzió használatához?",
-		"confirmText":"Igen",
-		"cancelText":"Vissza"
-	  },
-	  "openWalletModal":{
-		"title":"Tárca jelszava",
-		"confirmText":"Megnyitás",
-		"cancelText":"Mégsem"
-	  },
-	  "invalidPasswordModal":{
-		"title":"Hupsz...",
-		"content":"Érvénytelen jelszó",
-		"confirmText":"OK"
-	  },
-	  "invalidMnemonicModal":{
-		"title":"Hupsz...",
-		"content":"Érvénytelen mnemonikus szósor",
-		"confirmText":"OK"
-	  },
-	  "passwordNotComplexEnoughModal":{
-		"title":"A jelszó nem elég összetett",
-		"confirmText":"OK"
-	  },
-	  "permissionRequiredForCameraModal":{
-		"title":"Hupsz...",
-		"content":"A kamerához való hozzáférés szükséges a QR-kód beolvasásához",
-		"confirmText":"OK"
-	  }
-	},
-	"bottom": {
-	  "termsOfUse": "Felhasználási feltételek",
-	  "privacyPolicy": "Adatvédelmi irányelvek",
-	  "support": "Ügyfélszolgálat",
-	  "donate": "Adományozás",
-	  "network": "Hálózati statisztika",
-	  "miningPool": "Bányász pool",
-	  "github": "GitHub"
-	},
-	"homepage": {
-	  "mainTitle": "Biztonságos Qwertycoin tárca",
-	  "tagLine": "A Qwertycoin használatának legegyszerűbb módja - bárhol és bármikor",
-	  "tagLineTwo": "A legegyszerűbb módja a Qwertycoin használatának",
-	  "actions": {
-		"loadWallet": "Tárca betöltése",
-		"importWallet": "Tárcaimportálás",
-		"create": "Létrehozás",
-		"createWallet": "Tárca létrehozása"
-	  },
-	  "notes": {
-		"secure": {
-		  "title": "Biztonságos",
-		  "description": "Nincsenek szerverek, teljesen titkosított!"
-		},
-		"fast": {
-		  "title": "Gyors",
-		  "description": "Küldj bárhonnan, bármikor!"
-		},
-		"technology": {
-		  "title": "Egyedi technológia",
-		  "description": "Közvetlen kapcsolat a Qwertycoin blokklánccal!"
-		},
-		"openSource": {
-		  "title": "Teljesen nyílt forrású",
-		  "description": "Elérhető a Githubon!"
-		}
-	  }
-	},
-	"accountPage": {
-	  "title": "Számla",
-	  "subtitle": "Számlaáttekintés és tranzakciós előzmények",
-	  "synchronizingBlock": {
-		"text": "Szinkronizálás..."
-	  },
-	  "balanceBlock": {
-		"title": "Egyenleg",
-		"unlocked": "Feloldva"
-	  },
-	  "historyBlock": {
-		"title": "Tranzakciós előzmények",
-		"pendingTxStatus": "Függőben",
-		"emptyWallet": "Jelenleg nincsen egyenleged ebben a tárcában.",
-		"waitSync": "Kérlek, várj, míg a tárca naprakész lesz",
-		"beReallyPatient": "A kezdeti beállítás némi időbe telhet...",
-		"getCoinAddress": "QWC fogadása"
-	  },
-	  "txDetails":{
-		"title":"Tranzakciórészletek",
-		"txHash":"Tranzakció hash",
-		"feesOnTx":"Tranzakció díjai",
-		"blockHeight":"Blokk",
-		"paymentId":"Fizetési azonosító",
-		"unlockStatus":"Status",
-		"unlockConfirm":"Confirmations",
-        "txPrivKey":"Tranzakció magánkulcs"
-	  }
-	},
-	"changeWalletPasswordPage":{
-	  "title":"Jelszómódosítás",
-	  "oldPassword":{
-		"label":"Régi jelszó",
-		"invalid":"Érvénytelen jelszó"
-	  },
-	  "newPassword":{
-		"label":"Válassz új jelszót"
-	  },
-	  "newPasswordConfirm":{
-		"label":"Ismételd meg az új jelszót"
-	  },
-	  "confirm":"Jelszómódosítás",
-	  "modalSuccess":{
-		"title":"Jelszó módosítva!",
-		"confirmText":"OK"
-	  }
-	},
-	"createWalletPage":{
-	  "generatingStep":{
-		"title":"A tárcád létrehozása folyamatban...",
-		"subtitle":"Majdnem kész",
-		"waitingMessage":"Tárcád létrehozása..."
-	  },
-	  "finalizationStep":{
-		"title":"Ez egyszerű volt. A számlád rendelkezésre áll!",
-		"subtitle":"Állj készen a Qwertycoin használatára",
-		"passwordSelectionBlock":{
-		  "label":"Védd a tárcád"
-		},
-		"passwordConfirmBlock":{
-		  "label":"Erősítsd meg a jelszót"
-		},
-		"validPassword":"Megadott jelszó használata",
-		"backupBlock":{
-		  "title":"Mentsd el a visszaállításra szolgáló privát adataidat.",
-		  "option1":"1. ",
-		  "option2":"2. ",
-		  "titlePdf":"lehetőség: másolat letöltése PDF-ben",
-		  "titleManualWrite":"lehetőség: kulcsok lejegyzése",
-		  "privateKeys":"Privát kulcs",
-		  "mnemonicPhrase":"Mnemonikus szósor",
-		  "separatorManualMethodsSolution":" vagy ",
-		  "confirmManuallyWritten":"Lejegyeztem",
-		  "warningMessage":"**Ne veszítsd el!** Ha elveszted, nem lehet visszaállítani.<br/>**Ne oszd meg!** Pénzedet ellophatják, ha ezt a fájlt megosztod mással, esetleg rosszindulatú, adathalász oldalon közzéteszed.<br/>**Készíts biztonsági másolatot!** Tartsd úgy biztonságban, mint a több millió dollárt, amit egyszer érhet.<br/>",
-		  "finishButton":"Megértettem. Tovább."
-		}
-	  },
-	  "disclaimerBlock":{
-		"title":"A QwertycoinWallet használatának kockázatai",
-		"content":"A QwertycoinWallet egy webes felület, mely lehetővé teszi a Qwertycoin használatát teljes csomópont futtatása nélkül.<br/>Kezeld úgy a QwertycoinWalletet, mintha az a valódi pénztárcád lenne."
-	  }
-	},
-	"donatePage":{
-	  "title":"Adományozás",
-	  "subtitle":"Segíts a fejlesztés finanszírozásában és a számlák kifizetésében",
-	  "webwalletBlock":{
-		"title":"Webtárca",
-		"content":"A webtárcát Gnock fejleszti szabadidejében.<br/>Ha szeretnéd segíteni a fejlesztést, a szerverek fizetését és tetszik az applikáció, úgy vedd fontolóra az adományozást:<br/><br/>"
-	  },
-	  "devFundBlock":{
-		"title":"Qwertycoin fejlesztési alap",
-		"content":"Ha szeretnél segíteni a Qwertycoinnak, az alábbi címekre adományozhatsz"
-	  }
-	},
-	"supportPage":{
-	  "title":"Ügyfélszolgálat",
-	  "subtitle":"Itt vagyunk, hogy segítsünk!",
-	  "getInTouchBlock":{
-		"title":"Lépjünk kapcsolatba!",
-		"content":"Visszajelzésed vagy ötleted van a tárcával kapcsolatban? Keress fel bennünket!",
-		"discord":"Qwertycoin Discord-csatorna"
-	  }
-	},
-	"networkPage":{
-	  "title":"Hálózati statisztika",
-	  "subtitle":"Betekintés a Qwertycoin hálózatába",
-	  "statsBlock":{
-		"hashrate":"Hálózati hashrate",
-		"height":"Blokklánc hossza",
-		"difficulty":"Hálózati nehézség",
-		"lastTimeBlock":"Utolsó blokk ideje",
-		"lastReward":"Utolsó blokk jutalma"
-	  }
-	},
-	"sendPage":{
-	  "title":"QWC küldése",
-	  "sendBlock":{
-		"address":{
-		  "label":"Kedvezményezett címe",
-		  "placeholder":"Írja be azt a címet, ahová pénzt szeretne küldeni",
-		  "invalid":"A kedvezményezett címe érvénytelen",
-		  "fundsTo":"A pénz ide kerül küldésre:",
-		  "receiver":"Fogadás",
-		  "description":"Leírás"
-		},
-		"amount":{
-		  "label":"Küldendő mennyiség",
-		  "invalid":"Érvénytelen mennyiség"
-		},
-		"paymentId":{
-		  "label":"Fizetési azonosító (opcionális)",
-		  "invalid":"Érvénytelen fizetési azonosító. Hosszának 16 vagy 64 karakternek kell lennie"
-		},
-		"sendButton":"Küldés",
-		"cancelButton":"Mégsem"
-	  },
-	  "qrCodeScanning":{
-		"explication":"Mutasd be a QR-kódot"
-	  },
-	  "notEnoughMoneyModal":{
-		"title":"Hupsz...",
-		"content":"Egyenleged nem elegendő a tranzakció végrehajtásához",
-		"confirmText":"OK"
-	  },
-	  "thankYouDonationModal":{
-		"title":"Köszönjük az adományt!",
-		"content":"Értékeljük a segítséged.<br/>Ez az adomány is segít jobbá tenni a Qwertycoint.",
-		"confirmText":"OK"
-	  },
-	  "transferSentModal":{
-		"title":"Sikeres tranzakció!",
-		"confirmText":"OK"
-	  },
-	  "transferExceptionModal":{
-		"title":"Hupsz...",
-		"content":"Hiba történt. Kérlek, jelentsd az alábbi hibát: {details}",
-		"confirmText":"OK"
-	  },
-	  "invalidAmountModal":{
-		"title":"Hupsz...",
-		"content":"Érvénytelen mennyiség",
-		"confirmText":"OK"
-	  },
-	  "creatingTransferModal":{
-		"title":"Tranzakció létrehozása...",
-		"content":"Kérlek, várj..."
-	  },
-	  "finalizingTransferModal":{
-		"title":"Tranzakció véglegesítése...",
-		"content":"Kérlek, várj..."
-	  },
-	  "confirmTransactionModal":{
-		"title":"Megerősíted a tranzakciót?",
-		"content":"Mennyiség: {amount}<br/>Díj: {fees}<br/>Összesen: {total}",
-		"confirmText":"Megerősítés",
-		"cancelText":"Mégsem"
-	  },
-	  "waitingNfcModal":{
-		"title":"Waiting Nfc",
-		"content":"Bring closer to the other device"
-	  }
-	},
-	"receivePage":{
-	  "title":"QWC fogadása",
-	  "receiveBlock":{
-		"address":{
-		  "title":"Pénz fogadására szolgáló cím:",
-		  "label":"Pénz fogadásához ezt a címet add meg"
-		},
-		"qrCode":{
-		  "title":"Vagy használj egyéni QR-kódot",
-		  "labelAmount":"Mennyiség (opcionális)",
-		  "labelRecipient":"Kedvezményezett neve (opcionális)",
-		  "labelDescription":"Tranzakció leírása (opcionális)",
-		  "updateButton":"Frissítés"
-		}
-	  },
-	  "qrBlock":{
-		"title":"Egyéni QR-kód"
-	  },
-	  "waitingNfcToWriteModal":{
-		"title":"Waiting Nfc",
-		"titleSuccess":"Nfc Tag written",
-		"content":"Bring closer the NFC tag to write"
-	  },
-	  "nfcErrorModal":{
-		"titleInsufficientCapacity":"Tag capacity insufficient"
-	  }
-	},
-	"miningPage":{
-	  "title":"Bányássz közvetlenül böngészőből",
-	  "subtitle":"Támogasd a hálózatot a bányászással és szerezz érte jutalmat Qwertycoinban",
-	  "parameterBlock":{
-		"title":"Paraméterek",
-		"labelDestinationAddress":"Céltárca",
-		"labelThreads":"Szálak száma (több = nagyobb hashrate)",
-		"start":"Indítás",
-		"stop":"Megállítás"
-	  },
-	  "statisticsBlocks":{
-		"title":"Statisztika",
-		"validShares":"Érvényes részesedés",
-		"hashrate":"Hashrate",
-		"maxHashrate":"Maximális hashrate",
-		"dedicatedHardware":"Bányászásra dedikált szoftver és hardver használatával nagyobb bevételre tehetsz szert és segíthetsz a hálózat decentralizálásában.",
-		"miningHandledBy":"Ezt a bányászást a pool.qwertycoin.org pool kezeli"
-	  }
-	},
-	"settingsPage":{
-	  "title":"Beállítások",
-	  "subtitle":"Módosítsd a beállításaidat",
-	  "versionBlock":{
-		"versionNumber":"Version number: ",
-		"versionCode":"Version code: "
-	  },
-	  "settingsBlock":{
-		"speed":{
-		  "label":"Tárcafrissítés sebessége (több erőforrást igényel)",
-		  "fastest":"Leggyorsabb",
-		  "fast":"Gyors",
-		  "medium":"Közepes",
-		  "slow":"Lassú"
-		},
-		"language":{
-		  "label":"Language"
-		},
-		"readMinerTx":{
-		  "label":"Bányászási tranzakciók beolvasása (csak egyedülálló bányászás esetén)"
-		}
-	  },
-	  "changePasswordButton":"Jelszómódosítás",
-	  "deleteWalletButton":"Tárca törlése (helyi másolat)",
-	  "walletSettings":{
-		"creationHeight":{
-		  "label":"Tárcalétrehozási blokklánchossz"
-		},
-		"currentScanningHeight": {
-		  "label": "Jelenlegi beolvasási hossz"
-		},
-		"updateButton":"Frissítés"
-	  },
-	  "deleteWalletModal":{
-		"title":"Tárca törlése (helyi másolat)",
-		"content":"Biztosan törölni szeretnéd a tárcádat?",
-		"confirmText":"Igen, biztosan",
-		"cancelText":"Mégsem"
-	  }
-	},
-	"importBasePage":{
-	  "parametersBlock":{
-		"title":"Paraméterek",
-		"password":{
-		  "label":"Tárcajelszó"
-		},
-		"passwordConfirm":{
-		  "label":"Jelszó megerősítése",
-		  "invalid":"A jelszavak nem egyeznek"
-		},
-		"importHeight":{
-		  "label":"Importálási blokklánchossz:"
-		}
-	  }
-	},
-	"importFromQrPage":{
-	  "title":"Tárca importálása QR-kóddal",
-	  "subtitle":"Tárca importálása offline biztonsági mentésből",
-	  "qrCodeBlock":{
-		"title":"QR-kód",
-		"startScanButton":"Beolvasás",
-		"importButton":"Importálás"
-	  },
-	  "qrScanningBlock":{
-		"title":"Mutasd be a QR-kódot"
-	  }
-	},
-	"exportPage":{
-	  "title":"Készíts biztonsági mentést az adataidról",
-	  "publicAddressBlock":{
-		"title":"Nyilvános tárcacím"
-	  },
-	  "pdfBlock":{
-		"title":"Biztonsági mentés PDF-ben",
-		"downloadButton":"Letöltés"
-	  },
-	  "warningBlock":{
-		"title":"Figyelmeztetés",
-		"content":"Ha a privát kulcsaid vagy a mnemonikus szósorod mentését választod, úgy saját biztonságod érdekében ne tárold azokat egyszerű szövegként.<br/>A fájl egy alternatív megoldásként szolgál, ez esetben a kulcsaid titkosítottak és tartalmazza a tranzakciód biztonsági mentését is, így megkímél egy jövőbeli szinkronizálástól."
-	  },
-	  "exportBlock":{
-		"title":"Nyers adatok exportálása",
-		"privateKeysButton":"Privát kulcsok beszerzése",
-		"mnemonicKeysButton":"Mnemonikus szósor beszerzése",
-		"fileButton":"Exportálás fájlba"
-	  },
-	  "walletKeysModal":{
-		"title":"Privát kulcsok",
-		"confirmText":"OK",
-		"content":"Kérlek, gondosan tárold a kulcsokat. <b>Birtoklása a hozzá tartozó pénzösszeg birtoklását is jelenti.</b>!<br/>Privát költőkulcs: {privSpendKey}<br/>Privát figyelőkulcs: {privViewKey}"
-	  },
-	  "mnemonicKeyModal":{
-		"title":"Mnemonikus szósor",
-		"confirmText":"OK",
-		"content":"Kérlek, gondosan tárold a mnemonikus szósort. <b>Birtoklása a hozzá tartozó pénzösszeg birtoklását is jelenti.</b>! A szósor:<br/>{mnemonic}"
-	  },
-	  "mnemonicLangSelectionModal":{
-		"title":"Milyen nyelven kéred a mnemonikus szósorod?",
-		"confirmText":"Exportálás"
-	  }
-	},
-	"importPage":{
-	  "title":"Tárca létrehozása",
-	  "subtitle":"Korábban létrehozott kulcsokkal, fájllal vagy mnemonikus szósorral",
-	  "chooseMethod":"Válassz importálási módszert:",
-	  "fromKeys":"Kulcsok",
-	  "fromFile":"Fájl",
-	  "fromMnemonic":"Mnemonikus szósor",
-	  "fromQr":"QR-kód"
-	},
-	"termsOfUsePage":{
-	  "title":"Felhasználási feltételek",
-	  "subtitle":"Kérlek, alaposan olvasd el."
-	},
-	"privacyPolicyPage":{
-	  "title":"Privacy Policy",
-	  "subtitle":"Kérlek, alaposan olvasd el."
-	},
-	"importFromFilePage":{
-	  "title":"Tárca importálása biztonsági mentési fájllal",
-	  "subtitle":"Használd a biztonsági mentési fájlod a tárca létrehozásához",
-	  "walletBlock":{
-		"title":"Tárcafájl",
-		"label":"Tallózás",
-		"importButton":"Importálás"
-	  }
-	},
-	"importFromMnemonicPage":{
-	  "title":"Tárca importálása mnemonikus szósorral",
-	  "subtitle":"Használd a szósorodat a tárca létrehozásához",
-	  "mnemonicBlock":{
-		"title":"Mnemonikus szósor",
-		"mnemonic":{
-		  "label":"Mnemonikus szósor: 25 szó",
-		  "invalid":"Érvénytelen mnemonikus szósor",
-		  "language":"Nyelv"
-		},
-		"importButton":"Importálás"
-	  }
-	},
-	"importFromKeysPage":{
-	  "title":"Tárca importálása kulcsokkal",
-	  "subtitle":"Használd a kulcsaidat a tárca létrehozásához",
-	  "parametersBlock":{
-		"viewOnlyWallet":{
-		  "label":"Csak megtekinthető (view only) tárcát szeretnél?"
-		}
-	  },
-	  "keysBlock":{
-		"titleNotViewOnly":"Tárcakulcsok",
-		"titleViewOnly":"sak megtekinthető tárca",
-		"privateSpend":{
-		  "label":"Privát költőkulcs"
-		},
-		"privateView":{
-		  "label":"Privát figyelőkulcs",
-		  "optional":"(opcionális)"
-		},
-		"publicKey":{
-		  "label":"Nyilvános kulcs"
-		},
-		"importButton":"Importálás"
-	  }
-	}
+    "accountPage": {
+      "balanceBlock": {
+        "title": "Egyenleg",
+        "unlocked": "Feloldva"
+      },
+      "historyBlock": {
+        "beReallyPatient": "A kezdeti beállítás némi időbe telhet...",
+        "emptyWallet": "Jelenleg nincsen egyenleged ebben a tárcában.",
+        "getCoinAddress": "QWC fogadása",
+        "pendingTxStatus": "Függőben",
+        "title": "Tranzakciós előzmények",
+        "waitSync": "Kérlek, várj, míg a tárca naprakész lesz"
+      },
+      "subtitle": "Számlaáttekintés és tranzakciós előzmények",
+      "synchronizingBlock": {
+        "text": "Szinkronizálás..."
+      },
+      "title": "Számla",
+      "txDetails": {
+        "blockHeight": "Blokk",
+        "feesOnTx": "Tranzakció díjai",
+        "paymentId": "Fizetési azonosító",
+        "timestamp": "Timestamp",
+        "title": "Tranzakciórészletek",
+        "txHash": "Tranzakció hash",
+        "txPrivKey": "Tranzakció magánkulcs",
+        "unlockConfirm": "Confirmations",
+        "unlockStatus": "Status"
+      }
+    },
+    "bottom": {
+      "donate": "Adományozás",
+      "github": "GitHub",
+      "miningPool": "Bányász pool",
+      "network": "Hálózati statisztika",
+      "privacyPolicy": "Adatvédelmi irányelvek",
+      "support": "Ügyfélszolgálat",
+      "termsOfUse": "Felhasználási feltételek"
+    },
+    "changeWalletPasswordPage": {
+      "confirm": "Jelszómódosítás",
+      "modalSuccess": {
+        "confirmText": "OK",
+        "title": "Jelszó módosítva!"
+      },
+      "newPassword": {
+        "invalid": "A strong password must be at least eight characters long, with upper and lowercase letters and symbols",
+        "label": "Válassz új jelszót"
+      },
+      "newPasswordConfirm": {
+        "label": "Ismételd meg az új jelszót"
+      },
+      "oldPassword": {
+        "invalid": "Érvénytelen jelszó",
+        "label": "Régi jelszó"
+      },
+      "title": "Jelszómódosítás"
+    },
+    "contactPage": {
+      "contactBlock": {
+        "cancel": "Cancel",
+        "confirm": "Add",
+        "getNewContacts": "Add Contact",
+        "newContact": "New Contact",
+        "noContacts": "You don't have any contacts yet.",
+        "title": "Your Contacts"
+      },
+      "contactDetailsBlock": {
+        "address": "Address",
+        "sendTo": "Send to ",
+        "title": "Contactdetails"
+      },
+      "subtitle": "Get in touch with other people",
+      "title": "Contacts"
+    },
+    "createWalletPage": {
+      "disclaimerBlock": {
+        "content": "A QwertycoinWallet egy webes felület, mely lehetővé teszi a Qwertycoin használatát teljes csomópont futtatása nélkül.<br/>Kezeld úgy a QwertycoinWalletet, mintha az a valódi pénztárcád lenne.",
+        "title": "A QwertycoinWallet használatának kockázatai"
+      },
+      "finalizationStep": {
+        "backupBlock": {
+          "confirmManuallyWritten": "Lejegyeztem",
+          "finishButton": "Megértettem. Tovább.",
+          "mnemonicPhrase": "Mnemonikus szósor",
+          "option1": "1. ",
+          "option2": "2. ",
+          "privateKeys": "Privát kulcs",
+          "separatorManualMethodsSolution": " vagy ",
+          "title": "Mentsd el a visszaállításra szolgáló privát adataidat.",
+          "titleManualWrite": "lehetőség: kulcsok lejegyzése",
+          "titlePdf": "lehetőség: másolat letöltése PDF-ben",
+          "warningMessage": "**Ne veszítsd el!** Ha elveszted, nem lehet visszaállítani.<br/>**Ne oszd meg!** Pénzedet ellophatják, ha ezt a fájlt megosztod mással, esetleg rosszindulatú, adathalász oldalon közzéteszed.<br/>**Készíts biztonsági másolatot!** Tartsd úgy biztonságban, mint a több millió dollárt, amit egyszer érhet.<br/>"
+        },
+        "passwordConfirmBlock": {
+          "label": "Erősítsd meg a jelszót"
+        },
+        "passwordSelectionBlock": {
+          "label": "Védd a tárcád"
+        },
+        "subtitle": "Állj készen a Qwertycoin használatára",
+        "title": "Ez egyszerű volt. A számlád rendelkezésre áll!",
+        "validPassword": "Megadott jelszó használata"
+      },
+      "generatingStep": {
+        "subtitle": "Majdnem kész",
+        "title": "A tárcád létrehozása folyamatban...",
+        "waitingMessage": "Tárcád létrehozása..."
+      }
+    },
+    "donatePage": {
+      "devFundBlock": {
+        "content": "Ha szeretnél segíteni a Qwertycoinnak, az alábbi címekre adományozhatsz",
+        "title": "Qwertycoin fejlesztési alap"
+      },
+      "masariFundBlock": {
+        "content": "If you wish to send a gift, send it to the following wallet",
+        "title": "Wallet to send the gift"
+      },
+      "QwertycoinFundBlock": {
+        "content": "To help Qwertycoin you can donate to this address",
+        "title": "Qwertycoin Dev fund"
+      },
+      "subtitle": "Segíts a fejlesztés finanszírozásában és a számlák kifizetésében",
+      "title": "Adományozás",
+      "webwalletBlock": {
+        "content": "A webtárcát Gnock fejleszti szabadidejében.<br/>Ha szeretnéd segíteni a fejlesztést, a szerverek fizetését és tetszik az applikáció, úgy vedd fontolóra az adományozást:<br/><br/>",
+        "title": "Webtárca"
+      }
+    },
+    "electionsPage": {
+      "title": "Elections"
+    },
+    "exportPage": {
+      "exportBlock": {
+        "fileButton": "Exportálás fájlba",
+        "mnemonicKeysButton": "Mnemonikus szósor beszerzése",
+        "privateKeysButton": "Privát kulcsok beszerzése",
+        "title": "Nyers adatok exportálása"
+      },
+      "mnemonicKeyModal": {
+        "confirmText": "OK",
+        "content": "Kérlek, gondosan tárold a mnemonikus szósort. <b>Birtoklása a hozzá tartozó pénzösszeg birtoklását is jelenti.</b>! A szósor:<br/>{mnemonic}",
+        "title": "Mnemonikus szósor"
+      },
+      "mnemonicLangSelectionModal": {
+        "confirmText": "Exportálás",
+        "title": "Milyen nyelven kéred a mnemonikus szósorod?"
+      },
+      "pdfBlock": {
+        "downloadButton": "Letöltés",
+        "title": "Biztonsági mentés PDF-ben"
+      },
+      "publicAddressBlock": {
+        "title": "Nyilvános tárcacím"
+      },
+      "title": "Készíts biztonsági mentést az adataidról",
+      "walletKeysModal": {
+        "confirmText": "OK",
+        "content": "Kérlek, gondosan tárold a kulcsokat. <b>Birtoklása a hozzá tartozó pénzösszeg birtoklását is jelenti.</b>!<br/>Privát költőkulcs: {privSpendKey}<br/>Privát figyelőkulcs: {privViewKey}",
+        "title": "Privát kulcsok"
+      },
+      "warningBlock": {
+        "content": "Ha a privát kulcsaid vagy a mnemonikus szósorod mentését választod, úgy saját biztonságod érdekében ne tárold azokat egyszerű szövegként.<br/>A fájl egy alternatív megoldásként szolgál, ez esetben a kulcsaid titkosítottak és tartalmazza a tranzakciód biztonsági mentését is, így megkímél egy jövőbeli szinkronizálástól.",
+        "title": "Figyelmeztetés"
+      }
+    },
+    "global": {
+      "disableSecurity": "Biztonság kikapcsolása, megértettem a kockázatot",
+      "download": "Letöltés",
+      "invalidMnemonicModal": {
+        "confirmText": "OK",
+        "content": "Érvénytelen mnemonikus szósor",
+        "title": "Hupsz..."
+      },
+      "invalidPasswordModal": {
+        "confirmText": "OK",
+        "content": "Érvénytelen jelszó",
+        "title": "Hupsz..."
+      },
+      "loading": "Betöltés",
+      "newVersionModal": {
+        "cancelText": "Vissza",
+        "confirmText": "Igen",
+        "content": "Szeretnéd újratölteni az oldalt az új verzió használatához?",
+        "title": "Elérhető egy új verzió"
+      },
+      "openWalletModal": {
+        "cancelText": "Mégsem",
+        "confirmText": "Megnyitás",
+        "title": "Tárca jelszava"
+      },
+      "passwordConfirmationNotMatching": "A megadott jelszavak nem egyeznek",
+      "passwordInvalidRequirements": "A jelszónak legalább 8 karakterből kell állnia és tartalmaznia kell egy nagybetűt, egy kisbetűt, egy számot és egy különleges karaktert",
+      "passwordNotComplexEnoughModal": {
+        "confirmText": "OK",
+        "title": "A jelszó nem elég összetett"
+      },
+      "permissionRequiredForCameraModal": {
+        "confirmText": "OK",
+        "content": "A kamerához való hozzáférés szükséges a QR-kód beolvasásához",
+        "title": "Hupsz..."
+      }
+    },
+    "homepage": {
+      "actions": {
+        "create": "Létrehozás",
+        "createWallet": "Tárca létrehozása",
+        "importWallet": "Tárcaimportálás",
+        "loadWallet": "Tárca betöltése"
+      },
+      "mainTitle": "Biztonságos Qwertycoin tárca",
+      "notes": {
+        "fast": {
+          "description": "Küldj bárhonnan, bármikor!",
+          "title": "Gyors"
+        },
+        "openSource": {
+          "description": "Elérhető a Githubon!",
+          "title": "Teljesen nyílt forrású"
+        },
+        "secure": {
+          "description": "Nincsenek szerverek, teljesen titkosított!",
+          "title": "Biztonságos"
+        },
+        "technology": {
+          "description": "Közvetlen kapcsolat a Qwertycoin blokklánccal!",
+          "title": "Egyedi technológia"
+        }
+      },
+      "tagLine": "A Qwertycoin használatának legegyszerűbb módja - bárhol és bármikor",
+      "tagLineTwo": "A legegyszerűbb módja a Qwertycoin használatának"
+    },
+    "importBasePage": {
+      "parametersBlock": {
+        "importHeight": {
+          "label": "Importálási blokklánchossz:"
+        },
+        "password": {
+          "label": "Tárcajelszó"
+        },
+        "passwordConfirm": {
+          "invalid": "A jelszavak nem egyeznek",
+          "label": "Jelszó megerősítése"
+        },
+        "title": "Paraméterek"
+      }
+    },
+    "importFromFilePage": {
+      "subtitle": "Használd a biztonsági mentési fájlod a tárca létrehozásához",
+      "title": "Tárca importálása biztonsági mentési fájllal",
+      "walletBlock": {
+        "importButton": "Importálás",
+        "label": "Tallózás",
+        "title": "Tárcafájl"
+      }
+    },
+    "importFromKeysPage": {
+      "keysBlock": {
+        "importButton": "Importálás",
+        "privateSpend": {
+          "label": "Privát költőkulcs"
+        },
+        "privateView": {
+          "label": "Privát figyelőkulcs",
+          "optional": "(opcionális)"
+        },
+        "publicKey": {
+          "label": "Nyilvános kulcs"
+        },
+        "titleNotViewOnly": "Tárcakulcsok",
+        "titleViewOnly": "sak megtekinthető tárca"
+      },
+      "parametersBlock": {
+        "viewOnlyWallet": {
+          "info": "Please note that wallets only show your wallet for viewing only and you cannot submit Qwertycoin.",
+          "label": "Csak megtekinthető (view only) tárcát szeretnél?"
+        }
+      },
+      "parametersBLock": {
+        "viewOnlyWallet": {
+          "info": "Please note that wallets only show your wallet for viewing only and you cannot submit Qwertycoin.",
+          "label": "Do you want a view Only Wallet?"
+        }
+      },
+      "subtitle": "Használd a kulcsaidat a tárca létrehozásához",
+      "title": "Tárca importálása kulcsokkal"
+    },
+    "importFromMnemonicPage": {
+      "mnemonicBlock": {
+        "importButton": "Importálás",
+        "mnemonic": {
+          "invalid": "Érvénytelen mnemonikus szósor",
+          "label": "Mnemonikus szósor: 25 szó",
+          "language": "Nyelv"
+        },
+        "title": "Mnemonikus szósor"
+      },
+      "subtitle": "Használd a szósorodat a tárca létrehozásához",
+      "title": "Tárca importálása mnemonikus szósorral"
+    },
+    "importFromQrPage": {
+      "qrCodeBlock": {
+        "importButton": "Importálás",
+        "startScanButton": "Beolvasás",
+        "title": "QR-kód"
+      },
+      "qrScanningBlock": {
+        "title": "Mutasd be a QR-kódot"
+      },
+      "subtitle": "Tárca importálása offline biztonsági mentésből",
+      "title": "Tárca importálása QR-kóddal"
+    },
+    "importPage": {
+      "chooseMethod": "Válassz importálási módszert:",
+      "fromFile": "Fájl",
+      "fromKeys": "Kulcsok",
+      "fromMnemonic": "Mnemonikus szósor",
+      "fromQr": "QR-kód",
+      "subtitle": "Korábban létrehozott kulcsokkal, fájllal vagy mnemonikus szósorral",
+      "title": "Tárca létrehozása"
+    },
+    "menu": {
+      "account": "Számla",
+      "contacts": "Contacts",
+      "disconnect": "Szétkapcsolás",
+      "donate": "Adományozás",
+      "export": "Exportálás",
+      "home": "Kezdőlap",
+      "mining": "Bányászás",
+      "network": "Hálózati statisztika",
+      "receive": "Fogadás",
+      "send": "Küldés",
+      "settings": "Beállítások"
+    },
+    "networkPage": {
+      "statsBlock": {
+        "difficulty": "Hálózati nehézség",
+        "hashrate": "Hálózati hashrate",
+        "height": "Blokklánc hossza",
+        "lastReward": "Utolsó blokk jutalma",
+        "lastTimeBlock": "Utolsó blokk ideje"
+      },
+      "subtitle": "Betekintés a Qwertycoin hálózatába",
+      "title": "Hálózati statisztika"
+    },
+    "privacyPolicyPage": {
+      "subtitle": "Kérlek, alaposan olvasd el.",
+      "title": "Privacy Policy"
+    },
+    "receivePage": {
+      "nfcErrorModal": {
+        "titleInsufficientCapacity": "Tag capacity insufficient"
+      },
+      "qrBlock": {
+        "title": "Egyéni QR-kód"
+      },
+      "receiveBlock": {
+        "address": {
+          "label": "Pénz fogadásához ezt a címet add meg",
+          "title": "Pénz fogadására szolgáló cím:"
+        },
+        "qrCode": {
+          "labelAmount": "Mennyiség (opcionális)",
+          "labelDescription": "Tranzakció leírása (opcionális)",
+          "labelRecipient": "Kedvezményezett neve (opcionális)",
+          "title": "Vagy használj egyéni QR-kódot",
+          "updateButton": "Frissítés"
+        }
+      },
+      "title": "QWC fogadása",
+      "waitingNfcToWriteModal": {
+        "content": "Bring closer the NFC tag to write",
+        "title": "Waiting Nfc",
+        "titleSuccess": "Nfc Tag written"
+      }
+    },
+    "sendPage": {
+      "confirmTransactionModal": {
+        "cancelText": "Mégsem",
+        "confirmText": "Megerősítés",
+        "content": "Mennyiség: {amount}<br/>Díj: {fees}<br/>Összesen: {total}",
+        "title": "Megerősíted a tranzakciót?"
+      },
+      "creatingTransferModal": {
+        "content": "Kérlek, várj...",
+        "title": "Tranzakció létrehozása..."
+      },
+      "finalizingTransferModal": {
+        "content": "Kérlek, várj...",
+        "title": "Tranzakció véglegesítése..."
+      },
+      "invalidAmountModal": {
+        "confirmText": "OK",
+        "content": "Érvénytelen mennyiség",
+        "title": "Hupsz..."
+      },
+      "notEnoughMoneyModal": {
+        "confirmText": "OK",
+        "content": "Egyenleged nem elegendő a tranzakció végrehajtásához",
+        "title": "Hupsz..."
+      },
+      "qrCodeScanning": {
+        "explication": "Mutasd be a QR-kódot"
+      },
+      "sendBlock": {
+        "address": {
+          "description": "Leírás",
+          "fundsTo": "A pénz ide kerül küldésre:",
+          "invalid": "A kedvezményezett címe érvénytelen",
+          "label": "Kedvezményezett címe",
+          "placeholder": "Írja be azt a címet, ahová pénzt szeretne küldeni",
+          "receiver": "Fogadás"
+        },
+        "amount": {
+          "invalid": "Érvénytelen mennyiség",
+          "label": "Küldendő mennyiség"
+        },
+        "cancelButton": "Mégsem",
+        "paymentId": {
+          "invalid": "Érvénytelen fizetési azonosító. Hosszának 16 vagy 64 karakternek kell lennie",
+          "label": "Fizetési azonosító (opcionális)"
+        },
+        "sendButton": "Küldés"
+      },
+      "thankYouDonationModal": {
+        "confirmText": "OK",
+        "content": "Értékeljük a segítséged.<br/>Ez az adomány is segít jobbá tenni a Qwertycoint.",
+        "title": "Köszönjük az adományt!"
+      },
+      "title": "QWC küldése",
+      "transferExceptionModal": {
+        "confirmText": "OK",
+        "content": "Hiba történt. Kérlek, jelentsd az alábbi hibát: {details}",
+        "title": "Hupsz..."
+      },
+      "transferSentModal": {
+        "confirmText": "OK",
+        "title": "Sikeres tranzakció!"
+      },
+      "waitingNfcModal": {
+        "content": "Bring closer to the other device",
+        "title": "Waiting Nfc"
+      }
+    },
+    "settingsPage": {
+      "changePasswordButton": "Jelszómódosítás",
+      "deleteContactModal": {
+        "cancelText": "Cancel",
+        "confirmText": "Yes",
+        "content": "Are you SURE that you want to delete all your contacts?",
+        "title": "Delete my Contacts"
+      },
+      "deleteContactsButton": "Delete my Contacts",
+      "deleteWalletButton": "Tárca törlése (helyi másolat)",
+      "deleteWalletModal": {
+        "cancelButtonText": "Cancel",
+        "cancelText": "Mégsem",
+        "confirmText": "Igen, biztosan",
+        "content": "Biztosan törölni szeretnéd a tárcádat?",
+        "title": "Tárca törlése (helyi másolat)"
+      },
+      "settingsBlock": {
+        "language": {
+          "label": "Language"
+        },
+        "readMinerTx": {
+          "label": "Bányászási tranzakciók beolvasása (csak egyedülálló bányászás esetén)"
+        },
+        "speed": {
+          "fast": "Gyors",
+          "fastest": "Leggyorsabb",
+          "label": "Tárcafrissítés sebessége (több erőforrást igényel)",
+          "medium": "Közepes",
+          "slow": "Lassú"
+        }
+      },
+      "subtitle": "Módosítsd a beállításaidat",
+      "title": "Beállítások",
+      "versionBlock": {
+        "versionAppName": "App Name: ",
+        "versionCode": "Version code: ",
+        "versionNumber": "Version number: "
+      },
+      "walletSettings": {
+        "creationHeight": {
+          "label": "Tárcalétrehozási blokklánchossz"
+        },
+        "currentScanningHeight": {
+          "label": "Jelenlegi beolvasási hossz"
+        },
+        "updateButton": "Frissítés"
+      }
+    },
+    "supportPage": {
+      "getInTouchBlock": {
+        "content": "Visszajelzésed vagy ötleted van a tárcával kapcsolatban? Keress fel bennünket!",
+        "discord": "Qwertycoin Discord-csatorna",
+        "title": "Lépjünk kapcsolatba!"
+      },
+      "subtitle": "Itt vagyunk, hogy segítsünk!",
+      "title": "Ügyfélszolgálat"
+    },
+    "termsOfUsePage": {
+      "subtitle": "Kérlek, alaposan olvasd el.",
+      "title": "Felhasználási feltételek"
+    }
   },
-  "number":{
-  },
-  "date":{
-	"short": {
-	  "year": "numeric", "month": "short", "day": "numeric"
-	},
-	"long": {
-	  "year": "numeric", "month": "short", "day": "numeric",
-	  "weekday": "short", "hour": "numeric", "minute": "numeric", "hour12": false
-	}
+  "website": {
+    "description": "A Qwertycoin hivatalos online tárcája - névtelen, biztonságos és teljes mértékben böngészőből kezelt az optimális biztonság érdekében",
+    "title": "Hivatalos Qwertycoin webtárca"
   }
 }

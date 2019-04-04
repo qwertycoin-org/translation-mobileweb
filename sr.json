@@ -1,499 +1,531 @@
 {
-  "website":{
-	"title":"Официјални Qwertycoin Веб Новчаник",
-	"description":"Официјални онлајн новчаник за Qwertycoin валуту који је анониман, сигуран, и у потпуности се ослања на Ваш претраживач у циљу оптималне безбедности."
+  "date": {
+    "long": {
+      "day": "numeric",
+      "hour": "numeric",
+      "hour12": "False",
+      "minute": "numeric",
+      "month": "short",
+      "weekday": "short",
+      "year": "numeric"
+    },
+    "short": {
+      "day": "numeric",
+      "month": "short",
+      "year": "numeric"
+    }
   },
   "messages": {
-	"menu": {
-	  "home": "Почетна",
-	  "account": "Налог",
-	  "send": "Пошаљи",
-	  "receive": "Прими",
-	  "export": "Извоз",
-	  "donate": "Донирај",
-	  "settings": "Подешавања",
-	  "disconnect": "Прекини везу",
-	  "network": "Статистика Мреже",
-	  "mining": "Рударење"
-	},
-	"global": {
-	  "loading": "Учитавам",
-	  "disableSecurity":"Искључи безбедност, разумем и прихватам ризик",
-	  "passwordInvalidRequirements":"Лозинка мора да се састоји из најмање 8 карактера, једног великог слова, једног малог слова, једног броја и једног симбола",
-	  "passwordConfirmationNotMatching":"Лозинке се не подударају",
-	  "download":"Преузми",
-	  "newVersionModal":{
-		"title":"Нова верзија је доступна",
-		"content":"Да ли желите да освежите страницу и учитате нову верзију ?",
-		"confirmText":"Да",
-		"cancelText":"Касније"
-	  },
-	  "openWalletModal":{
-		"title":"'Лозинка новчаника'",
-		"confirmText":"Отвори",
-		"cancelText":"Откажи"
-	  },
-	  "invalidPasswordModal":{
-		"title":"Упс...",
-		"content":"Неисправна лозинка",
-		"confirmText":"У реду"
-	  },
-	  "invalidMnemonicModal":{
-		"title":"Упс...",
-		"content":"Мнемоничка фраза није исправна",
-		"confirmText":"У реду"
-	  },
-	  "passwordNotComplexEnoughModal":{
-		"title":"Лозинка није довољно сложена",
-		"confirmText":"У реду"
-	  },
-	  "permissionRequiredForCameraModal":{
-		"title":"Упс...",
-		"content":"Потребна дозвола за приступ камери у циљу скенирања QR кода",
-		"confirmText":"У реду"
-	  }
-	},
-	"bottom": {
-	  "termsOfUse": "Правила коришћења",
-	  "privacyPolicy": "Правила о приватности",
-	  "support": "Подршка",
-	  "donate": "Донирај",
-	  "network": "Статистика Мреже",
-	  "miningPool": "Пул за рударење",
-	  "github": "Гитхаб"
-	},
-	"homepage": {
-	  "mainTitle": "Безбедан Qwertycoin Новчаник",
-	  "tagLine": "Најједноставнији начин да користите Qwertycoin, било када и било где!",
-	  "tagLineTwo": "The simplest way to use Qwertycoin",
-	  "actions": {
-		"loadWallet": "Учитај новчаник",
-		"importWallet": "Увези новчаник",
-		"create": "Направи",
-		"createWallet": "Направи новчаник"
-	  },
-	  "notes": {
-		"secure": {
-		  "title": "Сигурност",
-		  "description": "Без сервера, потпуна енкрипција!"
-		},
-		"fast": {
-		  "title": "Брзина",
-		  "description": "Шаљите било где, било када!"
-		},
-		"technology": {
-		  "title": "Јединствена технологија",
-		  "description": "Повезан директно са Qwertycoin Блокчејном!"
-		},
-		"openSource": {
-		  "title": "Open-source",
-		  "description": "Доступно на ГитХаб"
-		}
-	  }
-	},
-	"accountPage": {
-	  "title": "Налог",
-	  "subtitle": "Преглед налога и трансакција",
-	  "synchronizingBlock": {
-		"text": "Синхронизација у току"
-	  },
-	  "balanceBlock": {
-		"title": "Ваша средства",
-		"unlocked": "Откључано"
-	  },
-	  "historyBlock": {
-		"title": "Историја ваших трансакција",
-		"pendingTxStatus": "На чекању",
-		"emptyWallet": "Тренутно немате средстава у новчанику",
-		"waitSync": "Сачекајте да се новчаник освежи",
-		"beReallyPatient": "Овај поступак може да потраје...",
-		"getCoinAddress": "Адреса за пријем новчића"
-	  },
-	  "txDetails":{
-		"title":"Transaction details",
-		"txHash":"Tx hash",
-		"feesOnTx":"Fees on the tx",
-		"blockHeight":"Block height",
-		"paymentId":"Payment ID",
-		"unlockStatus":"Status",
-		"unlockConfirm":"Confirmations",
-        "txPrivKey":"Transaction Private Key"
-	  }
-	},
-	"changeWalletPasswordPage":{
-	  "title":"Промените лозинку",
-	  "oldPassword":{
-		"label":"Стара лозинка",
-		"invalid":"Погрешна лозинка"
-	  },
-	  "newPassword":{
-		"label":"Изаберите нову лозинку",
-		"invalid":" Лозинка мора да се састоји из најмање 8 карактера, једног великог слова, једног малог слова, једног броја и једног симбола"
-	  },
-	  "newPasswordConfirm":{
-		"label":"Потврдите нову лозинку"
-	  },
-	  "confirm":"Промени лозинку",
-	  "modalSuccess":{
-		"title":"Лозинка промењена !",
-		"confirmText":"У реду"
-	  }
-	},
-	"createWalletPage":{
-	  "generatingStep":{
-		"title":"Генерисање новчаника у току...",
-		"subtitle":"Процес је при крају",
-		"waitingMessage":"Генеришем новчаник..."
-	  },
-	  "finalizationStep":{
-		"title":"Просто као пасуљ. Ваш налог је спреман!",
-		"subtitle":"Спремите се да користите Qwertycoin било где и било кад.",
-		"passwordSelectionBlock":{
-		  "label":"Заштитите ваше податке"
-		},
-		"passwordConfirmBlock":{
-		  "label":"Потврдите лозинку"
-		},
-		"validPassword":"Користите ову лозинку",
-		"backupBlock":{
-		  "title":"И преузмите шифровану копију ваших података за будућу употребу ",
-		  "option1":"Опција 1: ",
-		  "option2":"Опција 2: ",
-		  "titlePdf":"Преузмите PDF фајл",
-		  "titleManualWrite":"Запишите кључеве",
-		  "privateKeys":"Приватни кључ",
-		  "mnemonicPhrase":"Мнемоничка фраза",
-		  "separatorManualMethodsSolution":" или ",
-		  "confirmManuallyWritten":"Записао сам",
-		  "warningMessage":"**Чувајте ове податке!** У случају губитка, подаци не могу бити враћени.<br/>**Не делите податке ни са ким!** Ваша средства могу бити украдена уколико користите ове податке на другим сајтовима сумњивог садржаја.<br/>**Направите резерву (backup)!** Обезбедите податке као да вреде милион долара.<br/>",
-		  "finishButton":"Разумем. Настави"
-		}
-	  },
-	  "disclaimerBlock":{
-		"title":"Ризици коришћења Qwertycoin новчаника",
-		"content":"Qwertycoin новчаник је интерфејс на мрежи. Осмишљен је да помогне при употреби Qwertycoin валуте без потребе за покретањем софтвера на личном рачунару. <br/>Предлажемо да се односите према Qwertycoin новчанику као према свом личном који користите свакодневно."
-	  }
-	},
-	"donatePage":{
-	  "title":"Донирај",
-	  "subtitle":"Помозите при финансирању развоја и плаћања рачуна.",
-	  "webwalletBlock":{
-		"title":"Веб новчаник",
-		"content":"Овај сервис је дело контрибутора под именом Gnock.<br/>Уколико желите да помогнете при даљем развоју ове апликације, молимо вас да размислите о донацији.<br/><br/>"
-	  },
-	  "devFundBlock":{
-		"title":"Qwertycoin новчаник за донације",
-		"content":"Уколико сте заинтересовани да помогнете, можете то учинити слањем средстава на следећу адресу"
-	  }
-	},
-	"supportPage":{
-	  "title":"Подршка",
-	  "subtitle":"Уколико вам је потребна подршка, ту смо да помогнемо!",
-	  "getInTouchBlock":{
-		"title":"Контактирајте нас!",
-		"content":"Ако имате идеје или предлоге који би могли да помогну при даљем развоју овог сервиса, контактирајте нас!",
-		"discord":"Qwertycoin Дискорд Сервер"
-	  }
-	},
-	"networkPage":{
-	  "title":"Статистика мреже",
-	  "subtitle":"Увид у Qwertycoin мрежу",
-	  "statsBlock":{
-		"hashrate":"Хешрејт мреже",
-		"height":"Блокчејн висина",
-		"difficulty":"Тешкоћа мреже",
-		"lastTimeBlock":"Последњи пронађени блок",
-		"lastReward":"Последња блок награда"
-	  }
-	},
-	"sendPage":{
-	  "title":"Шаљи МСР",
-	  "sendBlock":{
-		"address":{
-		  "label":"Пошаљи на адресу",
-		  "placeholder":"Напишите адресу на коју желите да пошаљете средства",
-		  "invalid":"Адреса неисправна",
-		  "fundsTo":"Средства ће бити послата на",
-		  "receiver":"Прималац",
-		  "description":"Опис"
-		},
-		"amount":{
-		  "label":"Количина за слање",
-		  "invalid":"Количина неисправна"
-		},
-		"paymentId":{
-		  "label":"ID уплате(произвољан корак)",
-		  "invalid":"ID уплате неисправан. Дужина мора бити између 16 и 64 карактера"
-		},
-		"sendButton":"Пошаљи",
-		"cancelButton":"Откажи"
-	  },
-	  "qrCodeScanning":{
-		"explication":"Скенирање QR кода"
-	  },
-	  "notEnoughMoneyModal":{
-		"title":"Упс...",
-		"content":"Немате довољно средстава за овај трансфер",
-		"confirmText":"У реду"
-	  },
-	  "thankYouDonationModal":{
-		"title":"Хвала вам на донацији!",
-		"content":"Ваша помоћ је добродошла.<br/>Ваша донација ће помоћи при даљем развитку Qwertycoin-ја",
-		"confirmText":"Затвори"
-	  },
-	  "transferSentModal":{
-		"title":"Трансфер успешан!",
-		"confirmText":"Затвори"
-	  },
-	  "transferExceptionModal":{
-		"title":"Упс...",
-		"content":"Дошло је до грешке. Молимо пријавите грешку: {details}",
-		"confirmText":"Затвори"
-	  },
-	  "invalidAmountModal":{
-		"title":"Упс...",
-		"content":"Количина погрешна",
-		"confirmText":"Затвори"
-	  },
-	  "creatingTransferModal":{
-		"title":"Припремам трансфер...",
-		"content":"Молимо сачекајте..."
-	  },
-	  "finalizingTransferModal":{
-		"title":"Финализирам трансфер...",
-		"content":"Молимо сачекајте..."
-	  },
-	  "confirmTransactionModal":{
-		"title":"Потврди трансфер?",
-		"content":"'Количина: {amount}<br/>Провизија: {fees}<br/>Укупно: {total}",
-		"confirmText":"Потврди",
-		"cancelText":"Откажи"
-	  },
-	  "waitingNfcModal":{
-		"title":"Waiting Nfc",
-		"content":"Bring closer to the other device"
-	  }
-	},
-	"receivePage":{
-	  "title":"Прими МСР",
-	  "receiveBlock":{
-		"address":{
-		  "title":"Адреса за примање новчића",
-		  "label":"Приложите ову адресу уколико желите да примите новчиће"
-		},
-		"qrCode":{
-		  "title":"Или помоћу QR кода",
-		  "labelAmount":"Количина (произвољна опција)",
-		  "labelRecipient":"Име примаоца(произвољна опција)",
-		  "labelDescription":"Опис трансакције(произвољна опција)",
-		  "updateButton":"Ажурирај"
-		}
-	  },
-	  "qrBlock":{
-		"title":"Ваш QR код"
-	  },
-	  "waitingNfcToWriteModal":{
-		"title":"Waiting Nfc",
-		"titleSuccess":"Nfc Tag written",
-		"content":"Bring closer the NFC tag to write"
-	  },
-	  "nfcErrorModal":{
-		"titleInsufficientCapacity":"Tag capacity insufficient"
-	  }
-	},
-	"miningPage":{
-	  "title":"Рударите директно из претраживача",
-	  "subtitle":"Подржите мрежу и повећајте стабилност исте, бићете награђени МСР новчићима",
-	  "parameterBlock":{
-		"title":"Параметри",
-		"labelDestinationAddress":"Новчаник за рударење",
-		"labelThreads":"Број језгара(више = већи хешрејт)",
-		"start":"Старт",
-		"stop":"Стоп"
-	  },
-	  "statisticsBlocks":{
-		"title":"Статистика",
-		"validShares":"Валидних шерова",
-		"hashrate":"Хешрејт",
-		"maxHashrate":"Maксимални Хешрејт",
-		"dedicatedHardware":"Са одговарајућим софтвером за рударење можете очекивати 2 до 3 пута већи хешрејт.<br/>Поред тога, софтвер за рударење вам омогућава да користите и графичку картицу.",
-		"miningHandledBy":"Рударење је омогућено и контролисано од стране pool.qwertycoin.org пула"
-	  }
-	},
-	"settingsPage":{
-	  "title":"Подешавања",
-	  "subtitle":"Промените подешавања овде",
-	  "versionBlock":{
-		"versionNumber":"Version number: ",
-		"versionCode":"Version code: "
-	  },
-	  "settingsBlock":{
-		"speed":{
-		  "label":"Брзина ажурирања новчаника(утиче на потрошњу енергије)",
-		  "fastest":"Најбрже",
-		  "fast":"Брзо",
-		  "medium":"Средње",
-		  "slow":"Споро"
-		},
-		"language":{
-		  "label":"Language"
-		},
-		"readMinerTx":{
-		  "label":"Трансакције рудара(само за соло рударење)"
-		}
-	  },
-	  "changePasswordButton":"Промени лозинку новчаника",
-	  "deleteWalletButton":"Обриши мој новчаник(локална копија)",
-	  "walletSettings":{
-		"creationHeight":{
-		  "label":"Блок висина при креацији новчаника"
-		},
-		"currentScanningHeight": {
-		  "label": "Тренутна висина скенирања"
-		},
-		"updateButton":"Ажурирај"
-	  },
-	  "deleteWalletModal":{
-		"title":"Обриши мој новчаник(локална копија)",
-		"content":"Да ли сте СИГУРНИ да желите брисање новчаника ?",
-		"confirmText":"Да, сигуран сам",
-		"cancelText":"Откажи"
-	  }
-	},
-	"importBasePage":{
-	  "parametersBlock":{
-		"title":"Параметри",
-		"password":{
-		  "label":"Лозинка за заштиту новчаника"
-		},
-		"passwordConfirm":{
-		  "label":"Потврдите лозинку",
-		  "invalid":"Лозинка се не подудара са првим уносом"
-		},
-		"importHeight":{
-		  "label":"Блок висина за увоз"
-		}
-	  }
-	},
-	"importFromQrPage":{
-	  "title":"Увоз новчаника преко QR кода",
-	  "subtitle":"Увези новчаник из офлајн датотеке",
-	  "qrCodeBlock":{
-		"title":"QR код",
-		"startScanButton":"Покрени скенирање",
-		"importButton":"Увези"
-	  },
-	  "qrScanningBlock":{
-		"title":"Приложите QR код"
-	  }
-	},
-	"exportPage":{
-	  "title":"Сачувајте ваше податке",
-	  "publicAddressBlock":{
-		"title":"Ваша адреса"
-	  },
-	  "pdfBlock":{
-		"title":"Pdf чување",
-		"downloadButton":"Преузми"
-	  },
-	  "warningBlock":{
-		"title":"Упозорење",
-		"content":"Уколико се одлучите да сачувате податке вашег новчаника, МОЛИМО ВАС немојте их чувати на видном и лако доступном месту.<br/>Овај фајл је алтернативно решење које садржи комплетан сет шифрованих параметара потребних за будућу ресторацију и синхронизацију."
-	  },
-	  "exportBlock":{
-		"title":"Извези СИРОВЕ податке",
-		"privateKeysButton":"Моји приватни кључеви",
-		"mnemonicKeysButton":"Моја мнемоничка фраза",
-		"fileButton":"Сачувај као фајл"
-	  },
-	  "walletKeysModal":{
-		"title":"Приватни кључеви",
-		"confirmText":"У реду",
-		"content":"Молимо бас да чувате ове податке на безбедном месту. <b>Поседовање ових кључева значи поседовање свих средстава везаних за поменуте кључеве.</b> !<br/>Потрошачки кључ: {privSpendKey}<br/>Приватни кључ: {privViewKey}"
-	  },
-	  "mnemonicKeyModal":{
-		"title":"Приватни кључеви",
-		"confirmText":"У реду",
-		"content":"Молимо вас да пажљиво чувате мнемоничку фразу. <b>Поседовање исте вам омогућава приступ средствима везаним за овај новчаник</b> ! Ваша фраза је:<br/>{mnemonic}"
-	  },
-	  "mnemonicLangSelectionModal":{
-		"title":"Изаберите језик за мнемоничку фразу",
-		"confirmText":"Извези"
-	  }
-	},
-	"importPage":{
-	  "title":"Увези новчаник",
-	  "subtitle":"Од претходно добијених кључева, фајла, или мнемоничке фразе",
-	  "chooseMethod":"Изабери метод",
-	  "fromKeys":"Помоћу кључева",
-	  "fromFile":"Помоћу фајла",
-	  "fromMnemonic":"Помоћу мнемоничке фразе",
-	  "fromQr":"Помоћу QR кода"
-	},
-	"termsOfUsePage":{
-	  "title":"Правила коришћења",
-	  "subtitle":"Молимо пажљиво прочитајте"
-	},
-	"privacyPolicyPage":{
-	  "title":"Privacy Policy",
-	  "subtitle":"Молимо пажљиво прочитајте"
-	},
-	"importFromFilePage":{
-	  "title":"Увоз новчаника помоћу фајла",
-	  "subtitle":"Искористите преузети бекап фајл за увоз новчаника",
-	  "walletBlock":{
-		"title":"Фајл новчаника",
-		"label":"Изаберите фајл",
-		"importButton":"Увези"
-	  }
-	},
-	"importFromMnemonicPage":{
-	  "title":"Увоз новчаника помоћу мнемоничке фразе",
-	  "subtitle":"Искористите постојећу фразу за увоз новчаника",
-	  "mnemonicBlock":{
-		"title":"Мнемоминчка фраза",
-		"mnemonic":{
-		  "label":"Мнемоничка фраза: 25 речи",
-		  "invalid":"Неисправна мнемоничка фраза",
-		  "language":"Језик"
-		},
-		"importButton":"Увези"
-	  }
-	},
-	"importFromKeysPage":{
-	  "title":"Увоз новчаника помоћу кључева",
-	  "subtitle":"Искористите кључеве за увоз новчаника",
-	  "parametersBLock":{
-		"viewOnlyWallet":{
-		  "label":"Да ли желите новчаник само за преглед (view-only) ?"
-		}
-	  },
-	  "keysBlock":{
-		"titleNotViewOnly":"Кључеви новчаника",
-		"titleViewOnly":"View-only новчаник",
-		"privateSpend":{
-		  "label":"Приватни потрошачки кључ"
-		},
-		"privateView":{
-		  "label":"Приватни кључ за преглед",
-		  "optional":"(произвољна опција)"
-		},
-		"publicKey":{
-		  "label":"Јавни кључ"
-		},
-		"importButton":"Увези"
-	  }
-	}
+    "accountPage": {
+      "balanceBlock": {
+        "title": "Ваша средства",
+        "unlocked": "Откључано"
+      },
+      "historyBlock": {
+        "beReallyPatient": "Овај поступак може да потраје...",
+        "emptyWallet": "Тренутно немате средстава у новчанику",
+        "getCoinAddress": "Адреса за пријем новчића",
+        "pendingTxStatus": "На чекању",
+        "title": "Историја ваших трансакција",
+        "waitSync": "Сачекајте да се новчаник освежи"
+      },
+      "subtitle": "Преглед налога и трансакција",
+      "synchronizingBlock": {
+        "text": "Синхронизација у току"
+      },
+      "title": "Налог",
+      "txDetails": {
+        "blockHeight": "Block height",
+        "feesOnTx": "Fees on the tx",
+        "paymentId": "Payment ID",
+        "timestamp": "Timestamp",
+        "title": "Transaction details",
+        "txHash": "Tx hash",
+        "txPrivKey": "Transaction Private Key",
+        "unlockConfirm": "Confirmations",
+        "unlockStatus": "Status"
+      }
+    },
+    "bottom": {
+      "donate": "Донирај",
+      "github": "Гитхаб",
+      "miningPool": "Пул за рударење",
+      "network": "Статистика Мреже",
+      "privacyPolicy": "Правила о приватности",
+      "support": "Подршка",
+      "termsOfUse": "Правила коришћења"
+    },
+    "changeWalletPasswordPage": {
+      "confirm": "Промени лозинку",
+      "modalSuccess": {
+        "confirmText": "У реду",
+        "title": "Лозинка промењена !"
+      },
+      "newPassword": {
+        "invalid": " Лозинка мора да се састоји из најмање 8 карактера, једног великог слова, једног малог слова, једног броја и једног симбола",
+        "label": "Изаберите нову лозинку"
+      },
+      "newPasswordConfirm": {
+        "label": "Потврдите нову лозинку"
+      },
+      "oldPassword": {
+        "invalid": "Погрешна лозинка",
+        "label": "Стара лозинка"
+      },
+      "title": "Промените лозинку"
+    },
+    "contactPage": {
+      "contactBlock": {
+        "cancel": "Cancel",
+        "confirm": "Add",
+        "getNewContacts": "Add Contact",
+        "newContact": "New Contact",
+        "noContacts": "You don't have any contacts yet.",
+        "title": "Your Contacts"
+      },
+      "contactDetailsBlock": {
+        "address": "Address",
+        "sendTo": "Send to ",
+        "title": "Contactdetails"
+      },
+      "subtitle": "Get in touch with other people",
+      "title": "Contacts"
+    },
+    "createWalletPage": {
+      "disclaimerBlock": {
+        "content": "Qwertycoin новчаник је интерфејс на мрежи. Осмишљен је да помогне при употреби Qwertycoin валуте без потребе за покретањем софтвера на личном рачунару. <br/>Предлажемо да се односите према Qwertycoin новчанику као према свом личном који користите свакодневно.",
+        "title": "Ризици коришћења Qwertycoin новчаника"
+      },
+      "finalizationStep": {
+        "backupBlock": {
+          "confirmManuallyWritten": "Записао сам",
+          "finishButton": "Разумем. Настави",
+          "mnemonicPhrase": "Мнемоничка фраза",
+          "option1": "Опција 1: ",
+          "option2": "Опција 2: ",
+          "privateKeys": "Приватни кључ",
+          "separatorManualMethodsSolution": " или ",
+          "title": "И преузмите шифровану копију ваших података за будућу употребу ",
+          "titleManualWrite": "Запишите кључеве",
+          "titlePdf": "Преузмите PDF фајл",
+          "warningMessage": "**Чувајте ове податке!** У случају губитка, подаци не могу бити враћени.<br/>**Не делите податке ни са ким!** Ваша средства могу бити украдена уколико користите ове податке на другим сајтовима сумњивог садржаја.<br/>**Направите резерву (backup)!** Обезбедите податке као да вреде милион долара.<br/>"
+        },
+        "passwordConfirmBlock": {
+          "label": "Потврдите лозинку"
+        },
+        "passwordSelectionBlock": {
+          "label": "Заштитите ваше податке"
+        },
+        "subtitle": "Спремите се да користите Qwertycoin било где и било кад.",
+        "title": "Просто као пасуљ. Ваш налог је спреман!",
+        "validPassword": "Користите ову лозинку"
+      },
+      "generatingStep": {
+        "subtitle": "Процес је при крају",
+        "title": "Генерисање новчаника у току...",
+        "waitingMessage": "Генеришем новчаник..."
+      }
+    },
+    "donatePage": {
+      "devFundBlock": {
+        "content": "Уколико сте заинтересовани да помогнете, можете то учинити слањем средстава на следећу адресу",
+        "title": "Qwertycoin новчаник за донације"
+      },
+      "masariFundBlock": {
+        "content": "If you wish to send a gift, send it to the following wallet",
+        "title": "Wallet to send the gift"
+      },
+      "QwertycoinFundBlock": {
+        "content": "To help Qwertycoin you can donate to this address",
+        "title": "Qwertycoin Dev fund"
+      },
+      "subtitle": "Помозите при финансирању развоја и плаћања рачуна.",
+      "title": "Донирај",
+      "webwalletBlock": {
+        "content": "Овај сервис је дело контрибутора под именом Gnock.<br/>Уколико желите да помогнете при даљем развоју ове апликације, молимо вас да размислите о донацији.<br/><br/>",
+        "title": "Веб новчаник"
+      }
+    },
+    "electionsPage": {
+      "title": "Elections"
+    },
+    "exportPage": {
+      "exportBlock": {
+        "fileButton": "Сачувај као фајл",
+        "mnemonicKeysButton": "Моја мнемоничка фраза",
+        "privateKeysButton": "Моји приватни кључеви",
+        "title": "Извези СИРОВЕ податке"
+      },
+      "mnemonicKeyModal": {
+        "confirmText": "У реду",
+        "content": "Молимо вас да пажљиво чувате мнемоничку фразу. <b>Поседовање исте вам омогућава приступ средствима везаним за овај новчаник</b> ! Ваша фраза је:<br/>{mnemonic}",
+        "title": "Приватни кључеви"
+      },
+      "mnemonicLangSelectionModal": {
+        "confirmText": "Извези",
+        "title": "Изаберите језик за мнемоничку фразу"
+      },
+      "pdfBlock": {
+        "downloadButton": "Преузми",
+        "title": "Pdf чување"
+      },
+      "publicAddressBlock": {
+        "title": "Ваша адреса"
+      },
+      "title": "Сачувајте ваше податке",
+      "walletKeysModal": {
+        "confirmText": "У реду",
+        "content": "Молимо бас да чувате ове податке на безбедном месту. <b>Поседовање ових кључева значи поседовање свих средстава везаних за поменуте кључеве.</b> !<br/>Потрошачки кључ: {privSpendKey}<br/>Приватни кључ: {privViewKey}",
+        "title": "Приватни кључеви"
+      },
+      "warningBlock": {
+        "content": "Уколико се одлучите да сачувате податке вашег новчаника, МОЛИМО ВАС немојте их чувати на видном и лако доступном месту.<br/>Овај фајл је алтернативно решење које садржи комплетан сет шифрованих параметара потребних за будућу ресторацију и синхронизацију.",
+        "title": "Упозорење"
+      }
+    },
+    "global": {
+      "disableSecurity": "Искључи безбедност, разумем и прихватам ризик",
+      "download": "Преузми",
+      "invalidMnemonicModal": {
+        "confirmText": "У реду",
+        "content": "Мнемоничка фраза није исправна",
+        "title": "Упс..."
+      },
+      "invalidPasswordModal": {
+        "confirmText": "У реду",
+        "content": "Неисправна лозинка",
+        "title": "Упс..."
+      },
+      "loading": "Учитавам",
+      "newVersionModal": {
+        "cancelText": "Касније",
+        "confirmText": "Да",
+        "content": "Да ли желите да освежите страницу и учитате нову верзију ?",
+        "title": "Нова верзија је доступна"
+      },
+      "openWalletModal": {
+        "cancelText": "Откажи",
+        "confirmText": "Отвори",
+        "title": "'Лозинка новчаника'"
+      },
+      "passwordConfirmationNotMatching": "Лозинке се не подударају",
+      "passwordInvalidRequirements": "Лозинка мора да се састоји из најмање 8 карактера, једног великог слова, једног малог слова, једног броја и једног симбола",
+      "passwordNotComplexEnoughModal": {
+        "confirmText": "У реду",
+        "title": "Лозинка није довољно сложена"
+      },
+      "permissionRequiredForCameraModal": {
+        "confirmText": "У реду",
+        "content": "Потребна дозвола за приступ камери у циљу скенирања QR кода",
+        "title": "Упс..."
+      }
+    },
+    "homepage": {
+      "actions": {
+        "create": "Направи",
+        "createWallet": "Направи новчаник",
+        "importWallet": "Увези новчаник",
+        "loadWallet": "Учитај новчаник"
+      },
+      "mainTitle": "Безбедан Qwertycoin Новчаник",
+      "notes": {
+        "fast": {
+          "description": "Шаљите било где, било када!",
+          "title": "Брзина"
+        },
+        "openSource": {
+          "description": "Доступно на ГитХаб",
+          "title": "Open-source"
+        },
+        "secure": {
+          "description": "Без сервера, потпуна енкрипција!",
+          "title": "Сигурност"
+        },
+        "technology": {
+          "description": "Повезан директно са Qwertycoin Блокчејном!",
+          "title": "Јединствена технологија"
+        }
+      },
+      "tagLine": "Најједноставнији начин да користите Qwertycoin, било када и било где!",
+      "tagLineTwo": "The simplest way to use Qwertycoin"
+    },
+    "importBasePage": {
+      "parametersBlock": {
+        "importHeight": {
+          "label": "Блок висина за увоз"
+        },
+        "password": {
+          "label": "Лозинка за заштиту новчаника"
+        },
+        "passwordConfirm": {
+          "invalid": "Лозинка се не подудара са првим уносом",
+          "label": "Потврдите лозинку"
+        },
+        "title": "Параметри"
+      }
+    },
+    "importFromFilePage": {
+      "subtitle": "Искористите преузети бекап фајл за увоз новчаника",
+      "title": "Увоз новчаника помоћу фајла",
+      "walletBlock": {
+        "importButton": "Увези",
+        "label": "Изаберите фајл",
+        "title": "Фајл новчаника"
+      }
+    },
+    "importFromKeysPage": {
+      "keysBlock": {
+        "importButton": "Увези",
+        "privateSpend": {
+          "label": "Приватни потрошачки кључ"
+        },
+        "privateView": {
+          "label": "Приватни кључ за преглед",
+          "optional": "(произвољна опција)"
+        },
+        "publicKey": {
+          "label": "Јавни кључ"
+        },
+        "titleNotViewOnly": "Кључеви новчаника",
+        "titleViewOnly": "View-only новчаник"
+      },
+      "parametersBlock": {
+        "viewOnlyWallet": {
+          "info": "Please note that wallets only show your wallet for viewing only and you cannot submit Qwertycoin.",
+          "label": "Do you want a view only wallet?"
+        }
+      },
+      "parametersBLock": {
+        "viewOnlyWallet": {
+          "info": "Please note that wallets only show your wallet for viewing only and you cannot submit Qwertycoin.",
+          "label": "Да ли желите новчаник само за преглед (view-only) ?"
+        }
+      },
+      "subtitle": "Искористите кључеве за увоз новчаника",
+      "title": "Увоз новчаника помоћу кључева"
+    },
+    "importFromMnemonicPage": {
+      "mnemonicBlock": {
+        "importButton": "Увези",
+        "mnemonic": {
+          "invalid": "Неисправна мнемоничка фраза",
+          "label": "Мнемоничка фраза: 25 речи",
+          "language": "Језик"
+        },
+        "title": "Мнемоминчка фраза"
+      },
+      "subtitle": "Искористите постојећу фразу за увоз новчаника",
+      "title": "Увоз новчаника помоћу мнемоничке фразе"
+    },
+    "importFromQrPage": {
+      "qrCodeBlock": {
+        "importButton": "Увези",
+        "startScanButton": "Покрени скенирање",
+        "title": "QR код"
+      },
+      "qrScanningBlock": {
+        "title": "Приложите QR код"
+      },
+      "subtitle": "Увези новчаник из офлајн датотеке",
+      "title": "Увоз новчаника преко QR кода"
+    },
+    "importPage": {
+      "chooseMethod": "Изабери метод",
+      "fromFile": "Помоћу фајла",
+      "fromKeys": "Помоћу кључева",
+      "fromMnemonic": "Помоћу мнемоничке фразе",
+      "fromQr": "Помоћу QR кода",
+      "subtitle": "Од претходно добијених кључева, фајла, или мнемоничке фразе",
+      "title": "Увези новчаник"
+    },
+    "menu": {
+      "account": "Налог",
+      "contacts": "Contacts",
+      "disconnect": "Прекини везу",
+      "donate": "Донирај",
+      "export": "Извоз",
+      "home": "Почетна",
+      "mining": "Рударење",
+      "network": "Статистика Мреже",
+      "receive": "Прими",
+      "send": "Пошаљи",
+      "settings": "Подешавања"
+    },
+    "networkPage": {
+      "statsBlock": {
+        "difficulty": "Тешкоћа мреже",
+        "hashrate": "Хешрејт мреже",
+        "height": "Блокчејн висина",
+        "lastReward": "Последња блок награда",
+        "lastTimeBlock": "Последњи пронађени блок"
+      },
+      "subtitle": "Увид у Qwertycoin мрежу",
+      "title": "Статистика мреже"
+    },
+    "privacyPolicyPage": {
+      "subtitle": "Молимо пажљиво прочитајте",
+      "title": "Privacy Policy"
+    },
+    "receivePage": {
+      "nfcErrorModal": {
+        "titleInsufficientCapacity": "Tag capacity insufficient"
+      },
+      "qrBlock": {
+        "title": "Ваш QR код"
+      },
+      "receiveBlock": {
+        "address": {
+          "label": "Приложите ову адресу уколико желите да примите новчиће",
+          "title": "Адреса за примање новчића"
+        },
+        "qrCode": {
+          "labelAmount": "Количина (произвољна опција)",
+          "labelDescription": "Опис трансакције(произвољна опција)",
+          "labelRecipient": "Име примаоца(произвољна опција)",
+          "title": "Или помоћу QR кода",
+          "updateButton": "Ажурирај"
+        }
+      },
+      "title": "Прими МСР",
+      "waitingNfcToWriteModal": {
+        "content": "Bring closer the NFC tag to write",
+        "title": "Waiting Nfc",
+        "titleSuccess": "Nfc Tag written"
+      }
+    },
+    "sendPage": {
+      "confirmTransactionModal": {
+        "cancelText": "Откажи",
+        "confirmText": "Потврди",
+        "content": "'Количина: {amount}<br/>Провизија: {fees}<br/>Укупно: {total}",
+        "title": "Потврди трансфер?"
+      },
+      "creatingTransferModal": {
+        "content": "Молимо сачекајте...",
+        "title": "Припремам трансфер..."
+      },
+      "finalizingTransferModal": {
+        "content": "Молимо сачекајте...",
+        "title": "Финализирам трансфер..."
+      },
+      "invalidAmountModal": {
+        "confirmText": "Затвори",
+        "content": "Количина погрешна",
+        "title": "Упс..."
+      },
+      "notEnoughMoneyModal": {
+        "confirmText": "У реду",
+        "content": "Немате довољно средстава за овај трансфер",
+        "title": "Упс..."
+      },
+      "qrCodeScanning": {
+        "explication": "Скенирање QR кода"
+      },
+      "sendBlock": {
+        "address": {
+          "description": "Опис",
+          "fundsTo": "Средства ће бити послата на",
+          "invalid": "Адреса неисправна",
+          "label": "Пошаљи на адресу",
+          "placeholder": "Напишите адресу на коју желите да пошаљете средства",
+          "receiver": "Прималац"
+        },
+        "amount": {
+          "invalid": "Количина неисправна",
+          "label": "Количина за слање"
+        },
+        "cancelButton": "Откажи",
+        "paymentId": {
+          "invalid": "ID уплате неисправан. Дужина мора бити између 16 и 64 карактера",
+          "label": "ID уплате(произвољан корак)"
+        },
+        "sendButton": "Пошаљи"
+      },
+      "thankYouDonationModal": {
+        "confirmText": "Затвори",
+        "content": "Ваша помоћ је добродошла.<br/>Ваша донација ће помоћи при даљем развитку Qwertycoin-ја",
+        "title": "Хвала вам на донацији!"
+      },
+      "title": "Шаљи МСР",
+      "transferExceptionModal": {
+        "confirmText": "Затвори",
+        "content": "Дошло је до грешке. Молимо пријавите грешку: {details}",
+        "title": "Упс..."
+      },
+      "transferSentModal": {
+        "confirmText": "Затвори",
+        "title": "Трансфер успешан!"
+      },
+      "waitingNfcModal": {
+        "content": "Bring closer to the other device",
+        "title": "Waiting Nfc"
+      }
+    },
+    "settingsPage": {
+      "changePasswordButton": "Промени лозинку новчаника",
+      "deleteContactModal": {
+        "cancelText": "Cancel",
+        "confirmText": "Yes",
+        "content": "Are you SURE that you want to delete all your contacts?",
+        "title": "Delete my Contacts"
+      },
+      "deleteContactsButton": "Delete my Contacts",
+      "deleteWalletButton": "Обриши мој новчаник(локална копија)",
+      "deleteWalletModal": {
+        "cancelButtonText": "Cancel",
+        "cancelText": "Откажи",
+        "confirmText": "Да, сигуран сам",
+        "content": "Да ли сте СИГУРНИ да желите брисање новчаника ?",
+        "title": "Обриши мој новчаник(локална копија)"
+      },
+      "settingsBlock": {
+        "language": {
+          "label": "Language"
+        },
+        "readMinerTx": {
+          "label": "Трансакције рудара(само за соло рударење)"
+        },
+        "speed": {
+          "fast": "Брзо",
+          "fastest": "Најбрже",
+          "label": "Брзина ажурирања новчаника(утиче на потрошњу енергије)",
+          "medium": "Средње",
+          "slow": "Споро"
+        }
+      },
+      "subtitle": "Промените подешавања овде",
+      "title": "Подешавања",
+      "versionBlock": {
+        "versionAppName": "App Name: ",
+        "versionCode": "Version code: ",
+        "versionNumber": "Version number: "
+      },
+      "walletSettings": {
+        "creationHeight": {
+          "label": "Блок висина при креацији новчаника"
+        },
+        "currentScanningHeight": {
+          "label": "Тренутна висина скенирања"
+        },
+        "updateButton": "Ажурирај"
+      }
+    },
+    "supportPage": {
+      "getInTouchBlock": {
+        "content": "Ако имате идеје или предлоге који би могли да помогну при даљем развоју овог сервиса, контактирајте нас!",
+        "discord": "Qwertycoin Дискорд Сервер",
+        "title": "Контактирајте нас!"
+      },
+      "subtitle": "Уколико вам је потребна подршка, ту смо да помогнемо!",
+      "title": "Подршка"
+    },
+    "termsOfUsePage": {
+      "subtitle": "Молимо пажљиво прочитајте",
+      "title": "Правила коришћења"
+    }
   },
-  "number":{
-  },
-  "date":{
-	"short": {
-	  "year": "numeric", "month": "short", "day": "numeric"
-	},
-	"long": {
-	  "year": "numeric", "month": "short", "day": "numeric",
-	  "weekday": "short", "hour": "numeric", "minute": "numeric", "hour12": false
-	}
+  "website": {
+    "description": "Официјални онлајн новчаник за Qwertycoin валуту који је анониман, сигуран, и у потпуности се ослања на Ваш претраживач у циљу оптималне безбедности.",
+    "title": "Официјални Qwertycoin Веб Новчаник"
   }
 }

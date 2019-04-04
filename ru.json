@@ -1,495 +1,531 @@
 {
-  "website":{
-	"title":"Веб-кошелек Qwertycoin",
-	"description":"Официальный онлайн кошелек криптовалюты Qwertycoin - анонимный, надежный, работающий полностью в вашем браузере для наилучшей безопасности"
+  "date": {
+    "long": {
+      "day": "numeric",
+      "hour": "numeric",
+      "hour12": "True",
+      "minute": "numeric",
+      "month": "short",
+      "weekday": "short",
+      "year": "numeric"
+    },
+    "short": {
+      "day": "numeric",
+      "month": "short",
+      "year": "numeric"
+    }
   },
   "messages": {
-	"menu": {
-	  "home": "Обзор",
-	  "account": "Аккаунт",
-	  "send": "Отправить",
-	  "receive": "Получить",
-	  "export": "Экспорт",
-	  "donate": "Пожертвовать",
-	  "settings": "Настройки",
-	  "disconnect": "Отключиться",
-	  "network": "Статистика сети",
-	  "mining": "Майнинг"
-	},
-	"global": {
-	  "loading": "Загрузка",
-	  "disableSecurity":"Отключить эту предосторожность, я понимаю риск",
-	  "passwordInvalidRequirements":"Пароль должен состоять по крайней мере из 8 символов - 1 большой буквы, 1 маленькой, одного числа, одного спецсимвола",
-	  "passwordConfirmationNotMatching":"Подтверждение пароля не совпадает с первым",
-	  "download":"Скачать",
-	  "newVersionModal":{
-		"title":"Есть новая версия",
-		"content":"Хотите перезагрузить чтобы обновить версию?",
-		"confirmText":"Да",
-		"cancelText":"Назад"
-	  },
-	  "openWalletModal":{
-		"title":"Пароль кошелька",
-		"confirmText":"Открыть",
-		"cancelText":"Отмена"
-	  },
-	  "invalidPasswordModal":{
-		"title":"Ой...",
-		"content":"Кажется пароль неверный",
-		"confirmText":"OK"
-	  },
-	  "invalidMnemonicModal":{
-		"title":"Ой...",
-		"content":"Фраза для восстановления неверная",
-		"confirmText":"OK"
-	  },
-	  "passwordNotComplexEnoughModal":{
-		"title":"Пароль недостаточно сложный",
-		"confirmText":"OK"
-	  },
-	  "permissionRequiredForCameraModal":{
-		"title":"Ой...",
-		"content":"Требуется разрешение на доступ к камере для сканирования QR кода",
-		"confirmText":"OK"
-	  }
-	},
-	"bottom": {
-	  "termsOfUse": "Условия использования",
-	  "privacyPolicy": "Политика конфиденциальности",
-	  "support": "Поддержка",
-	  "donate": "Пожертвовать",
-	  "network": "Статистика сети",
-	  "miningPool": "Майнинг",
-	  "github": "GitHub"
-	},
-	"homepage": {
-	  "mainTitle": "Защищенный Кошелек Qwertycoin",
-	  "tagLine": "в любом месте. в любой момент. любое место. любое устройство.",
-	  "tagLineTwo": "Самый простой способ использовать Qwertycoin",
-	  "actions": {
-		"loadWallet": "Загрузить мой кошелек",
-		"importWallet": "Импортировать кошелек",
-		"create": "Создать",
-		"createWallet": "Создать кошелек"
-	  },
-	  "notes": {
-		"secure": {
-		  "title": "Безопасный",
-		  "description": "Без серверов, полностью зашифрован!"
-		},
-		"fast": {
-		  "title": "Быстрый",
-		  "description": "Доступен когда надо!"
-		},
-		"technology": {
-		  "title": "Локальный",
-		  "description": "Ключи в браузере"
-		},
-		"openSource": {
-		  "title": "Open-source",
-		  "description": "Не доверяй - проверяй!"
-		}
-	  }
-	},
-	"accountPage": {
-	  "title": "Аккаунт",
-	  "subtitle": "Обзор вашей учетной записи и истории транзакций",
-	  "synchronizingBlock": {
-		"text": "Синхронизация..."
-	  },
-	  "balanceBlock": {
-		"title": "Ваш баланс",
-		"unlocked": "Доступно"
-	  },
-	  "historyBlock": {
-		"title": "История транзакций",
-		"pendingTxStatus": "Ожидается",
-		"emptyWallet": "В этом кошельке пока нет средств.",
-		"waitSync": "Пожалуйста подождите пока кошелек обновляется",
-		"beReallyPatient": "Начальная установка может занять некоторое время...",
-		"getCoinAddress": "Получить QWC"
-	  },
-	  "txDetails":{
-		"title":"Детали транзакции",
-		"txHash":"Хеш",
-		"feesOnTx":"Комиссия",
-		"blockHeight":"Высота блока",
-		"paymentId":"Идентификатор платежа",
-		"unlockStatus":"Status",
-		"unlockConfirm":"Confirmations",
-        "txPrivKey":"Секретный ключ транзакции"
-	  }
-	},
-	"changeWalletPasswordPage":{
-	  "title":"Изменить ваш пароль",
-	  "oldPassword":{
-		"label":"Старый пароль",
-		"invalid":"Пароль недействительный"
-	  },
-	  "newPassword":{
-		"label":"Выберите новый пароль для зашиты вашего кошелька"
-	  },
-	  "newPasswordConfirm":{
-		"label":"Подтвердите новый пароль"
-	  },
-	  "confirm":"Изменить пароль",
-	  "modalSuccess":{
-		"title":"Пароль изменен!",
-		"confirmText":"OK"
-	  }
-	},
-	"createWalletPage":{
-	  "generatingStep":{
-		"title":"Создается кошелек...",
-		"subtitle":"Почти готово",
-		"waitingMessage":"Генерируется кошелек..."
-	  },
-	  "finalizationStep":{
-		"title":"Все. Ваш кошелек готов!",
-		"subtitle":"Приготовьтесь использовать Qwertycoin как никогда до этого",
-		"passwordSelectionBlock":{
-		  "label":"Защитите ваш кошелек"
-		},
-		"passwordConfirmBlock":{
-		  "label":"Подтвердите пароль"
-		},
-		"validPassword":"Использовать этот пароль",
-		"backupBlock":{
-		  "title":"Сохраните ваши приватные данные чтобы иметь возможность восстановления.",
-		  "option1":"Опция 1: ",
-		  "option2":"Опция 2: ",
-		  "titlePdf":"Скачать PDF",
-		  "titleManualWrite":"Записать ключи",
-		  "privateKeys":"Приватный ключ",
-		  "mnemonicPhrase":"Мнемоническая фраза",
-		  "separatorManualMethodsSolution":" или ",
-		  "confirmManuallyWritten":"Я записал себе мнемоническую фразу",
-		  "warningMessage":"**Не потеряйте!** Она не может быть восстановлена если вы ее потеряете.<br/>**Никому не передавайте!** Ваши средства могут быть украдены если воспользуетесь этим файлом или фразой на вредоносном/фишинговом сайте.<br/>**Сделайте резервную копию!** Берегите как миллион долларов, которого оно может одного прекрасного дня стоить.<br/>",
-		  "finishButton":"Я понял. Продолжить."
-		}
-	  },
-	  "disclaimerBlock":{
-		"title":"Риски использования QwertycoinWallet",
-		"content":"QwertycoinWallet это веб-интерфейс. Он помогает вам использовать Qwertycoin без необходимости держать полный узел сети Qwertycoin. <br/>Мы рекомендуем относиться к QwertycoinWallet со всей серьезностью, как к вашему бумажнику."
-	  }
-	},
-	"donatePage":{
-	  "title":"Пожертвовать",
-	  "subtitle":"Помогите профинансировать разработку и оплату счетов",
-	  "webwalletBlock":{
-		"title":"Помошь Веб-кошельку",
-		"content":"Если вы хотите поддержать разработку, помочь с оплатой хостинга, если вам нравится аппликация, пожалуйста сделайте пожертвование: <br/><br/>"
-	  },
-	  "devFundBlock":{
-		"title":"Официальный фонд Qwertycoin",
-		"content":"Чтобы поддержать Qwertycoinванец, вы можете сделать пожертвование на эти адреса"
-	  }
-	},
-	"supportPage":{
-	  "title":"Поддержка",
-	  "subtitle":"Мы тут чтобы помочь!",
-	  "getInTouchBlock":{
-		"title":"Свяжитесь с нами!",
-		"content":"Есть идеи или пожелания по улучшению кошелька? Напишите нам!",
-		"discord":"Канал Qwertycoin в Discord"
-	  }
-	},
-	"networkPage":{
-	  "title":"Статистика сети",
-	  "subtitle":"Обзор сети Qwertycoin",
-	  "statsBlock":{
-		"hashrate":"Хешрейт",
-		"height":"Высота блокчейна",
-		"difficulty":"Сложность",
-		"lastTimeBlock":"Время последнего блока",
-		"lastReward":"Награда за последний блок"
-	  }
-	},
-	"sendPage":{
-	  "title":"Отправить QWC",
-	  "sendBlock":{
-		"address":{
-		  "label":"Адрес получателя",
-		  "placeholder":"Укажите адрес, на который хотите отправить средства",
-		  "invalid":"Адрес получателя неверный",
-		  "fundsTo":"Средства будут отправлены на",
-		  "receiver":"Получатель",
-		  "description":"Описание"
-		},
-		"amount":{
-		  "label":"Сумма",
-		  "invalid":"Сумма неверная"
-		},
-		"paymentId":{
-		  "label":"Payment ID (необязательно)",
-		  "invalid":"Идентификатор платежа неверный. Длина должна быть 16 или 64 символа"
-		},
-		"sendButton":"Отправить",
-		"cancelButton":"Отменить"
-	  },
-	  "qrCodeScanning":{
-		"explication":"Показать QR код"
-	  },
-	  "notEnoughMoneyModal":{
-		"title":"Ой...",
-		"content":"В кошельке недостаточно средств для совершения этого перевода",
-		"confirmText":"OK"
-	  },
-	  "thankYouDonationModal":{
-		"title":"Спасибо за ваше пожертвование!",
-		"content":"Мы ценим вашу поддержку. <br/>Это пожертвование поможет сделать Qwertycoin лучше",
-		"confirmText":"OK"
-	  },
-	  "transferSentModal":{
-		"title":"Перевод успешно отправлен!",
-		"confirmText":"OK"
-	  },
-	  "transferExceptionModal":{
-		"title":"Ой...",
-		"content":"Случилась ошибка. Пожалуйста сообщите о ней: {details}",
-		"confirmText":"OK"
-	  },
-	  "invalidAmountModal":{
-		"title":"Ой...",
-		"content":"Неверная сумма",
-		"confirmText":"OK"
-	  },
-	  "creatingTransferModal":{
-		"title":"Создается перевод...",
-		"content":"Пожалуйста подождите..."
-	  },
-	  "finalizingTransferModal":{
-		"title":"Завершается перевод...",
-		"content":"Пожалуйста подождите..."
-	  },
-	  "confirmTransactionModal":{
-		"title":"Подтвердить перевод?",
-		"content":"Сумма: {amount}<br/>Комиссии: {fees}<br/>Всего: {total}",
-		"confirmText":"Подтвердить",
-		"cancelText":"Отменить"
-	  },
-	  "waitingNfcModal":{
-		"title":"Ожидание Nfc",
-		"content":"Поднесите ближе к другому устройству"
-	  }
-	},
-	"receivePage":{
-	  "title":"Получить QWC",
-	  "receiveBlock":{
-		"address":{
-		  "title":"Ваш адрес для получения:",
-		  "label":"Дайте этот адрес чтобы получить средства"
-		},
-		"qrCode":{
-		  "title":"Или персонализируйте QR код:",
-		  "labelAmount":"Сумма (необязательно)",
-		  "labelRecipient":"Название получателя (необязательно)",
-		  "labelDescription":"Описание транзакции (необязательно)",
-		  "updateButton":"Обновить"
-		}
-	  },
-	  "qrBlock":{
-		"title":"Ваш персональный QR код"
-	  },
-	  "waitingNfcToWriteModal":{
-		"title":"Ожидание Nfc",
-		"titleSuccess":"Nfc тег записан",
-		"content":"Поднесите NFC тег ближе для записи"
-	  },
-	  "nfcErrorModal":{
-		"titleInsufficientCapacity":"Вместимость тега недостаточная"
-	  }
-	},
-	"miningPage":{
-	  "title":"Информация о майнинге",
-	  "subtitle":"Поддержите сеть майнингом и получите в награду QWC",
-	  "parameterBlock":{
-		"title":"Параметры",
-		"labelDestinationAddress":"Кошелек на который майнить",
-		"labelThreads":"Число потоков (больше = выше скорость)",
-		"start":"Старт",
-		"stop":"Стоп"
-	  },
-	  "statisticsBlocks":{
-		"title":"Статистика",
-		"validShares":"Валидные доли",
-		"hashrate":"Хешрейт",
-		"maxHashrate":"Макс. Хешрейт",
-		"dedicatedHardware":"Майнинг помогает в децентрализации сети и позволяет вам заработать Qwertycoin.",
-		"miningHandledBy":"Майнинг проходит на пуле https://pool.qwertycoin.org"
-	  }
-	},
-	"settingsPage":{
-	  "title":"Настройки",
-	  "subtitle":"Тут вы можете изменить параметры",
-	  "versionBlock":{
-		"versionNumber":"Номер версии: ",
-		"versionCode":"Код версии: "
-	  },
-	  "settingsBlock":{
-		"speed":{
-		  "label":"Скорость обновления кошелька (будет потреблять больше ресурсов)",
-		  "fastest":"Скорая",
-		  "fast":"Быстрая",
-		  "medium":"Средняя",
-		  "slow":"Медленная"
-		},
-		"language":{
-		  "label":"Язык"
-		},
-		"readMinerTx":{
-		  "label":"Считывать транзакции майнинга (только для соло майнинга)"
-		}
-	  },
-	  "changePasswordButton":"Изменть пароль моего кошелька",
-	  "deleteWalletButton":"Удалить мой кошелек (локальную копию)",
-	  "walletSettings":{
-		"creationHeight":{
-		  "label":"Высота создания кошелька"
-		},
-		"currentScanningHeight": {
-		  "label": "Текущая высота сканирования"
-		},
-		"updateButton":"Обновить"
-	  },
-	  "deleteWalletModal":{
-		"title":"Удалить мой кошелек (локальную копию)",
-		"content":"Вы ДЕЙСТВИТЕЛЬНО уверены что хотите удалить свой кошелек?",
-		"confirmText":"Да, я знаю что делаю",
-		"cancelText":"Отменить"
-	  }
-	},
-	"importBasePage":{
-	  "parametersBlock":{
-		"title":"Параметры",
-		"password":{
-		  "label":"Пароль для защиты вашего кошелька"
-		},
-		"passwordConfirm":{
-		  "label":"Подтвердите пароль",
-		  "invalid":"Пароль не совпадает с первым введенным паролем"
-		},
-		"importHeight":{
-		  "label":"С какой высоты начать импорт:"
-		}
-	  }
-	},
-	"importFromQrPage":{
-	  "title":"Импортировать кошелек из QR кода",
-	  "subtitle":"Импортировать кошелек из оффлайновой резервной копии",
-	  "qrCodeBlock":{
-		"title":"QR код",
-		"startScanButton":"Начать сканирование",
-		"importButton":"Импортировать"
-	  },
-	  "qrScanningBlock":{
-		"title":"Покажите QR код"
-	  }
-	},
-	"exportPage":{
-	  "title":"Сделать резервную копию ваших данных",
-	  "publicAddressBlock":{
-		"title":"Ваш публичный адрес"
-	  },
-	  "pdfBlock":{
-		"title":"Резервная копия PDF",
-		"downloadButton":"Скачать"
-	  },
-	  "warningBlock":{
-		"title":"Внимание",
-		"content":"Если вы решите сохранить приватные ключи или мнемоническую фразу, кошелек НЕ СОХРАНИТ их в текстовом виде для вашей безопасности.<br/>Файл является альтернативным решением где ваши ключи зашифрованы и содержит резервную копию всех ваших транзакций для ускорения синхронизации при восстановлении."
-	  },
-	  "exportBlock":{
-		"title":"Экспортировать сырые данные",
-		"privateKeysButton":"Получить мои приватные ключи",
-		"mnemonicKeysButton":"Получить мою мнемоническую фразу",
-		"fileButton":"Экспортировать в файл"
-	  },
-	  "walletKeysModal":{
-		"title":"Приватные ключи",
-		"confirmText":"OK",
-		"content":"Пожалуйста отнеситесь серьезно к сохранению этих ключей. <b>Тот кто их имеет, владеет средствами на кошельке</b>!<br/>Ключ расходования: {privSpendKey}<br/>Ключ слежения: {privViewKey}"
-	  },
-	  "mnemonicKeyModal":{
-		"title":"Мнемоническая фраза",
-		"confirmText":"OK",
-		"content":"Пожалуйста отнеситесь серьезно к сохранению этой мнемонической фразы. <b>Тот кто ее имеет, владеет средствами на кошельке</b> ! Фраза:<br/>{mnemonic}"
-	  },
-	  "mnemonicLangSelectionModal":{
-		"title":"Выберите язык мнемонической фразы",
-		"confirmText":"Экспортировать"
-	  }
-	},
-	"importPage":{
-	  "title":"Создать кошелек",
-	  "subtitle":"Из ранее созданных ключей, файла или мнемонической фразы",
-	  "chooseMethod":"Выберите метод импорта:",
-	  "fromKeys":"Из ключей",
-	  "fromFile":"Из файла",
-	  "fromMnemonic":"Из мнемонической фразы",
-	  "fromQr":"Из QR кода"
-	},
-	"termsOfUsePage":{
-	  "title":"Условия использования",
-	  "subtitle":"Внимательно их прочитайте."
-	},
-	"importFromFilePage":{
-	  "title":"Импорт кошелька из резервного фала",
-	  "subtitle":"Использовать резервный файл для создания кошелька",
-	  "walletBlock":{
-		"title":"Файл кошелька",
-		"label":"Выберите файл",
-		"importButton":"Импортировать"
-	  }
-	},
-	"importFromMnemonicPage":{
-	  "title":"Импорт кошелька из мнемонической фразы",
-	  "subtitle":"Использовать мнемоническую фразу для создания кошелька",
-	  "mnemonicBlock":{
-		"title":"Мнемоническая фраза",
-		"mnemonic":{
-		  "label":"Мнемоническая фраза: 25 слов",
-		  "invalid":"Мнемоническая фраза недействительная",
-		  "language":"Язык"
-		},
-		"importButton":"Импортировать"
-	  }
-	},
-	"importFromKeysPage":{
-	  "title":"Импорт кошелька из ключей",
-	  "subtitle":"Использовать приватные ключи для создания кошелька",
-	  "parametersBlock":{
-      "viewOnlyWallet": {
-        "label": "Хотите создать кошелек слежения?",
-        "info": "Обратите внимание, кошелек слежения предназначен только для просмотра входящих платежей, так что баланс может отображаться неправильно!"
+    "accountPage": {
+      "balanceBlock": {
+        "title": "Ваш баланс",
+        "unlocked": "Доступно"
+      },
+      "historyBlock": {
+        "beReallyPatient": "Начальная установка может занять некоторое время...",
+        "emptyWallet": "В этом кошельке пока нет средств.",
+        "getCoinAddress": "Получить QWC",
+        "pendingTxStatus": "Ожидается",
+        "title": "История транзакций",
+        "waitSync": "Пожалуйста подождите пока кошелек обновляется"
+      },
+      "subtitle": "Обзор вашей учетной записи и истории транзакций",
+      "synchronizingBlock": {
+        "text": "Синхронизация..."
+      },
+      "title": "Аккаунт",
+      "txDetails": {
+        "blockHeight": "Высота блока",
+        "feesOnTx": "Комиссия",
+        "paymentId": "Идентификатор платежа",
+        "timestamp": "Timestamp",
+        "title": "Детали транзакции",
+        "txHash": "Хеш",
+        "txPrivKey": "Секретный ключ транзакции",
+        "unlockConfirm": "Confirmations",
+        "unlockStatus": "Status"
       }
-	  },
-	  "keysBlock":{
-		"titleNotViewOnly":"Ключи кошелька",
-		"titleViewOnly":"Кошелек просмотра",
-		"privateSpend":{
-		  "label":"Приватный ключ расходования"
-		},
-		"privateView":{
-		  "label":"Приватный ключ слежения",
-		  "optional":"(необязательно)"
-		},
-		"publicKey":{
-		  "label":"Публичный ключ"
-		},
-		"importButton":"Импортировать"
-	  }
-	}
+    },
+    "bottom": {
+      "donate": "Пожертвовать",
+      "github": "GitHub",
+      "miningPool": "Майнинг",
+      "network": "Статистика сети",
+      "privacyPolicy": "Политика конфиденциальности",
+      "support": "Поддержка",
+      "termsOfUse": "Условия использования"
+    },
+    "changeWalletPasswordPage": {
+      "confirm": "Изменить пароль",
+      "modalSuccess": {
+        "confirmText": "OK",
+        "title": "Пароль изменен!"
+      },
+      "newPassword": {
+        "invalid": "A strong password must be at least eight characters long, with upper and lowercase letters and symbols",
+        "label": "Выберите новый пароль для зашиты вашего кошелька"
+      },
+      "newPasswordConfirm": {
+        "label": "Подтвердите новый пароль"
+      },
+      "oldPassword": {
+        "invalid": "Пароль недействительный",
+        "label": "Старый пароль"
+      },
+      "title": "Изменить ваш пароль"
+    },
+    "contactPage": {
+      "contactBlock": {
+        "cancel": "Cancel",
+        "confirm": "Add",
+        "getNewContacts": "Add Contact",
+        "newContact": "New Contact",
+        "noContacts": "You don't have any contacts yet.",
+        "title": "Your Contacts"
+      },
+      "contactDetailsBlock": {
+        "address": "Address",
+        "sendTo": "Send to ",
+        "title": "Contactdetails"
+      },
+      "subtitle": "Get in touch with other people",
+      "title": "Contacts"
+    },
+    "createWalletPage": {
+      "disclaimerBlock": {
+        "content": "QwertycoinWallet это веб-интерфейс. Он помогает вам использовать Qwertycoin без необходимости держать полный узел сети Qwertycoin. <br/>Мы рекомендуем относиться к QwertycoinWallet со всей серьезностью, как к вашему бумажнику.",
+        "title": "Риски использования QwertycoinWallet"
+      },
+      "finalizationStep": {
+        "backupBlock": {
+          "confirmManuallyWritten": "Я записал себе мнемоническую фразу",
+          "finishButton": "Я понял. Продолжить.",
+          "mnemonicPhrase": "Мнемоническая фраза",
+          "option1": "Опция 1: ",
+          "option2": "Опция 2: ",
+          "privateKeys": "Приватный ключ",
+          "separatorManualMethodsSolution": " или ",
+          "title": "Сохраните ваши приватные данные чтобы иметь возможность восстановления.",
+          "titleManualWrite": "Записать ключи",
+          "titlePdf": "Скачать PDF",
+          "warningMessage": "**Не потеряйте!** Она не может быть восстановлена если вы ее потеряете.<br/>**Никому не передавайте!** Ваши средства могут быть украдены если воспользуетесь этим файлом или фразой на вредоносном/фишинговом сайте.<br/>**Сделайте резервную копию!** Берегите как миллион долларов, которого оно может одного прекрасного дня стоить.<br/>"
+        },
+        "passwordConfirmBlock": {
+          "label": "Подтвердите пароль"
+        },
+        "passwordSelectionBlock": {
+          "label": "Защитите ваш кошелек"
+        },
+        "subtitle": "Приготовьтесь использовать Qwertycoin как никогда до этого",
+        "title": "Все. Ваш кошелек готов!",
+        "validPassword": "Использовать этот пароль"
+      },
+      "generatingStep": {
+        "subtitle": "Почти готово",
+        "title": "Создается кошелек...",
+        "waitingMessage": "Генерируется кошелек..."
+      }
+    },
+    "donatePage": {
+      "devFundBlock": {
+        "content": "Чтобы поддержать Qwertycoinванец, вы можете сделать пожертвование на эти адреса",
+        "title": "Официальный фонд Qwertycoin"
+      },
+      "masariFundBlock": {
+        "content": "If you wish to send a gift, send it to the following wallet",
+        "title": "Wallet to send the gift"
+      },
+      "QwertycoinFundBlock": {
+        "content": "To help Qwertycoin you can donate to this address",
+        "title": "Qwertycoin Dev fund"
+      },
+      "subtitle": "Помогите профинансировать разработку и оплату счетов",
+      "title": "Пожертвовать",
+      "webwalletBlock": {
+        "content": "Если вы хотите поддержать разработку, помочь с оплатой хостинга, если вам нравится аппликация, пожалуйста сделайте пожертвование: <br/><br/>",
+        "title": "Помошь Веб-кошельку"
+      }
+    },
+    "electionsPage": {
+      "title": "Elections"
+    },
+    "exportPage": {
+      "exportBlock": {
+        "fileButton": "Экспортировать в файл",
+        "mnemonicKeysButton": "Получить мою мнемоническую фразу",
+        "privateKeysButton": "Получить мои приватные ключи",
+        "title": "Экспортировать сырые данные"
+      },
+      "mnemonicKeyModal": {
+        "confirmText": "OK",
+        "content": "Пожалуйста отнеситесь серьезно к сохранению этой мнемонической фразы. <b>Тот кто ее имеет, владеет средствами на кошельке</b> ! Фраза:<br/>{mnemonic}",
+        "title": "Мнемоническая фраза"
+      },
+      "mnemonicLangSelectionModal": {
+        "confirmText": "Экспортировать",
+        "title": "Выберите язык мнемонической фразы"
+      },
+      "pdfBlock": {
+        "downloadButton": "Скачать",
+        "title": "Резервная копия PDF"
+      },
+      "publicAddressBlock": {
+        "title": "Ваш публичный адрес"
+      },
+      "title": "Сделать резервную копию ваших данных",
+      "walletKeysModal": {
+        "confirmText": "OK",
+        "content": "Пожалуйста отнеситесь серьезно к сохранению этих ключей. <b>Тот кто их имеет, владеет средствами на кошельке</b>!<br/>Ключ расходования: {privSpendKey}<br/>Ключ слежения: {privViewKey}",
+        "title": "Приватные ключи"
+      },
+      "warningBlock": {
+        "content": "Если вы решите сохранить приватные ключи или мнемоническую фразу, кошелек НЕ СОХРАНИТ их в текстовом виде для вашей безопасности.<br/>Файл является альтернативным решением где ваши ключи зашифрованы и содержит резервную копию всех ваших транзакций для ускорения синхронизации при восстановлении.",
+        "title": "Внимание"
+      }
+    },
+    "global": {
+      "disableSecurity": "Отключить эту предосторожность, я понимаю риск",
+      "download": "Скачать",
+      "invalidMnemonicModal": {
+        "confirmText": "OK",
+        "content": "Фраза для восстановления неверная",
+        "title": "Ой..."
+      },
+      "invalidPasswordModal": {
+        "confirmText": "OK",
+        "content": "Кажется пароль неверный",
+        "title": "Ой..."
+      },
+      "loading": "Загрузка",
+      "newVersionModal": {
+        "cancelText": "Назад",
+        "confirmText": "Да",
+        "content": "Хотите перезагрузить чтобы обновить версию?",
+        "title": "Есть новая версия"
+      },
+      "openWalletModal": {
+        "cancelText": "Отмена",
+        "confirmText": "Открыть",
+        "title": "Пароль кошелька"
+      },
+      "passwordConfirmationNotMatching": "Подтверждение пароля не совпадает с первым",
+      "passwordInvalidRequirements": "Пароль должен состоять по крайней мере из 8 символов - 1 большой буквы, 1 маленькой, одного числа, одного спецсимвола",
+      "passwordNotComplexEnoughModal": {
+        "confirmText": "OK",
+        "title": "Пароль недостаточно сложный"
+      },
+      "permissionRequiredForCameraModal": {
+        "confirmText": "OK",
+        "content": "Требуется разрешение на доступ к камере для сканирования QR кода",
+        "title": "Ой..."
+      }
+    },
+    "homepage": {
+      "actions": {
+        "create": "Создать",
+        "createWallet": "Создать кошелек",
+        "importWallet": "Импортировать кошелек",
+        "loadWallet": "Загрузить мой кошелек"
+      },
+      "mainTitle": "Защищенный Кошелек Qwertycoin",
+      "notes": {
+        "fast": {
+          "description": "Доступен когда надо!",
+          "title": "Быстрый"
+        },
+        "openSource": {
+          "description": "Не доверяй - проверяй!",
+          "title": "Open-source"
+        },
+        "secure": {
+          "description": "Без серверов, полностью зашифрован!",
+          "title": "Безопасный"
+        },
+        "technology": {
+          "description": "Ключи в браузере",
+          "title": "Локальный"
+        }
+      },
+      "tagLine": "в любом месте. в любой момент. любое место. любое устройство.",
+      "tagLineTwo": "Самый простой способ использовать Qwertycoin"
+    },
+    "importBasePage": {
+      "parametersBlock": {
+        "importHeight": {
+          "label": "С какой высоты начать импорт:"
+        },
+        "password": {
+          "label": "Пароль для защиты вашего кошелька"
+        },
+        "passwordConfirm": {
+          "invalid": "Пароль не совпадает с первым введенным паролем",
+          "label": "Подтвердите пароль"
+        },
+        "title": "Параметры"
+      }
+    },
+    "importFromFilePage": {
+      "subtitle": "Использовать резервный файл для создания кошелька",
+      "title": "Импорт кошелька из резервного фала",
+      "walletBlock": {
+        "importButton": "Импортировать",
+        "label": "Выберите файл",
+        "title": "Файл кошелька"
+      }
+    },
+    "importFromKeysPage": {
+      "keysBlock": {
+        "importButton": "Импортировать",
+        "privateSpend": {
+          "label": "Приватный ключ расходования"
+        },
+        "privateView": {
+          "label": "Приватный ключ слежения",
+          "optional": "(необязательно)"
+        },
+        "publicKey": {
+          "label": "Публичный ключ"
+        },
+        "titleNotViewOnly": "Ключи кошелька",
+        "titleViewOnly": "Кошелек просмотра"
+      },
+      "parametersBlock": {
+        "viewOnlyWallet": {
+          "info": "Обратите внимание, кошелек слежения предназначен только для просмотра входящих платежей, так что баланс может отображаться неправильно!",
+          "label": "Хотите создать кошелек слежения?"
+        }
+      },
+      "parametersBLock": {
+        "viewOnlyWallet": {
+          "info": "Please note that wallets only show your wallet for viewing only and you cannot submit Qwertycoin.",
+          "label": "Do you want a view Only Wallet?"
+        }
+      },
+      "subtitle": "Использовать приватные ключи для создания кошелька",
+      "title": "Импорт кошелька из ключей"
+    },
+    "importFromMnemonicPage": {
+      "mnemonicBlock": {
+        "importButton": "Импортировать",
+        "mnemonic": {
+          "invalid": "Мнемоническая фраза недействительная",
+          "label": "Мнемоническая фраза: 25 слов",
+          "language": "Язык"
+        },
+        "title": "Мнемоническая фраза"
+      },
+      "subtitle": "Использовать мнемоническую фразу для создания кошелька",
+      "title": "Импорт кошелька из мнемонической фразы"
+    },
+    "importFromQrPage": {
+      "qrCodeBlock": {
+        "importButton": "Импортировать",
+        "startScanButton": "Начать сканирование",
+        "title": "QR код"
+      },
+      "qrScanningBlock": {
+        "title": "Покажите QR код"
+      },
+      "subtitle": "Импортировать кошелек из оффлайновой резервной копии",
+      "title": "Импортировать кошелек из QR кода"
+    },
+    "importPage": {
+      "chooseMethod": "Выберите метод импорта:",
+      "fromFile": "Из файла",
+      "fromKeys": "Из ключей",
+      "fromMnemonic": "Из мнемонической фразы",
+      "fromQr": "Из QR кода",
+      "subtitle": "Из ранее созданных ключей, файла или мнемонической фразы",
+      "title": "Создать кошелек"
+    },
+    "menu": {
+      "account": "Аккаунт",
+      "contacts": "Contacts",
+      "disconnect": "Отключиться",
+      "donate": "Пожертвовать",
+      "export": "Экспорт",
+      "home": "Обзор",
+      "mining": "Майнинг",
+      "network": "Статистика сети",
+      "receive": "Получить",
+      "send": "Отправить",
+      "settings": "Настройки"
+    },
+    "networkPage": {
+      "statsBlock": {
+        "difficulty": "Сложность",
+        "hashrate": "Хешрейт",
+        "height": "Высота блокчейна",
+        "lastReward": "Награда за последний блок",
+        "lastTimeBlock": "Время последнего блока"
+      },
+      "subtitle": "Обзор сети Qwertycoin",
+      "title": "Статистика сети"
+    },
+    "privacyPolicyPage": {
+      "subtitle": "Please read them carefully.",
+      "title": "Privacy Policy"
+    },
+    "receivePage": {
+      "nfcErrorModal": {
+        "titleInsufficientCapacity": "Вместимость тега недостаточная"
+      },
+      "qrBlock": {
+        "title": "Ваш персональный QR код"
+      },
+      "receiveBlock": {
+        "address": {
+          "label": "Дайте этот адрес чтобы получить средства",
+          "title": "Ваш адрес для получения:"
+        },
+        "qrCode": {
+          "labelAmount": "Сумма (необязательно)",
+          "labelDescription": "Описание транзакции (необязательно)",
+          "labelRecipient": "Название получателя (необязательно)",
+          "title": "Или персонализируйте QR код:",
+          "updateButton": "Обновить"
+        }
+      },
+      "title": "Получить QWC",
+      "waitingNfcToWriteModal": {
+        "content": "Поднесите NFC тег ближе для записи",
+        "title": "Ожидание Nfc",
+        "titleSuccess": "Nfc тег записан"
+      }
+    },
+    "sendPage": {
+      "confirmTransactionModal": {
+        "cancelText": "Отменить",
+        "confirmText": "Подтвердить",
+        "content": "Сумма: {amount}<br/>Комиссии: {fees}<br/>Всего: {total}",
+        "title": "Подтвердить перевод?"
+      },
+      "creatingTransferModal": {
+        "content": "Пожалуйста подождите...",
+        "title": "Создается перевод..."
+      },
+      "finalizingTransferModal": {
+        "content": "Пожалуйста подождите...",
+        "title": "Завершается перевод..."
+      },
+      "invalidAmountModal": {
+        "confirmText": "OK",
+        "content": "Неверная сумма",
+        "title": "Ой..."
+      },
+      "notEnoughMoneyModal": {
+        "confirmText": "OK",
+        "content": "В кошельке недостаточно средств для совершения этого перевода",
+        "title": "Ой..."
+      },
+      "qrCodeScanning": {
+        "explication": "Показать QR код"
+      },
+      "sendBlock": {
+        "address": {
+          "description": "Описание",
+          "fundsTo": "Средства будут отправлены на",
+          "invalid": "Адрес получателя неверный",
+          "label": "Адрес получателя",
+          "placeholder": "Укажите адрес, на который хотите отправить средства",
+          "receiver": "Получатель"
+        },
+        "amount": {
+          "invalid": "Сумма неверная",
+          "label": "Сумма"
+        },
+        "cancelButton": "Отменить",
+        "paymentId": {
+          "invalid": "Идентификатор платежа неверный. Длина должна быть 16 или 64 символа",
+          "label": "Payment ID (необязательно)"
+        },
+        "sendButton": "Отправить"
+      },
+      "thankYouDonationModal": {
+        "confirmText": "OK",
+        "content": "Мы ценим вашу поддержку. <br/>Это пожертвование поможет сделать Qwertycoin лучше",
+        "title": "Спасибо за ваше пожертвование!"
+      },
+      "title": "Отправить QWC",
+      "transferExceptionModal": {
+        "confirmText": "OK",
+        "content": "Случилась ошибка. Пожалуйста сообщите о ней: {details}",
+        "title": "Ой..."
+      },
+      "transferSentModal": {
+        "confirmText": "OK",
+        "title": "Перевод успешно отправлен!"
+      },
+      "waitingNfcModal": {
+        "content": "Поднесите ближе к другому устройству",
+        "title": "Ожидание Nfc"
+      }
+    },
+    "settingsPage": {
+      "changePasswordButton": "Изменть пароль моего кошелька",
+      "deleteContactModal": {
+        "cancelText": "Cancel",
+        "confirmText": "Yes",
+        "content": "Are you SURE that you want to delete all your contacts?",
+        "title": "Delete my Contacts"
+      },
+      "deleteContactsButton": "Delete my Contacts",
+      "deleteWalletButton": "Удалить мой кошелек (локальную копию)",
+      "deleteWalletModal": {
+        "cancelButtonText": "Cancel",
+        "cancelText": "Отменить",
+        "confirmText": "Да, я знаю что делаю",
+        "content": "Вы ДЕЙСТВИТЕЛЬНО уверены что хотите удалить свой кошелек?",
+        "title": "Удалить мой кошелек (локальную копию)"
+      },
+      "settingsBlock": {
+        "language": {
+          "label": "Язык"
+        },
+        "readMinerTx": {
+          "label": "Считывать транзакции майнинга (только для соло майнинга)"
+        },
+        "speed": {
+          "fast": "Быстрая",
+          "fastest": "Скорая",
+          "label": "Скорость обновления кошелька (будет потреблять больше ресурсов)",
+          "medium": "Средняя",
+          "slow": "Медленная"
+        }
+      },
+      "subtitle": "Тут вы можете изменить параметры",
+      "title": "Настройки",
+      "versionBlock": {
+        "versionAppName": "App Name: ",
+        "versionCode": "Код версии: ",
+        "versionNumber": "Номер версии: "
+      },
+      "walletSettings": {
+        "creationHeight": {
+          "label": "Высота создания кошелька"
+        },
+        "currentScanningHeight": {
+          "label": "Текущая высота сканирования"
+        },
+        "updateButton": "Обновить"
+      }
+    },
+    "supportPage": {
+      "getInTouchBlock": {
+        "content": "Есть идеи или пожелания по улучшению кошелька? Напишите нам!",
+        "discord": "Канал Qwertycoin в Discord",
+        "title": "Свяжитесь с нами!"
+      },
+      "subtitle": "Мы тут чтобы помочь!",
+      "title": "Поддержка"
+    },
+    "termsOfUsePage": {
+      "subtitle": "Внимательно их прочитайте.",
+      "title": "Условия использования"
+    }
   },
-  "number":{
-  },
-  "date":{
-	"short": {
-	  "year": "numeric", "month": "short", "day": "numeric"
-	},
-	"long": {
-	  "year": "numeric", "month": "short", "day": "numeric",
-	  "weekday": "short", "hour": "numeric", "minute": "numeric", "hour12": true
-	}
+  "website": {
+    "description": "Официальный онлайн кошелек криптовалюты Qwertycoin - анонимный, надежный, работающий полностью в вашем браузере для наилучшей безопасности",
+    "title": "Веб-кошелек Qwertycoin"
   }
 }

@@ -118,6 +118,7 @@
         },
         "subtitle": "Állj készen a Qwertycoin használatára",
         "title": "Ez egyszerű volt. A számlád rendelkezésre áll!",
+        "title-mobile": "Your account is ready!",
         "validPassword": "Megadott jelszó használata"
       },
       "generatingStep": {

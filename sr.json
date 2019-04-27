@@ -118,6 +118,7 @@
         },
         "subtitle": "Спремите се да користите Qwertycoin било где и било кад.",
         "title": "Просто као пасуљ. Ваш налог је спреман!",
+        "title-mobile": "Your account is ready!",
         "validPassword": "Користите ову лозинку"
       },
       "generatingStep": {

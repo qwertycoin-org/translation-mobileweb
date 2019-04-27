@@ -118,6 +118,7 @@
         },
         "subtitle": "Приготуйтеся використовувати Qwertycoin як ніколи до цього",
         "title": "Все. Ваш гаманець готовий!",
+        "title-mobile": "Your account is ready!",
         "validPassword": "Використовувати цей пароль"
       },
       "generatingStep": {

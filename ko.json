@@ -118,6 +118,7 @@
         },
         "subtitle": "이전 방식과는 다르게 쿼티코인을 사용해보세요",
         "title": "지갑 생성이 완료되었습니다",
+        "title-mobile": "Your account is ready!",
         "validPassword": "이 비밀번호를 사용합니다."
       },
       "generatingStep": {

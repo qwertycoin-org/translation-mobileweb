@@ -118,6 +118,7 @@
         },
         "subtitle": "Приготовьтесь использовать Qwertycoin как никогда до этого",
         "title": "Все. Ваш кошелек готов!",
+        "title-mobile": "Your account is ready!",
         "validPassword": "Использовать этот пароль"
       },
       "generatingStep": {

@@ -118,6 +118,7 @@
         },
         "subtitle": "Benutze Qwertycoin wie noch nie zuvor",
         "title": "Das war einfach. Dein Account ist bereit!",
+        "title-mobile": "Dein Account ist bereit!",
         "validPassword": "Benutze diese Passwort"
       },
       "generatingStep": {

@@ -118,6 +118,7 @@
         },
         "subtitle": "Soyer près à utiliser Qwertycoin le plus simplement possible",
         "title": "C'était simple. Votre portefeuille est prêt !",
+        "title-mobile": "Your account is ready!",
         "validPassword": "Utiliser ce mot de passe"
       },
       "generatingStep": {

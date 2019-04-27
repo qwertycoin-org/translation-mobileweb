@@ -118,6 +118,7 @@
         },
         "subtitle": "Ετοιμαστείτε να χρησιμοποιήσετε το Qwertycoin όπως δεν το έχετε ξανακάνει",
         "title": "Αυτό ήταν απλό. Ο λογαριασμός σας είναι έτοιμος!",
+        "title-mobile": "Your account is ready!",
         "validPassword": "Χρησιμοποιήστε αυτόν τον κωδικό"
       },
       "generatingStep": {

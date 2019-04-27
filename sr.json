@@ -359,6 +359,7 @@
     },
     "networkPage": {
       "statsBlock": {
+        "connectNode": "Connected Masternode",
         "difficulty": "Тешкоћа мреже",
         "hashrate": "Хешрејт мреже",
         "height": "Блокчејн висина",

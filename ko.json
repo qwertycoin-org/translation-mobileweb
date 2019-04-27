@@ -359,6 +359,7 @@
     },
     "networkPage": {
       "statsBlock": {
+        "connectNode": "Connected Masternode",
         "difficulty": "네트워크 난이도",
         "hashrate": "네트워크 해시레이트",
         "height": "블록 높이",

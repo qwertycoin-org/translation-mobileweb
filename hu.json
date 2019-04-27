@@ -359,6 +359,7 @@
     },
     "networkPage": {
       "statsBlock": {
+        "connectNode": "Connected Masternode",
         "difficulty": "Hálózati nehézség",
         "hashrate": "Hálózati hashrate",
         "height": "Blokklánc hossza",

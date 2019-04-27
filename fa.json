@@ -359,6 +359,7 @@
     },
     "networkPage": {
       "statsBlock": {
+        "connectNode": "Connected Masternode",
         "difficulty": "سختی شبکه",
         "hashrate": "هش ریت شبکه",
         "height": "ارتفاع زنجیره بلوکی",

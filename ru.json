@@ -359,6 +359,7 @@
     },
     "networkPage": {
       "statsBlock": {
+        "connectNode": "Connected Masternode",
         "difficulty": "Сложность",
         "hashrate": "Хешрейт",
         "height": "Высота блокчейна",

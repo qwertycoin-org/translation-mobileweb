@@ -359,6 +359,7 @@
     },
     "networkPage": {
       "statsBlock": {
+        "connectNode": "Verbundene Masternode",
         "difficulty": "Netzwerkschwierigkeit",
         "hashrate": "Netzwerk Hashrate",
         "height": "Blockchainhöhe",

@@ -267,6 +267,7 @@
     "importFromFilePage": {
       "subtitle": "Utilisez votre sauvegarder pour récréer le portefeuille",
       "title": "Importer un portefeuille depuis un fichier",
+      "title-mobile": "Import from Backup",
       "walletBlock": {
         "importButton": "Importer",
         "label": "Sélectionner",
@@ -302,7 +303,8 @@
         }
       },
       "subtitle": "Utilisez vos cléfs pour créer un portefeuille",
-      "title": "Importer un portefeuille depuis des cléfs"
+      "title": "Importer un portefeuille depuis des cléfs",
+      "title-mobile": "Import from Keys"
     },
     "importFromMnemonicPage": {
       "mnemonicBlock": {
@@ -315,7 +317,8 @@
         "title": "Phrase mnémotechnique"
       },
       "subtitle": "Utiliser la phrase pour créer un portefeuille",
-      "title": "Importer un portefeuille depuis une phrase mnémotechnique"
+      "title": "Importer un portefeuille depuis une phrase mnémotechnique",
+      "title-mobile": "Import from Mnemonic"
     },
     "importFromQrPage": {
       "qrCodeBlock": {
@@ -327,7 +330,8 @@
         "title": "Présentez le QR code"
       },
       "subtitle": "Importation depuis une sauvegarder hors ligne",
-      "title": "Importer depuis un QR code"
+      "title": "Importer depuis un QR code",
+      "title-mobile": "Import from QRCode"
     },
     "importPage": {
       "chooseMethod": "Choisissez votre méthode d'import",

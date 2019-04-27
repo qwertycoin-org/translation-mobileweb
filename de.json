@@ -267,6 +267,7 @@
     "importFromFilePage": {
       "subtitle": "Benutze die Backup Datei um eine Wallet zu erstellen",
       "title": "Importieren einer Wallet aus einer Backup Datei",
+      "title-mobile": "Von Backup importieren",
       "walletBlock": {
         "importButton": "Importiere",
         "label": "Datei auswählen",
@@ -302,7 +303,8 @@
         }
       },
       "subtitle": "Benutze die Schlüssel um eine Wallet zu erstellen",
-      "title": "Importiere  Wallet mithilfe von Schlüsseln"
+      "title": "Importiere  Wallet mithilfe von Schlüsseln",
+      "title-mobile": "Von Schlüsseln importieren"
     },
     "importFromMnemonicPage": {
       "mnemonicBlock": {
@@ -315,7 +317,8 @@
         "title": "Mnemonic Phrase"
       },
       "subtitle": "Benutze die Phrase um eine Wallet zu erstellen",
-      "title": "Importieren einer Wallet von einer Mnemonic Phrase"
+      "title": "Importieren einer Wallet von einer Mnemonic Phrase",
+      "title-mobile": "Von Mnemonic importieren"
     },
     "importFromQrPage": {
       "qrCodeBlock": {
@@ -327,7 +330,8 @@
         "title": "Präsentiere den QR code"
       },
       "subtitle": "Importiere Wallet von einem offline Backup",
-      "title": "Importiere Wallet von einem QR code"
+      "title": "Importiere Wallet von einem QR code",
+      "title-mobile": "Von QRCode importieren"
     },
     "importPage": {
       "chooseMethod": "Wähle deine Import Methode",

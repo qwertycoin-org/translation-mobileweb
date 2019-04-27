@@ -267,6 +267,7 @@
     "importFromFilePage": {
       "subtitle": "از فایل دانلود شده قبل در همین کیف پول استفاده کنید",
       "title": "دزون ریزی کیف پول با استفاده از فایل",
+      "title-mobile": "Import from Backup",
       "walletBlock": {
         "importButton": "درون ریزی",
         "label": "انتخاب کنید",
@@ -302,7 +303,8 @@
         }
       },
       "subtitle": "از کلید های شخصی برای درون ریزی کیف پول خود استفاده کنید",
-      "title": "درون ریزی کیف پول با کلید ها"
+      "title": "درون ریزی کیف پول با کلید ها",
+      "title-mobile": "Import from Keys"
     },
     "importFromMnemonicPage": {
       "mnemonicBlock": {
@@ -315,7 +317,8 @@
         "title": "کد سید"
       },
       "subtitle": "استفاده از کد سید برای درون ریزی کیف پول",
-      "title": "درون ریزی با استفاده از کد سید"
+      "title": "درون ریزی با استفاده از کد سید",
+      "title-mobile": "Import from Mnemonic"
     },
     "importFromQrPage": {
       "qrCodeBlock": {
@@ -327,7 +330,8 @@
         "title": "متصل کردن کد کیو آر"
       },
       "subtitle": "کیف پول خود را به وسیله فایل درون ریزی کنید",
-      "title": "کیف پول خود را به وسیله کد کیو آر درون ریزی کنید"
+      "title": "کیف پول خود را به وسیله کد کیو آر درون ریزی کنید",
+      "title-mobile": "Import from QRCode"
     },
     "importPage": {
       "chooseMethod": "یک متد انتخاب کنید",

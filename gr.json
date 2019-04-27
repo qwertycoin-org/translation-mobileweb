@@ -267,6 +267,7 @@
     "importFromFilePage": {
       "subtitle": "Χρησιμοποιήστε το αντίγραφο ασφαλείας για να δημιουργήσετε ένα πορτοφόλι",
       "title": "Εισαγωγή πορτοφολιού από αντίγραφο ασφαλείας",
+      "title-mobile": "Import from Backup",
       "walletBlock": {
         "importButton": "Εισαγωγή",
         "label": "Επιλέξτε το αρχείο",
@@ -302,7 +303,8 @@
         }
       },
       "subtitle": "Χρησιμοποιήστε τα κλειδιά σας για να δημιουργήσετε ένα πορτοφόλι",
-      "title": "Εισαγωγή πορτοφολιού από κλειδιά"
+      "title": "Εισαγωγή πορτοφολιού από κλειδιά",
+      "title-mobile": "Import from Keys"
     },
     "importFromMnemonicPage": {
       "mnemonicBlock": {
@@ -315,7 +317,8 @@
         "title": "Μνημονική φράση"
       },
       "subtitle": "Χρησιμοποιήστε τη φράση σας για να δημιουργήσετε ένα πορτοφόλι",
-      "title": "Εισαγωγή πορτοφολιού από μνημονική φράση"
+      "title": "Εισαγωγή πορτοφολιού από μνημονική φράση",
+      "title-mobile": "Import from Mnemonic"
     },
     "importFromQrPage": {
       "qrCodeBlock": {
@@ -327,7 +330,8 @@
         "title": "Δείξτε το QR code"
       },
       "subtitle": "Εισαγωγή πορτοφολιού από εφεδρικό αντίγραφο εκτός σύνδεσης",
-      "title": "Εισαγωγή πορτοφολιού από QR code"
+      "title": "Εισαγωγή πορτοφολιού από QR code",
+      "title-mobile": "Import from QRCode"
     },
     "importPage": {
       "chooseMethod": "Διαλέξτε την μέθοδο εισαγωγής:",

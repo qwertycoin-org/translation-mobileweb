@@ -267,6 +267,7 @@
     "importFromFilePage": {
       "subtitle": "Használd a biztonsági mentési fájlod a tárca létrehozásához",
       "title": "Tárca importálása biztonsági mentési fájllal",
+      "title-mobile": "Import from Backup",
       "walletBlock": {
         "importButton": "Importálás",
         "label": "Tallózás",
@@ -302,7 +303,8 @@
         }
       },
       "subtitle": "Használd a kulcsaidat a tárca létrehozásához",
-      "title": "Tárca importálása kulcsokkal"
+      "title": "Tárca importálása kulcsokkal",
+      "title-mobile": "Import from Keys"
     },
     "importFromMnemonicPage": {
       "mnemonicBlock": {
@@ -315,7 +317,8 @@
         "title": "Mnemonikus szósor"
       },
       "subtitle": "Használd a szósorodat a tárca létrehozásához",
-      "title": "Tárca importálása mnemonikus szósorral"
+      "title": "Tárca importálása mnemonikus szósorral",
+      "title-mobile": "Import from Mnemonic"
     },
     "importFromQrPage": {
       "qrCodeBlock": {
@@ -327,7 +330,8 @@
         "title": "Mutasd be a QR-kódot"
       },
       "subtitle": "Tárca importálása offline biztonsági mentésből",
-      "title": "Tárca importálása QR-kóddal"
+      "title": "Tárca importálása QR-kóddal",
+      "title-mobile": "Import from QRCode"
     },
     "importPage": {
       "chooseMethod": "Válassz importálási módszert:",

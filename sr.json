@@ -267,6 +267,7 @@
     "importFromFilePage": {
       "subtitle": "Искористите преузети бекап фајл за увоз новчаника",
       "title": "Увоз новчаника помоћу фајла",
+      "title-mobile": "Import from Backup",
       "walletBlock": {
         "importButton": "Увези",
         "label": "Изаберите фајл",
@@ -302,7 +303,8 @@
         }
       },
       "subtitle": "Искористите кључеве за увоз новчаника",
-      "title": "Увоз новчаника помоћу кључева"
+      "title": "Увоз новчаника помоћу кључева",
+      "title-mobile": "Import from Keys"
     },
     "importFromMnemonicPage": {
       "mnemonicBlock": {
@@ -315,7 +317,8 @@
         "title": "Мнемоминчка фраза"
       },
       "subtitle": "Искористите постојећу фразу за увоз новчаника",
-      "title": "Увоз новчаника помоћу мнемоничке фразе"
+      "title": "Увоз новчаника помоћу мнемоничке фразе",
+      "title-mobile": "Import from Mnemonic"
     },
     "importFromQrPage": {
       "qrCodeBlock": {
@@ -327,7 +330,8 @@
         "title": "Приложите QR код"
       },
       "subtitle": "Увези новчаник из офлајн датотеке",
-      "title": "Увоз новчаника преко QR кода"
+      "title": "Увоз новчаника преко QR кода",
+      "title-mobile": "Import from QRCode"
     },
     "importPage": {
       "chooseMethod": "Изабери метод",

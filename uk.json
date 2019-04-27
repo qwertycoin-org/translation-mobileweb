@@ -267,6 +267,7 @@
     "importFromFilePage": {
       "subtitle": "Використати резервний файл для створення гаманця",
       "title": "Імпорт гаманця з резервного фала",
+      "title-mobile": "Import from Backup",
       "walletBlock": {
         "importButton": "Імпортувати",
         "label": "Виберіть файл",
@@ -302,7 +303,8 @@
         }
       },
       "subtitle": "Використати приватні ключі для створення гаманця",
-      "title": "Імпорт гаманця з ключів"
+      "title": "Імпорт гаманця з ключів",
+      "title-mobile": "Import from Keys"
     },
     "importFromMnemonicPage": {
       "mnemonicBlock": {
@@ -315,7 +317,8 @@
         "title": "Мнемонічна фраза"
       },
       "subtitle": "Використати мнемонічну фразу для створення гаманця",
-      "title": "Імпорт гаманця з мнемонічної фрази"
+      "title": "Імпорт гаманця з мнемонічної фрази",
+      "title-mobile": "Import from Mnemonic"
     },
     "importFromQrPage": {
       "qrCodeBlock": {
@@ -327,7 +330,8 @@
         "title": "Покажіть QR код"
       },
       "subtitle": "Імпортувати гаманець з офлайнової резервної копії",
-      "title": "Імпортувати гаманець з QR коду"
+      "title": "Імпортувати гаманець з QR коду",
+      "title-mobile": "Import from QRCode"
     },
     "importPage": {
       "chooseMethod": "Виберіть метод імпорту:",

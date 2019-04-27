@@ -267,6 +267,7 @@
     "importFromFilePage": {
       "subtitle": "Использовать резервный файл для создания кошелька",
       "title": "Импорт кошелька из резервного фала",
+      "title-mobile": "Import from Backup",
       "walletBlock": {
         "importButton": "Импортировать",
         "label": "Выберите файл",
@@ -302,7 +303,8 @@
         }
       },
       "subtitle": "Использовать приватные ключи для создания кошелька",
-      "title": "Импорт кошелька из ключей"
+      "title": "Импорт кошелька из ключей",
+      "title-mobile": "Import from Keys"
     },
     "importFromMnemonicPage": {
       "mnemonicBlock": {
@@ -315,7 +317,8 @@
         "title": "Мнемоническая фраза"
       },
       "subtitle": "Использовать мнемоническую фразу для создания кошелька",
-      "title": "Импорт кошелька из мнемонической фразы"
+      "title": "Импорт кошелька из мнемонической фразы",
+      "title-mobile": "Import from Mnemonic"
     },
     "importFromQrPage": {
       "qrCodeBlock": {
@@ -327,7 +330,8 @@
         "title": "Покажите QR код"
       },
       "subtitle": "Импортировать кошелек из оффлайновой резервной копии",
-      "title": "Импортировать кошелек из QR кода"
+      "title": "Импортировать кошелек из QR кода",
+      "title-mobile": "Import from QRCode"
     },
     "importPage": {
       "chooseMethod": "Выберите метод импорта:",

@@ -78,6 +78,8 @@
       "contactBlock": {
         "cancel": "Cancel",
         "confirm": "Add",
+        "contactAddress": "Address",
+        "contactName": "Name",
         "getNewContacts": "Add Contact",
         "newContact": "New Contact",
         "noContacts": "You don't have any contacts yet.",

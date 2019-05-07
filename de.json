@@ -78,6 +78,8 @@
       "contactBlock": {
         "cancel": "Abbrechen",
         "confirm": "Hinzufügen",
+        "contactAddress": "Adresse",
+        "contactName": "Name",
         "getNewContacts": "Kontakt hinzufügen",
         "newContact": "Neuer Kontakt",
         "noContacts": "Du hast derzeit leider noch keine Kontakte",

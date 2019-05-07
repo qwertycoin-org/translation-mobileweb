@@ -18,133 +18,135 @@
   "messages": {
     "accountPage": {
       "balanceBlock": {
-        "title": "Your balance",
-        "unlocked": "Unlocked"
+        "title": "余额",
+        "unlocked": "解锁"
       },
       "historyBlock": {
-        "beReallyPatient": "The initial setup can take some time...",
-        "emptyWallet": "You currently have no funds in this wallet.",
-        "getCoinAddress": "Receive QWC",
-        "pendingTxStatus": "Pending",
-        "title": "Transaction history",
-        "waitSync": "Please wait until the wallet is updated"
+        "beReallyPatient": "初始设置可能需要一些时间",
+        "emptyWallet": "钱包没有余额",
+        "getCoinAddress": "接收QWC",
+        "pendingTxStatus": "待完成",
+        "title": "交易记录",
+        "waitSync": "钱包正在更新，请稍等"
       },
-      "subtitle": "Your account overview and transaction history",
+      "subtitle": "账户信息和交易记录",
       "synchronizingBlock": {
-        "text": "Synchronizing..."
+        "text": "同步"
       },
-      "title": "Account",
+      "title": "账户",
       "txDetails": {
-        "blockHeight": "Block height",
-        "feesOnTx": "Transaction fee",
-        "paymentId": "Payment ID",
-        "timestamp": "Timestamp",
-        "title": "Transaction details",
-        "txHash": "Transaction Hash",
-        "txPrivKey": "Transaction Private Key",
-        "unlockConfirm": "Confirmations",
-        "unlockStatus": "Status"
+        "blockHeight": "区块高度",
+        "feesOnTx": "手续费",
+        "paymentId": "付款ID",
+        "timestamp": "时间戳",
+        "title": "交易明细",
+        "txHash": "交易哈希",
+        "txPrivKey": "交易私匙",
+        "unlockConfirm": "确认",
+        "unlockStatus": "状态"
       }
     },
     "bottom": {
-      "donate": "Donate",
+      "donate": "捐款",
       "github": "GitHub",
-      "miningPool": "Mining Pool",
-      "network": "Network Stats",
-      "privacyPolicy": "Privacy Policy",
-      "support": "Support",
-      "termsOfUse": "Terms of Use"
+      "miningPool": "矿池",
+      "network": "网络统计",
+      "privacyPolicy": "隐私政策",
+      "support": "支持",
+      "termsOfUse": "使用条款"
     },
     "changeWalletPasswordPage": {
-      "confirm": "Change the password",
+      "confirm": "更改密码",
       "modalSuccess": {
-        "confirmText": "OK",
-        "title": "Password changed!"
+        "confirmText": "确认",
+        "title": "密码已更改！"
       },
       "newPassword": {
-        "invalid": "A strong password must be at least eight characters long, with upper and lowercase letters and symbols",
-        "label": "Choose a new password to protect your wallet"
+        "invalid": "密码必须至少八个字符长，大写和小写字母和符号",
+        "label": "输入新密码"
       },
       "newPasswordConfirm": {
-        "label": "Confirm the new password"
+        "label": "重复新密码"
       },
       "oldPassword": {
-        "invalid": "The password is invalid",
-        "label": "Old password"
+        "invalid": "密码无效",
+        "label": "当前密码"
       },
-      "title": "Change your password"
+      "title": "更改你的密码"
     },
     "contactPage": {
       "contactBlock": {
-        "cancel": "Cancel",
-        "confirm": "Add",
-        "getNewContacts": "Add Contact",
-        "newContact": "New Contact",
-        "noContacts": "You don't have any contacts yet.",
-        "title": "Your Contacts"
+        "cancel": "取消",
+        "confirm": "添加",
+        "contactAddress": "地址",
+        "contactName": "Name",
+        "getNewContacts": "添加联系人",
+        "newContact": "新建联系人",
+        "noContacts": "你还没有联系人",
+        "title": "联系人"
       },
       "contactDetailsBlock": {
-        "address": "Address",
-        "sendTo": "Send to ",
-        "title": "Contactdetails"
+        "address": "地址",
+        "sendTo": "发送",
+        "title": "联系方式"
       },
-      "subtitle": "Get in touch with other people",
-      "title": "Contacts"
+      "subtitle": "新建信息",
+      "title": "往来"
     },
     "createWalletPage": {
       "disclaimerBlock": {
-        "content": "QwertycoinWallet is a web-based interface. It helps you use Qwertycoin without running a full Qwertycoin node. <br/>We recommend you treat QwertycoinWallet like you will treat your actual wallet.",
-        "title": "Risk of Using QwertycoinWallet"
+        "content": "QwertycoinWallet是一个基于Web的界面。它可以帮助您使用Qwertycoin而无需运行完整的Qwertycoin节点。 <br/>我们建议您对待Qwertycoin钱包，就像您将对待您的现实钱包一样。",
+        "title": "风险提示"
       },
       "finalizationStep": {
         "backupBlock": {
-          "confirmManuallyWritten": "I wrote my seed phrase down",
-          "finishButton": "I understand. Continue.",
-          "mnemonicPhrase": "Mnemonic phrase",
-          "option1": "Option 1: ",
-          "option2": "Option 2: ",
-          "privateKeys": "Private key",
-          "separatorManualMethodsSolution": " or ",
-          "title": "Save your private credentials for recovery.",
-          "titleManualWrite": "Write down my keys",
-          "titlePdf": "Download a PDF copy",
-          "warningMessage": "**Do not lose it!** It cannot be recovered if you lose it.<br/>**Do not share it!** Your funds will be stolen if you use this file or seed on a malicious/phishing site.<br/>**Make a backup!** Secure it like the millions of dollars it may one day be worth.<br/>"
+          "confirmManuallyWritten": "我已经抄写密语",
+          "finishButton": "我明白，继续",
+          "mnemonicPhrase": "助词短语",
+          "option1": "选项一",
+          "option2": "选项二",
+          "privateKeys": "私匙",
+          "separatorManualMethodsSolution": "或",
+          "title": "您可以通过存储私钥和相关单词来恢复钱包",
+          "titleManualWrite": "抄写私匙",
+          "titlePdf": "下载PDF副本",
+          "warningMessage": "**不要丢失它！**如果你丢失它就无法恢复。<br/> **不要分享它！**如果您在恶意/网络钓鱼网站上使用此文件或播种，您的资金将被盗。 <br/> **做一个备份！**它有可能有价值数百万美元"
         },
         "passwordConfirmBlock": {
-          "label": "Confirm the password"
+          "label": "确认密码"
         },
         "passwordSelectionBlock": {
-          "label": "Protect your wallet"
+          "label": "设置密码"
         },
-        "subtitle": "Be ready to use Qwertycoin like you never have",
-        "title": "That was simple. Your account is ready!",
-        "title-mobile": "Your account is ready!",
-        "validPassword": "Use this password"
+        "subtitle": "开启Qwertycoin之旅",
+        "title": "钱包创建完成",
+        "title-mobile": "准备就绪",
+        "validPassword": "使用此密码"
       },
       "generatingStep": {
-        "subtitle": "It's almost done",
-        "title": "Your wallet is being generated...",
-        "waitingMessage": "Generating your wallet..."
+        "subtitle": "快完成了",
+        "title": "你的钱包正在生成",
+        "waitingMessage": "请稍等"
       }
     },
     "donatePage": {
       "devFundBlock": {
-        "content": "To help Qwertycoin, you can donate at these addresses",
-        "title": "Qwertycoin Dev fund"
+        "content": "为了Qwertycoin更好的发展，您可以捐款到以下地址",
+        "title": "Qwerty开发基金"
       },
       "masariFundBlock": {
-        "content": "If you wish to send a gift, send it to the following wallet",
-        "title": "Wallet to send the gift"
+        "content": "如果您想发送礼物，请将其发送到以下钱包",
+        "title": "钱包发送礼物"
       },
       "QwertycoinFundBlock": {
-        "content": "To help Qwertycoin you can donate to this address",
-        "title": "Qwertycoin Dev fund"
+        "content": "为了帮助Qwertycoin，你可以捐款到这个地址",
+        "title": "Qwerty开发基金"
       },
-      "subtitle": "Help to fund the development and pay the bills",
+      "subtitle": "帮助我们通过捐款开发和维护qwc。",
       "title": "Donate",
       "webwalletBlock": {
-        "content": "If you want to help to pay for the servers, to support new features development, and like this app, please consider a donation: <br/><br/>",
-        "title": "Webwallet"
+        "content": "如果您想帮助支付服务器费用，支持新功能开发以及此应用程序，请考虑捐赠",
+        "title": "网页钱包"
       }
     },
     "electionsPage": {
@@ -152,40 +154,40 @@
     },
     "exportPage": {
       "exportBlock": {
-        "fileButton": "Export to a file",
-        "mnemonicKeysButton": "Get my mnemonic phrase",
-        "privateKeysButton": "Get my private keys",
-        "title": "Export your RAW credentials"
+        "fileButton": "导出到文件",
+        "mnemonicKeysButton": "查看关联词",
+        "privateKeysButton": "查看私匙",
+        "title": "导出您的RAW凭证"
       },
       "mnemonicKeyModal": {
         "confirmText": "OK",
-        "content": "Please store carefully this mnemonic phrase. <b>Possessing it means possessing the funds associated</b> ! The phrase is:<br/>{mnemonic}",
-        "title": "Mnemonic phrase"
+        "content": "请小心保存这个助词短语。您可以使用关联词登入您的钱包。相关词语：<br/>{mnemonic}",
+        "title": "助词短语"
       },
       "mnemonicLangSelectionModal": {
-        "confirmText": "Export",
-        "title": "In which language do you want your mnemonic phrase?"
+        "confirmText": "出口",
+        "title": "你想用哪种语言写你的助记词"
       },
       "pdfBlock": {
-        "downloadButton": "Download",
-        "title": "PDF Backup"
+        "downloadButton": "下载",
+        "title": "PDF备份"
       },
       "publicAddressBlock": {
-        "title": "Your public address"
+        "title": "钱包地址"
       },
-      "title": "Backup your credentials",
+      "title": "备份您的钱包信息",
       "walletKeysModal": {
         "confirmText": "OK",
-        "content": "Please carefully store these keys. <b>Possessing them means possessing the funds associated</b> !<br/>Spend key: {privSpendKey}<br/>Private view key: {privViewKey}",
-        "title": "Private keys"
+        "content": "请小心存放这些私匙 <b>使用私钥访问您的钱包</ b>！<br/>支出密钥：{privSpendKey} <br/>私人查看密钥：{privViewKey}",
+        "title": "私匙"
       },
       "warningBlock": {
-        "content": "If you choose to save your private keys or your mnemonic phrase, PLEASE DO NOT store them in clear-text for your own safety.<br/>The file is an alternate solution where your keys are encrypted and contains a backup of all your transactions to spare you a future synchronisation.",
-        "title": "Warning"
+        "content": "如果您选择保存您的私钥或助记短语，请不要将它们以明文形式存储以保证您的安全。<br/>该文件是一种替代解决方案，其中您的密钥是加密的并包含所有交易的备份为您提供未来的同步",
+        "title": "警告"
       }
     },
     "global": {
-      "disableSecurity": "Disable this security, I understand the risk",
+      "disableSecurity": "禁用此预防措施，我已了解风险",
       "download": "Download",
       "invalidMnemonicModal": {
         "confirmText": "OK",
@@ -533,7 +535,7 @@
     }
   },
   "website": {
-    "description": "Official online wallet for Qwertycoin currency - fully handled in your browser for optimal security",
-    "title": "Qwertycoin Wallet | Simple, seamless, safe. Welcome to the future."
+    "description": "Qwertycoin官方在线钱包 - 在您的浏览器中完全处理以获得最佳安全性",
+    "title": "Qwertycoin钱包|简单，无缝，安全。欢迎来到未来"
   }
 }

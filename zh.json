@@ -79,7 +79,7 @@
         "cancel": "取消",
         "confirm": "添加",
         "contactAddress": "地址",
-        "contactName": "Name",
+        "contactName": "名字",
         "getNewContacts": "添加联系人",
         "newContact": "新建联系人",
         "noContacts": "你还没有联系人",
@@ -90,7 +90,7 @@
         "sendTo": "发送",
         "title": "联系方式"
       },
-      "subtitle": "新建信息",
+      "subtitle": "新建联系人",
       "title": "往来"
     },
     "createWalletPage": {
@@ -150,7 +150,7 @@
       }
     },
     "electionsPage": {
-      "title": "Elections"
+      "title": "选举"
     },
     "exportPage": {
       "exportBlock": {
@@ -188,350 +188,350 @@
     },
     "global": {
       "disableSecurity": "禁用此预防措施，我已了解风险",
-      "download": "Download",
+      "download": "下载",
       "invalidMnemonicModal": {
-        "confirmText": "OK",
-        "content": "The mnemonic phrase is invalid",
-        "title": "Oops..."
+        "confirmText": "确认",
+        "content": "非法的助记短语",
+        "title": "糟糕..."
       },
       "invalidPasswordModal": {
-        "confirmText": "OK",
-        "content": "Your password seems invalid",
-        "title": "Oops..."
+        "confirmText": "确认",
+        "content": "您的密码貌似不合法",
+        "title": "糟糕..."
       },
-      "loading": "Loading",
+      "loading": "加载中",
       "newVersionModal": {
-        "cancelText": "Back",
-        "confirmText": "Yes",
-        "content": "Do you want to reload to load the new version?",
-        "title": "A new version is available"
+        "cancelText": "返回",
+        "confirmText": "确定",
+        "content": "要重新加载新版本吗?",
+        "title": "有新版本可以更新"
       },
       "openWalletModal": {
-        "cancelText": "Cancel",
-        "confirmText": "Open",
-        "title": "Wallet Password"
+        "cancelText": "取消",
+        "confirmText": "打开",
+        "title": "钱包密码"
       },
-      "passwordConfirmationNotMatching": "The password does not match the first password you wrote",
-      "passwordInvalidRequirements": "The password needs at least 8 characters - 1 upper case letter, 1 lower case letter, one number, and one special character",
+      "passwordConfirmationNotMatching": "两次输入的密码不匹配",
+      "passwordInvalidRequirements": "密码长度需要大于8位 - 至少包含1个大写字母，1个小写字母，1个数字，以及1个特殊字符。",
       "passwordNotComplexEnoughModal": {
-        "confirmText": "OK",
-        "title": "The password is not complex enough"
+        "confirmText": "确认",
+        "title": "密码太简单"
       },
       "permissionRequiredForCameraModal": {
-        "confirmText": "OK",
-        "content": "The permission to access your camera is required to scan the QR code",
-        "title": "Oops..."
+        "confirmText": "确认",
+        "content": "扫描二维码需要访问您相机的权限",
+        "title": "糟糕..."
       }
     },
     "homepage": {
       "actions": {
-        "create": "Create",
-        "createWallet": "Create a wallet",
-        "importWallet": "Import a wallet",
-        "loadWallet": "Load my wallet"
+        "create": "创建",
+        "createWallet": "创建一个钱包",
+        "importWallet": "导入钱包",
+        "loadWallet": "加载我的钱包"
       },
-      "mainTitle": "Qwertycoin Wallet",
+      "mainTitle": "Qwertycoin钱包",
       "notes": {
         "fast": {
-          "description": "Send Everywhere, Anytime!",
-          "title": "Fast"
+          "description": "无论何时，何地，发送QWC!",
+          "title": "快速"
         },
         "openSource": {
-          "description": "Verify on Github!",
-          "title": "Open-source"
+          "description": "在Github上检查!",
+          "title": "开源"
         },
         "secure": {
-          "description": "No servers, fully encrypted!",
-          "title": "Secure"
+          "description": "无服务器，完全加密!",
+          "title": "安全"
         },
         "technology": {
-          "description": "Keys on your device",
-          "title": "Local"
+          "description": "您设备上的秘钥",
+          "title": "本地"
         }
       },
-      "tagLine": "anywhere. anytime. anyplace. any device.",
-      "tagLineTwo": "The simplest way to use Qwertycoin"
+      "tagLine": "无论何时、何地、何种设备。",
+      "tagLineTwo": "使用Qwertycoin最简单的方法"
     },
     "importBasePage": {
       "parametersBlock": {
         "importHeight": {
-          "label": "Height to import from:"
+          "label": "从该区块高度开始导入："
         },
         "password": {
-          "label": "Password to protect your wallet"
+          "label": "保护您钱包的密码"
         },
         "passwordConfirm": {
-          "invalid": "The password does not match the first password you wrote",
-          "label": "Confirm the password"
+          "invalid": "2次密码不匹配",
+          "label": "确认密码"
         },
-        "title": "Parameters"
+        "title": "参数"
       }
     },
     "importFromFilePage": {
-      "subtitle": "Use your backup file to create a wallet",
-      "title": "Importing wallet from a backup file",
-      "title-mobile": "Import from Backup",
+      "subtitle": "使用备份文件创建钱包",
+      "title": "从备份文件导入钱包",
+      "title-mobile": "从备份文件导入钱包",
       "walletBlock": {
-        "importButton": "Import",
-        "label": "Select the file",
-        "title": "Wallet file"
+        "importButton": "导入",
+        "label": "请选择文件",
+        "title": "钱包文件"
       }
     },
     "importFromKeysPage": {
       "keysBlock": {
-        "importButton": "Import",
+        "importButton": "导入",
         "privateSpend": {
-          "label": "Private spend key"
+          "label": "消费私钥"
         },
         "privateView": {
-          "label": "Private view key",
-          "optional": "(optional)"
+          "label": "查看私钥",
+          "optional": "(可选的)"
         },
         "publicKey": {
-          "label": "Public key"
+          "label": "公钥"
         },
-        "titleNotViewOnly": "Wallet keys",
-        "titleViewOnly": "View only wallet"
+        "titleNotViewOnly": "钱包秘钥",
+        "titleViewOnly": "仅查看的钱包"
       },
       "parametersBlock": {
         "viewOnlyWallet": {
-          "info": "Please note that wallets only show your wallet for viewing only and you cannot submit Qwertycoin.",
-          "label": "Do you want a view only wallet?"
+          "info": "请注意本钱包只用来查看用途，您将不能提交您的Qwertycoin。",
+          "label": "您想要一个仅允许查看的钱包吗？"
         }
       },
       "parametersBLock": {
         "viewOnlyWallet": {
-          "info": "Please note that wallets only show your wallet for viewing only and you cannot submit Qwertycoin.",
-          "label": "Do you want a view Only Wallet?"
+          "info": "请注意本钱包只用来查看用途，您将不能提交您的Qwertycoin。",
+          "label": "您想要一个仅允许查看的钱包吗？"
         }
       },
-      "subtitle": "Use your keys to create a wallet",
-      "title": "Importing wallet from keys",
-      "title-mobile": "Import from Keys"
+      "subtitle": "使用您的秘钥来创建一个新钱包",
+      "title": "从秘钥导入钱包",
+      "title-mobile": "从秘钥导入"
     },
     "importFromMnemonicPage": {
       "mnemonicBlock": {
-        "importButton": "Import",
+        "importButton": "导入",
         "mnemonic": {
-          "invalid": "The mnemonic phrase is invalid",
-          "label": "Mnemonic phrase: 25 words",
-          "language": "Language"
+          "invalid": "非法的助记词",
+          "label": "助记词: 25个单词",
+          "language": "语言"
         },
-        "title": "Mnemonic phrase"
+        "title": "助记词"
       },
-      "subtitle": "Use your phrase to create a wallet",
-      "title": "Importing wallet from a mnemonic phrase",
-      "title-mobile": "Import from Mnemonic"
+      "subtitle": "使用您的短语来创建一个新钱包",
+      "title": "从助记词导入一个钱包",
+      "title-mobile": "从助记词导入"
     },
     "importFromQrPage": {
       "qrCodeBlock": {
-        "importButton": "Import",
-        "startScanButton": "Start the scan",
-        "title": "QR code"
+        "importButton": "导入",
+        "startScanButton": "开始扫描",
+        "title": "二维码扫描"
       },
       "qrScanningBlock": {
-        "title": "Present the QR code"
+        "title": "请展示二维码"
       },
-      "subtitle": "Import a wallet from an offline backup",
-      "title": "Importing wallet from a QR code",
-      "title-mobile": "Import from QRCode"
+      "subtitle": "从一个离线备份文件导入钱包",
+      "title": "从二维码导入钱包",
+      "title-mobile": "从二维码导入"
     },
     "importPage": {
-      "chooseMethod": "Choose your import method:",
-      "fromFile": "From a file",
-      "fromKeys": "From keys",
-      "fromMnemonic": "From a mnemonic phrase",
-      "fromQr": "From a QR code",
-      "subtitle": "From previously created keys, file, or mnemonic phrase",
-      "title": "Create a wallet"
+      "chooseMethod": "选择您的导入方法:",
+      "fromFile": "从文件导入",
+      "fromKeys": "从秘钥导入",
+      "fromMnemonic": "从助记词导入",
+      "fromQr": "从二维码导入",
+      "subtitle": "从以前创建过的密钥，文件或助记词",
+      "title": "创建一个钱包"
     },
     "menu": {
-      "account": "Account",
-      "contacts": "Contacts",
-      "disconnect": "Disconnect",
-      "donate": "Donate",
-      "elections": "Elections",
-      "export": "Export",
-      "home": "Home",
-      "messages": "Messages",
-      "mining": "Mining",
-      "network": "Network Stats",
-      "receive": "Receive",
-      "send": "Send",
-      "settings": "Settings"
+      "account": "账户",
+      "contacts": "联系人",
+      "disconnect": "断开",
+      "donate": "捐助",
+      "elections": "投票",
+      "export": "导出",
+      "home": "主页",
+      "messages": "消息",
+      "mining": "挖矿",
+      "network": "网络统计",
+      "receive": "接收",
+      "send": "发送",
+      "settings": "设置"
     },
     "networkPage": {
       "statsBlock": {
-        "connectNode": "Connected Masternode",
-        "difficulty": "Network difficulty",
-        "hashrate": "Network hashrate",
-        "height": "Blockchain height",
-        "lastReward": "Last block reward",
-        "lastTimeBlock": "Last block found"
+        "connectNode": "连接的主节点",
+        "difficulty": "网络难度",
+        "hashrate": "网络哈希值",
+        "height": "区块高度",
+        "lastReward": "最新出块奖励",
+        "lastTimeBlock": "最新出块"
       },
-      "subtitle": "Insights on the Qwertycoin network",
-      "title": "Network stats"
+      "subtitle": "Qwertycoin网络详情",
+      "title": "网络统计"
     },
     "privacyPolicyPage": {
-      "subtitle": "Please read them carefully.",
-      "title": "Privacy Policy"
+      "subtitle": "请仔细阅读。",
+      "title": "隐私政策"
     },
     "receivePage": {
       "nfcErrorModal": {
-        "titleInsufficientCapacity": "Tag capacity insufficient"
+        "titleInsufficientCapacity": "标签剩余不足"
       },
       "qrBlock": {
-        "title": "Your customized QR code"
+        "title": "您的自定义二维码"
       },
       "receiveBlock": {
         "address": {
-          "label": "Give this address to receive funds",
-          "title": "Your address to receive funds:"
+          "label": "给这个地址接收资金",
+          "title": "您收到资金的地址："
         },
         "qrCode": {
-          "labelAmount": "Amount (optional)",
-          "labelDescription": "Transaction description (optional)",
-          "labelRecipient": "Recipient name (optional)",
-          "title": "Or personalize the QR code:",
-          "updateButton": "Update"
+          "labelAmount": "金额（可选）",
+          "labelDescription": "交易描述 (可选)",
+          "labelRecipient": "收据名称 (可选)",
+          "title": "或者个性化二维码:",
+          "updateButton": "更新"
         }
       },
-      "title": "Receive QWC",
+      "title": "接收QWC",
       "waitingNfcToWriteModal": {
-        "content": "Bring closer the NFC tag to write",
-        "title": "Waiting Nfc",
-        "titleSuccess": "Nfc Tag written"
+        "content": "请靠近NFC标签来识别",
+        "title": "等待 Nfc识别",
+        "titleSuccess": "Nfc标签识别成功"
       }
     },
     "sendPage": {
       "confirmTransactionModal": {
-        "cancelText": "Cancel",
-        "confirmText": "Confirm",
-        "content": "Amount: {amount}<br/>Fees: {fees}<br/>Total: {total}",
-        "title": "Confirm transfer?"
+        "cancelText": "取消",
+        "confirmText": "确认",
+        "content": "数量: {amount}<br/>交易费: {fees}<br/>总额: {total}",
+        "title": "确认转账？"
       },
       "creatingTransferModal": {
-        "content": "Please wait...",
-        "title": "Creating transfer ..."
+        "content": "请耐心等待...",
+        "title": "转账创建中 ..."
       },
       "finalizingTransferModal": {
-        "content": "Please wait...",
-        "title": "Finalizing transfer ..."
+        "content": "请耐心等待...",
+        "title": "转账马上完成 ..."
       },
       "invalidAmountModal": {
-        "confirmText": "OK",
-        "content": "Invalid amount",
-        "title": "Oops..."
+        "confirmText": "确认",
+        "content": "非法的金额",
+        "title": "糟糕..."
       },
       "notEnoughMoneyModal": {
-        "confirmText": "OK",
-        "content": "You don't have enough funds in your wallet to execute this transfer",
-        "title": "Oops..."
+        "confirmText": "确认",
+        "content": "您没有足够的资金，转账无法完成。",
+        "title": "糟糕..."
       },
       "qrCodeScanning": {
-        "explication": "Present the QR code"
+        "explication": "请展示二维码"
       },
       "sendBlock": {
         "address": {
-          "description": "Description",
-          "fundsTo": "The funds will be sent to",
-          "invalid": "The destination address is invalid",
-          "label": "Destination address",
-          "placeholder": "Write the address where you want to send funds",
-          "receiver": "Receiver"
+          "description": "描述",
+          "fundsTo": "资金将被发送到",
+          "invalid": "非法的目标地址",
+          "label": "目标地址",
+          "placeholder": "写下您要汇款目标地址",
+          "receiver": "接收者"
         },
         "amount": {
-          "invalid": "The amount is invalid",
-          "label": "Amount to send"
+          "invalid": "金额无效",
+          "label": "发送金额"
         },
-        "cancelButton": "Cancel",
+        "cancelButton": "取消",
         "paymentId": {
-          "invalid": "The payment ID is invalid. The length must be 16 or 64 characters",
-          "label": "Payment ID (optional)"
+          "invalid": "非法的付款ID. 长度必须是64位。",
+          "label": "付款ID（可选）"
         },
-        "sendButton": "Send"
+        "sendButton": "发送"
       },
       "thankYouDonationModal": {
-        "confirmText": "OK",
-        "content": "Your help is appreciated. This donation will help make Qwertycoin better",
-        "title": "Thank you for your donation!"
+        "confirmText": "确认",
+        "content": "感谢您的帮助。您的捐助将会使Qwertycoin变得更好。",
+        "title": "感谢您的捐赠!"
       },
-      "title": "Send QWC",
+      "title": "发送QWC",
       "transferExceptionModal": {
-        "confirmText": "OK",
-        "content": "An error occurred. Please report this error: {details}",
-        "title": "Oops..."
+        "confirmText": "确认",
+        "content": "发生错误，请上报此错误: {details}",
+        "title": "糟糕..."
       },
       "transferSentModal": {
-        "confirmText": "OK",
-        "title": "Transfer sent successfully!"
+        "confirmText": "确认",
+        "title": "转账成功!"
       },
       "waitingNfcModal": {
-        "content": "Bring closer to the other device",
-        "title": "Waiting Nfc"
+        "content": "靠近其他设备一些",
+        "title": "等待Nfc"
       }
     },
     "settingsPage": {
-      "changePasswordButton": "Change my wallet password",
+      "changePasswordButton": "更改我钱包的密码",
       "deleteContactModal": {
-        "cancelText": "Cancel",
-        "confirmText": "Yes",
-        "content": "Are you SURE that you want to delete all your contacts?",
-        "title": "Delete my Contacts"
+        "cancelText": "取消",
+        "confirmText": "确认",
+        "content": "您确定要删除名下所有的联系人吗?",
+        "title": "删除我的联系人"
       },
-      "deleteContactsButton": "Delete my Contacts",
-      "deleteWalletButton": "Delete my wallet (local copy)",
+      "deleteContactsButton": "删除联系人",
+      "deleteWalletButton": "删除我的钱包 (本地拷贝)",
       "deleteWalletModal": {
-        "cancelButtonText": "Cancel",
-        "cancelText": "Cancel",
-        "confirmText": "Yes I'm sure",
-        "content": "Are you sure you REALLY want to delete your wallet ?",
-        "title": "Delete My Wallet (local copy)"
+        "cancelButtonText": "取消",
+        "cancelText": "取消",
+        "confirmText": "是的，我确定",
+        "content": "确定要删除您的钱包吗？",
+        "title": "删除我的钱包（本地副本)"
       },
       "settingsBlock": {
         "language": {
-          "label": "Language"
+          "label": "语言"
         },
         "readMinerTx": {
-          "label": "Read miner transactions (only for solo mining)"
+          "label": "读取挖矿交易信息（仅适用于Solo挖矿）"
         },
         "speed": {
-          "fast": "Fast",
-          "fastest": "Fastest",
-          "label": "Speed to update the wallet (will consume more resources)",
-          "medium": "Medium",
-          "slow": "Slow"
+          "fast": "块",
+          "fastest": "最快",
+          "label": "更新钱包的速度（将会消耗更多资源）",
+          "medium": "中等",
+          "slow": "慢"
         }
       },
-      "subtitle": "Change your parameters here",
-      "title": "Settings",
+      "subtitle": "在这里更改您的参数",
+      "title": "设置",
       "versionBlock": {
-        "versionAppName": "App Name: ",
-        "versionCode": "Version code: ",
-        "versionNumber": "Version number: "
+        "versionAppName": "应用版本名字: ",
+        "versionCode": "版本代码: ",
+        "versionNumber": "版本号: "
       },
       "walletSettings": {
         "creationHeight": {
-          "label": "Creation height of the wallet"
+          "label": "钱包创建的区块高度"
         },
         "currentScanningHeight": {
-          "label": "Current scanning height"
+          "label": "当前扫描高度"
         },
-        "updateButton": "Update"
+        "updateButton": "更新"
       }
     },
     "supportPage": {
       "getInTouchBlock": {
-        "content": "Do you have ideas or feedback that could help us improve the wallet? Contact us!",
-        "discord": "Qwertycoin Discord Channel",
-        "title": "Let's Get In Touch!"
+        "content": "您若有能帮助我们改善钱包哦的建议或者想法，欢迎联系我们!",
+        "discord": "Qwertycoin Discord频道",
+        "title": "让我们联系吧"
       },
-      "subtitle": "We are here to help!",
-      "title": "Support"
+      "subtitle": "我们在这里提供帮助",
+      "title": "支持"
     },
     "termsOfUsePage": {
-      "subtitle": "Please read them carefully.",
-      "title": "Terms of use"
+      "subtitle": "请仔细阅读。",
+      "title": "使用条款"
     }
   },
   "website": {

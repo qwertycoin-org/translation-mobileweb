@@ -21,6 +21,24 @@
         "title": "余额",
         "unlocked": "解锁"
       },
+      "currencyBlock" : {
+        "btc": "BTC",
+        "eth": "ETH",
+        "ltc": "LTC",
+        "usd": "USD",
+        "eur": "EUR",
+        "aud": "AUD",
+        "cad": "CAD",
+        "chf": "CHF",
+        "cny": "CNY",
+        "gbp": "GBP",
+        "jpy": "JPY",
+        "kwd": "KWD",
+        "krw": "KRW",
+        "rub": "RUB",
+        "try": "TRY",
+        "vnd": "VND"
+        },
       "historyBlock": {
         "beReallyPatient": "初始设置可能需要一些时间",
         "emptyWallet": "钱包没有余额",
@@ -489,6 +507,9 @@
         "title": "删除我的钱包（本地副本)"
       },
       "settingsBlock": {
+        "currency": {
+          "label": "本国货币"
+        },
         "language": {
           "label": "语言"
         },

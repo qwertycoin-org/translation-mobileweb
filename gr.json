@@ -21,6 +21,24 @@
         "title": "Το υπόλοιπό σας",
         "unlocked": "Ξεκλείδωτο"
       },
+      "currencyBlock" : {
+        "btc": "BTC",
+        "eth": "ETH",
+        "ltc": "LTC",
+        "usd": "USD",
+        "eur": "EUR",
+        "aud": "AUD",
+        "cad": "CAD",
+        "chf": "CHF",
+        "cny": "CNY",
+        "gbp": "GBP",
+        "jpy": "JPY",
+        "kwd": "KWD",
+        "krw": "KRW",
+        "rub": "RUB",
+        "try": "TRY",
+        "vnd": "VND"
+        },
       "historyBlock": {
         "beReallyPatient": "Η αρχική ρύθμιση μπορεί να διαρκέσει λίγη ώρα...",
         "emptyWallet": "Αυτή τη στιγμή δεν έχετε χρήματα σε αυτό το πορτοφόλι.",
@@ -489,6 +507,9 @@
         "title": "Διέγραψε το πορτοφόλι μου (τοπικό αντίγραφο)"
       },
       "settingsBlock": {
+        "currency": {
+          "label": "εθνικό νόμισμα"
+        },
         "language": {
           "label": "Γλώσσα"
         },

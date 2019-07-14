@@ -21,6 +21,24 @@
         "title": "잔액",
         "unlocked": "해제완료"
       },
+      "currencyBlock" : {
+        "btc": "BTC",
+        "eth": "ETH",
+        "ltc": "LTC",
+        "usd": "USD",
+        "eur": "EUR",
+        "aud": "AUD",
+        "cad": "CAD",
+        "chf": "CHF",
+        "cny": "CNY",
+        "gbp": "GBP",
+        "jpy": "JPY",
+        "kwd": "KWD",
+        "krw": "KRW",
+        "rub": "RUB",
+        "try": "TRY",
+        "vnd": "VND"
+        },
       "historyBlock": {
         "beReallyPatient": "초기 셋업중입니다. 잠시만 기다려주세요.",
         "emptyWallet": "현재 지갑에 잔액이 없습니다",
@@ -489,6 +507,9 @@
         "title": "웹지갑 지우기 (지금 사용하는 기기의 브라우저에 한정)"
       },
       "settingsBlock": {
+        "currency": {
+          "label": "국가 통화"
+        },
         "language": {
           "label": "언어"
         },

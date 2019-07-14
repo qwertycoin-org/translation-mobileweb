@@ -21,6 +21,24 @@
         "title": "Your balance",
         "unlocked": "Unlocked"
       },
+      "currencyBlock" : {
+        "btc": "BTC",
+        "eth": "ETH",
+        "ltc": "LTC",
+        "usd": "USD",
+        "eur": "EUR",
+        "aud": "AUD",
+        "cad": "CAD",
+        "chf": "CHF",
+        "cny": "CNY",
+        "gbp": "GBP",
+        "jpy": "JPY",
+        "kwd": "KWD",
+        "krw": "KRW",
+        "rub": "RUB",
+        "try": "TRY",
+        "vnd": "VND"
+        },
       "historyBlock": {
         "beReallyPatient": "The initial setup can take some time...",
         "emptyWallet": "You currently have no funds in this wallet.",
@@ -489,6 +507,9 @@
         "title": "Delete My Wallet (local copy)"
       },
       "settingsBlock": {
+        "currency": {
+          "label": "العملة الوطنية"
+        },
         "language": {
           "label": "Language"
         },

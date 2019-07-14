@@ -21,6 +21,24 @@
         "title": "Ваш баланс",
         "unlocked": "Доступно"
       },
+      "currencyBlock" : {
+        "btc": "BTC",
+        "eth": "ETH",
+        "ltc": "LTC",
+        "usd": "USD",
+        "eur": "EUR",
+        "aud": "AUD",
+        "cad": "CAD",
+        "chf": "CHF",
+        "cny": "CNY",
+        "gbp": "GBP",
+        "jpy": "JPY",
+        "kwd": "KWD",
+        "krw": "KRW",
+        "rub": "RUB",
+        "try": "TRY",
+        "vnd": "VND"
+        },
       "historyBlock": {
         "beReallyPatient": "Початкова установка може зайняти деякий час...",
         "emptyWallet": "У цьому гаманці поки немає коштів.",
@@ -489,6 +507,9 @@
         "title": "Видалити мій гаманець (локальну копію)"
       },
       "settingsBlock": {
+        "currency": {
+          "label": "національна валюта"
+        },
         "language": {
           "label": "Мова"
         },

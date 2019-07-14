@@ -21,6 +21,24 @@
         "title": "Egyenleg",
         "unlocked": "Feloldva"
       },
+      "currencyBlock" : {
+        "btc": "BTC",
+        "eth": "ETH",
+        "ltc": "LTC",
+        "usd": "USD",
+        "eur": "EUR",
+        "aud": "AUD",
+        "cad": "CAD",
+        "chf": "CHF",
+        "cny": "CNY",
+        "gbp": "GBP",
+        "jpy": "JPY",
+        "kwd": "KWD",
+        "krw": "KRW",
+        "rub": "RUB",
+        "try": "TRY",
+        "vnd": "VND"
+        },
       "historyBlock": {
         "beReallyPatient": "A kezdeti beállítás némi időbe telhet...",
         "emptyWallet": "Jelenleg nincsen egyenleged ebben a tárcában.",
@@ -489,6 +507,9 @@
         "title": "Tárca törlése (helyi másolat)"
       },
       "settingsBlock": {
+        "currency": {
+          "label": "nemzeti valuta"
+        },
         "language": {
           "label": "Language"
         },

@@ -21,24 +21,24 @@
         "title": "Ваша средства",
         "unlocked": "Откључано"
       },
-      "currencyBlock" : {
-        "btc": "BTC",
-        "eth": "ETH",
-        "ltc": "LTC",
-        "usd": "USD",
-        "eur": "EUR",
+      "currencyBlock": {
         "aud": "AUD",
+        "btc": "BTC",
         "cad": "CAD",
         "chf": "CHF",
         "cny": "CNY",
+        "eth": "ETH",
+        "eur": "EUR",
         "gbp": "GBP",
         "jpy": "JPY",
-        "kwd": "KWD",
         "krw": "KRW",
+        "kwd": "KWD",
+        "ltc": "LTC",
         "rub": "RUB",
         "try": "TRY",
+        "usd": "USD",
         "vnd": "VND"
-        },
+      },
       "historyBlock": {
         "beReallyPatient": "Овај поступак може да потраје...",
         "emptyWallet": "Тренутно немате средстава у новчанику",
@@ -467,7 +467,8 @@
           "invalid": "ID уплате неисправан. Дужина мора бити између 16 и 64 карактера",
           "label": "ID уплате(произвољан корак)"
         },
-        "sendButton": "Пошаљи"
+        "sendButton": "Пошаљи",
+        "useCountryCurrency": "Send with main Currency"
       },
       "thankYouDonationModal": {
         "confirmText": "Затвори",

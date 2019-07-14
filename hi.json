@@ -21,24 +21,24 @@
         "title": "Your balance",
         "unlocked": "Unlocked"
       },
-      "currencyBlock" : {
-        "btc": "BTC",
-        "eth": "ETH",
-        "ltc": "LTC",
-        "usd": "USD",
-        "eur": "EUR",
+      "currencyBlock": {
         "aud": "AUD",
+        "btc": "BTC",
         "cad": "CAD",
         "chf": "CHF",
         "cny": "CNY",
+        "eth": "ETH",
+        "eur": "EUR",
         "gbp": "GBP",
         "jpy": "JPY",
-        "kwd": "KWD",
         "krw": "KRW",
+        "kwd": "KWD",
+        "ltc": "LTC",
         "rub": "RUB",
         "try": "TRY",
+        "usd": "USD",
         "vnd": "VND"
-        },
+      },
       "historyBlock": {
         "beReallyPatient": "The initial setup can take some time...",
         "emptyWallet": "You currently have no funds in this wallet.",
@@ -467,7 +467,8 @@
           "invalid": "The payment ID is invalid. The length must be 16 or 64 characters",
           "label": "Payment ID (optional)"
         },
-        "sendButton": "Send"
+        "sendButton": "Send",
+        "useCountryCurrency": "Send with main Currency"
       },
       "thankYouDonationModal": {
         "confirmText": "OK",

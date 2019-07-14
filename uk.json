@@ -21,24 +21,24 @@
         "title": "Ваш баланс",
         "unlocked": "Доступно"
       },
-      "currencyBlock" : {
-        "btc": "BTC",
-        "eth": "ETH",
-        "ltc": "LTC",
-        "usd": "USD",
-        "eur": "EUR",
+      "currencyBlock": {
         "aud": "AUD",
+        "btc": "BTC",
         "cad": "CAD",
         "chf": "CHF",
         "cny": "CNY",
+        "eth": "ETH",
+        "eur": "EUR",
         "gbp": "GBP",
         "jpy": "JPY",
-        "kwd": "KWD",
         "krw": "KRW",
+        "kwd": "KWD",
+        "ltc": "LTC",
         "rub": "RUB",
         "try": "TRY",
+        "usd": "USD",
         "vnd": "VND"
-        },
+      },
       "historyBlock": {
         "beReallyPatient": "Початкова установка може зайняти деякий час...",
         "emptyWallet": "У цьому гаманці поки немає коштів.",
@@ -467,7 +467,8 @@
           "invalid": "Ідентифікатор платежу невірний. Довжина повинна бути 16 або 64 символи",
           "label": "Payment ID (не обов'язково)"
         },
-        "sendButton": "Надіслати"
+        "sendButton": "Надіслати",
+        "useCountryCurrency": "Send with main Currency"
       },
       "thankYouDonationModal": {
         "confirmText": "Гаразд",

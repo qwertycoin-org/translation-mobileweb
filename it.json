@@ -21,24 +21,24 @@
         "title": "Il tuo bilancio",
         "unlocked": "Sbloccato"
       },
-      "currencyBlock" : {
-        "btc": "BTC",
-        "eth": "ETH",
-        "ltc": "LTC",
-        "usd": "USD",
-        "eur": "EUR",
+      "currencyBlock": {
         "aud": "AUD",
+        "btc": "BTC",
         "cad": "CAD",
         "chf": "CHF",
         "cny": "CNY",
+        "eth": "ETH",
+        "eur": "EUR",
         "gbp": "GBP",
         "jpy": "JPY",
-        "kwd": "KWD",
         "krw": "KRW",
+        "kwd": "KWD",
+        "ltc": "LTC",
         "rub": "RUB",
         "try": "TRY",
+        "usd": "USD",
         "vnd": "VND"
-        },
+      },
       "historyBlock": {
         "beReallyPatient": "La prima sincronizzazione potrebbe richiedere alcuni minuti ...",
         "emptyWallet": "Al momento non disponi di fondi su questo portafoglio",
@@ -467,7 +467,8 @@
           "invalid": "Il Payment ID è invalido. La lunghezza deve essere di 16 o 64 caratteri",
           "label": "Payment ID (opzionale)"
         },
-        "sendButton": "Invia"
+        "sendButton": "Invia",
+        "useCountryCurrency": "Send with main Currency"
       },
       "thankYouDonationModal": {
         "confirmText": "Ok",

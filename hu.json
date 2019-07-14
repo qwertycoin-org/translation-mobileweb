@@ -21,24 +21,24 @@
         "title": "Egyenleg",
         "unlocked": "Feloldva"
       },
-      "currencyBlock" : {
-        "btc": "BTC",
-        "eth": "ETH",
-        "ltc": "LTC",
-        "usd": "USD",
-        "eur": "EUR",
+      "currencyBlock": {
         "aud": "AUD",
+        "btc": "BTC",
         "cad": "CAD",
         "chf": "CHF",
         "cny": "CNY",
+        "eth": "ETH",
+        "eur": "EUR",
         "gbp": "GBP",
         "jpy": "JPY",
-        "kwd": "KWD",
         "krw": "KRW",
+        "kwd": "KWD",
+        "ltc": "LTC",
         "rub": "RUB",
         "try": "TRY",
+        "usd": "USD",
         "vnd": "VND"
-        },
+      },
       "historyBlock": {
         "beReallyPatient": "A kezdeti beállítás némi időbe telhet...",
         "emptyWallet": "Jelenleg nincsen egyenleged ebben a tárcában.",
@@ -467,7 +467,8 @@
           "invalid": "Érvénytelen fizetési azonosító. Hosszának 16 vagy 64 karakternek kell lennie",
           "label": "Fizetési azonosító (opcionális)"
         },
-        "sendButton": "Küldés"
+        "sendButton": "Küldés",
+        "useCountryCurrency": "Send with main Currency"
       },
       "thankYouDonationModal": {
         "confirmText": "OK",

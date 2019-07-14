@@ -21,24 +21,24 @@
         "title": "Ваш баланс",
         "unlocked": "Доступно"
       },
-      "currencyBlock" : {
-        "btc": "BTC",
-        "eth": "ETH",
-        "ltc": "LTC",
-        "usd": "USD",
-        "eur": "EUR",
+      "currencyBlock": {
         "aud": "AUD",
+        "btc": "BTC",
         "cad": "CAD",
         "chf": "CHF",
         "cny": "CNY",
+        "eth": "ETH",
+        "eur": "EUR",
         "gbp": "GBP",
         "jpy": "JPY",
-        "kwd": "KWD",
         "krw": "KRW",
+        "kwd": "KWD",
+        "ltc": "LTC",
         "rub": "RUB",
         "try": "TRY",
+        "usd": "USD",
         "vnd": "VND"
-        },
+      },
       "historyBlock": {
         "beReallyPatient": "Начальная установка может занять некоторое время...",
         "emptyWallet": "В этом кошельке пока нет средств.",
@@ -467,7 +467,8 @@
           "invalid": "Идентификатор платежа неверный. Длина должна быть 16 или 64 символа",
           "label": "Payment ID (необязательно)"
         },
-        "sendButton": "Отправить"
+        "sendButton": "Отправить",
+        "useCountryCurrency": "Send with main Currency"
       },
       "thankYouDonationModal": {
         "confirmText": "OK",

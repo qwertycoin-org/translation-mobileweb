@@ -1,532 +1,533 @@
 {
-    "website": {
-    "title": "Qwertycoin Carteira | Simples, sem costura, seguro. Bem vindo ao futuro.",
-    "description": "Carteira online oficial da moeda Qwertycoin - totalmente manuseada no seu navegador para uma segurança ideal"
+  "date": {
+    "long": {
+      "day": "numeric",
+      "hour": "numeric",
+      "hour12": "True",
+      "minute": "numeric",
+      "month": "short",
+      "weekday": "short",
+      "year": "numeric"
     },
-    "messages": {
-    "menu": {
-    "home": "Casa",
-    "account": "Conta",
-    "send": "Mandar",
-    "receive": "Receber",
-    "export": "Exportar",
-    "donate": "Doar",
-    "elections": "Eleições",
-    "contacts": "Contatos",
-    "settings": "Definições",
-    "disconnect": "desconectar",
-    "network": "Estatística de redes",
-    "mining": "Mineração"
-    },
-    "global": {
-    "loading": "Loading",
-    "disableSecurity": "Disable this security, I understand the risk",
-    "passwordInvalidRequirements": "The password needs at least 8 characters - 1 upper case letter, 1 lower case letter, one number, and one special character",
-    "passwordConfirmationNotMatching": "The password does not match the first password you wrote",
-    "download": "Download",
-    "newVersionModal": {
-    "title": "A new version is available",
-    "content": "Do you want to reload to load the new version?",
-    "confirmText": "Yes",
-    "cancelText": "Back"
-    },
-    "openWalletModal": {
-    "title": "Wallet Password",
-    "confirmText": "Open",
-    "cancelText": "Cancel"
-    },
-    "invalidPasswordModal": {
-    "title": "Oops...",
-    "content": "Your password seems invalid",
-    "confirmText": "OK"
-    },
-    "invalidMnemonicModal": {
-    "title": "Oops...",
-    "content": "The mnemonic phrase is invalid",
-    "confirmText": "OK"
-    },
-    "passwordNotComplexEnoughModal": {
-    "title": "The password is not complex enough",
-    "confirmText": "OK"
-    },
-    "permissionRequiredForCameraModal": {
-    "title": "Oops...",
-    "content": "The permission to access your camera is required to scan the QR code",
-    "confirmText": "OK"
+    "short": {
+      "day": "numeric",
+      "month": "short",
+      "year": "numeric"
     }
+  },
+  "messages": {
+    "accountPage": {
+      "balanceBlock": {
+        "title": "Your balance",
+        "unlocked": "Unlocked"
+      },
+      "currencyBlock": {
+        "aud": "AUD",
+        "btc": "BTC",
+        "cad": "CAD",
+        "chf": "CHF",
+        "cny": "CNY",
+        "eth": "ETH",
+        "eur": "EUR",
+        "gbp": "GBP",
+        "jpy": "JPY",
+        "krw": "KRW",
+        "kwd": "KWD",
+        "ltc": "LTC",
+        "rub": "RUB",
+        "try": "TRY",
+        "usd": "USD",
+        "vnd": "VND"
+      },
+      "historyBlock": {
+        "beReallyPatient": "The initial setup can take some time...",
+        "emptyWallet": "You currently have no funds in this wallet.",
+        "getCoinAddress": "Receive QWC",
+        "pendingTxStatus": "Pending",
+        "title": "Transaction history",
+        "waitSync": "Please wait until the wallet is updated"
+      },
+      "subtitle": "Your account overview and transaction history",
+      "synchronizingBlock": {
+        "text": "Synchronizing..."
+      },
+      "title": "Account",
+      "txDetails": {
+        "blockHeight": "Block height",
+        "feesOnTx": "Transaction fee",
+        "paymentId": "Payment ID",
+        "title": "Transaction details",
+        "txHash": "Transaction Hash",
+        "txPrivKey": "Transaction Private Key",
+        "unlockConfirm": "Confirmations",
+        "unlockStatus": "Status"
+      }
     },
     "bottom": {
-    "termsOfUse": "Terms of Use",
-    "privacyPolicy": "Privacy Policy",
-    "support": "Support",
-    "donate": "Donate",
-    "network": "Network Stats",
-    "miningPool": "Mining Pool",
-    "github": "GitHub"
-    },
-    "homepage": {
-    "mainTitle": "Qwertycoin Wallet",
-    "tagLine": "anywhere. anytime. anyplace. any device.",
-    "tagLineTwo": "The simplest way to use Qwertycoin",
-    "actions": {
-    "loadWallet": "Load my wallet",
-    "importWallet": "Import a wallet",
-    "create": "Create",
-    "createWallet": "Create a wallet"
-    }
-    },
-    "accountPage": {
-    "title": "Account",
-    "subtitle": "Your account overview and transaction history",
-    "synchronizingBlock": {
-    "text": "Synchronizing..."
-    },
-    "balanceBlock": {
-    "title": "Your balance",
-    "unlocked": "Unlocked"
-    },
-    "currencyBlock": {
-    "btc": "BTC",
-    "eth": "ETH",
-    "ltc": "LTC",
-    "usd": "USD",
-    "eur": "EUR",
-    "aud": "AUD",
-    "cad": "CAD",
-    "chf": "CHF",
-    "cny": "CNY",
-    "gbp": "GBP",
-    "jpy": "JPY",
-    "kwd": "KWD",
-    "krw": "KRW",
-    "rub": "RUB",
-    "try": "TRY",
-    "vnd": "VND"
-    },
-    "historyBlock": {
-    "title": "Transaction history",
-    "pendingTxStatus": "Pending",
-    "emptyWallet": "You currently have no funds in this wallet.",
-    "waitSync": "Please wait until the wallet is updated",
-    "beReallyPatient": "The initial setup can take some time...",
-    "getCoinAddress": "Receive QWC"
-    },
-    "txDetails": {
-    "title": "Transaction details",
-    "txHash": "Transaction Hash",
-    "feesOnTx": "Transaction fee",
-    "blockHeight": "Block height",
-    "paymentId": "Payment ID",
-    "unlockStatus": "Status",
-    "unlockConfirm": "Confirmations",
-    "txPrivKey": "Transaction Private Key"
-    }
+      "donate": "Donate",
+      "github": "GitHub",
+      "miningPool": "Mining Pool",
+      "network": "Network Stats",
+      "privacyPolicy": "Privacy Policy",
+      "support": "Support",
+      "termsOfUse": "Terms of Use"
     },
     "changeWalletPasswordPage": {
-    "title": "Change your password",
-    "oldPassword": {
-    "label": "Old password",
-    "invalid": "The password is invalid"
-    },
-    "newPassword": {
-    "label": "Choose a new password to protect your wallet"
-    },
-    "newPasswordConfirm": {
-    "label": "Confirm the new password"
-    },
-    "confirm": "Change the password",
-    "modalSuccess": {
-    "title": "Password changed!",
-    "confirmText": "OK"
-    }
+      "confirm": "Change the password",
+      "modalSuccess": {
+        "confirmText": "OK",
+        "title": "Password changed!"
+      },
+      "newPassword": {
+        "label": "Choose a new password to protect your wallet"
+      },
+      "newPasswordConfirm": {
+        "label": "Confirm the new password"
+      },
+      "oldPassword": {
+        "invalid": "The password is invalid",
+        "label": "Old password"
+      },
+      "title": "Change your password"
     },
     "contactPage": {
-    "contactBlock": {
-    "cancel": "Cancel",
-    "confirm": "Add",
-    "contactAddress": "Address",
-    "contactName": "Name",
-    "getNewContacts": "Add Contact",
-    "newContact": "New Contact",
-    "noContacts": "You don't have any contacts yet.",
-    "title": "Your Contacts"
-    },
-    "contactDetailsBlock": {
-    "address": "Address",
-    "sendTo": "Send to ",
-    "title": "Contactdetails"
-    },
-    "subtitle": "Get in touch with other people",
-    "title": "Contatos"
-    },
-    "electionsPage": {
-    "title": "Eleições"
+      "contactBlock": {
+        "cancel": "Cancel",
+        "confirm": "Add",
+        "contactAddress": "Address",
+        "contactName": "Name",
+        "getNewContacts": "Add Contact",
+        "newContact": "New Contact",
+        "noContacts": "You don't have any contacts yet.",
+        "title": "Your Contacts"
+      },
+      "contactDetailsBlock": {
+        "address": "Address",
+        "sendTo": "Send to ",
+        "title": "Contactdetails"
+      },
+      "subtitle": "Get in touch with other people",
+      "title": "Contatos"
     },
     "createWalletPage": {
-    "generatingStep": {
-    "title": "Your wallet is being generated...",
-    "subtitle": "It's almost done",
-    "waitingMessage": "Generating your wallet..."
-    },
-    "finalizationStep": {
-    "title": "That was simple. Your account is ready!",
-    "subtitle": "Be ready to use Qwertycoin like you never have",
-    "passwordSelectionBlock": {
-    "label": "Protect your wallet"
-    },
-    "passwordConfirmBlock": {
-    "label": "Confirm the password"
-    },
-    "validPassword": "Use this password",
-    "backupBlock": {
-    "title": "Save your private credentials for recovery.",
-    "option1": "Option 1: ",
-    "option2": "Option 2: ",
-    "titlePdf": "Download a PDF copy",
-    "titleManualWrite": "Write down my keys",
-    "privateKeys": "Private key",
-    "mnemonicPhrase": "Mnemonic phrase",
-    "separatorManualMethodsSolution": " or ",
-    "confirmManuallyWritten": "I wrote my seed phrase down",
-    "warningMessage": "**Do not lose it!** It cannot be recovered if you lose it.<br/>**Do not share it!** Your funds will be stolen if you use this file or seed on a malicious/phishing site.<br/>**Make a backup!** Secure it like the millions of dollars it may one day be worth.<br/>",
-    "finishButton": "I understand. Continue."
-    }
-    },
-    "disclaimerBlock": {
-    "title": "Risk of Using QwertycoinWallet",
-    "content": "QwertycoinWallet is a web-based interface. It helps you use Qwertycoin without running a full Qwertycoin node. <br/>We recommend you treat QwertycoinWallet like you will treat your actual wallet."
-    }
+      "disclaimerBlock": {
+        "content": "QwertycoinWallet is a web-based interface. It helps you use Qwertycoin without running a full Qwertycoin node. <br/>We recommend you treat QwertycoinWallet like you will treat your actual wallet.",
+        "title": "Risk of Using QwertycoinWallet"
+      },
+      "finalizationStep": {
+        "backupBlock": {
+          "confirmManuallyWritten": "I wrote my seed phrase down",
+          "finishButton": "I understand. Continue.",
+          "mnemonicPhrase": "Mnemonic phrase",
+          "option1": "Option 1: ",
+          "option2": "Option 2: ",
+          "privateKeys": "Private key",
+          "separatorManualMethodsSolution": " or ",
+          "title": "Save your private credentials for recovery.",
+          "titleManualWrite": "Write down my keys",
+          "titlePdf": "Download a PDF copy",
+          "warningMessage": "**Do not lose it!** It cannot be recovered if you lose it.<br/>**Do not share it!** Your funds will be stolen if you use this file or seed on a malicious/phishing site.<br/>**Make a backup!** Secure it like the millions of dollars it may one day be worth.<br/>"
+        },
+        "passwordConfirmBlock": {
+          "label": "Confirm the password"
+        },
+        "passwordSelectionBlock": {
+          "label": "Protect your wallet"
+        },
+        "subtitle": "Be ready to use Qwertycoin like you never have",
+        "title": "That was simple. Your account is ready!",
+        "validPassword": "Use this password"
+      },
+      "generatingStep": {
+        "subtitle": "It's almost done",
+        "title": "Your wallet is being generated...",
+        "waitingMessage": "Generating your wallet..."
+      }
     },
     "donatePage": {
-    "title": "Donate",
-    "subtitle": "Help to fund the development and pay the bills",
-    "webwalletBlock": {
-    "title": "Webwallet",
-    "content": "If you want to help to pay for the servers, to support new features development, and like this app, please consider a donation: <br/><br/>"
+      "devFundBlock": {
+        "content": "To help Qwertycoin, you can donate at these addresses",
+        "title": "Qwertycoin Dev fund"
+      },
+      "subtitle": "Help to fund the development and pay the bills",
+      "title": "Donate",
+      "webwalletBlock": {
+        "content": "If you want to help to pay for the servers, to support new features development, and like this app, please consider a donation: <br/><br/>",
+        "title": "Webwallet"
+      }
     },
-    "devFundBlock": {
-    "title": "Qwertycoin Dev fund",
-    "content": "To help Qwertycoin, you can donate at these addresses"
-    }
-    },
-    "supportPage": {
-    "title": "Support",
-    "subtitle": "We are here to help!",
-    "getInTouchBlock": {
-    "title": "Let's Get In Touch!",
-    "content": "Do you have ideas or feedback that could help us improve the wallet? Contact us!",
-    "discord": "Qwertycoin Discord Channel"
-    }
-    },
-    "networkPage": {
-    "title": "Network stats",
-    "subtitle": "Insights on the Qwertycoin network",
-    "statsBlock": {
-    "connectNode": "Connected Masternode",
-    "hashrate": "Network hashrate",
-    "height": "Blockchain height",
-    "difficulty": "Network difficulty",
-    "lastTimeBlock": "Last block found",
-    "lastReward": "Last block reward"
-    }
-    },
-    "sendPage": {
-    "title": "Send QWC",
-    "sendBlock": {
-    "address": {
-    "label": "Destination address",
-    "placeholder": "Write the address where you want to send funds",
-    "invalid": "The destination address is invalid",
-    "fundsTo": "The funds will be sent to",
-    "receiver": "Receiver",
-    "description": "Description"
-    },
-    "amount": {
-    "label": "Amount to send",
-    "invalid": "The amount is invalid"
-    },
-    "paymentId": {
-    "label": "Payment ID (optional)",
-    "invalid": "The payment ID is invalid. The length must be 16 or 64 characters"
-    },
-    "sendButton": "Send",
-    "cancelButton": "Cancel"
-    },
-    "qrCodeScanning": {
-    "explication": "Present the QR code"
-    },
-    "notEnoughMoneyModal": {
-    "title": "Oops...",
-    "content": "You don't have enough funds in your wallet to execute this transfer",
-    "confirmText": "OK"
-    },
-    "thankYouDonationModal": {
-    "title": "Thank you for your donation!",
-    "content": "Your help is appreciated. This donation will help make Qwertycoin better",
-    "confirmText": "OK"
-    },
-    "transferSentModal": {
-    "title": "Transfer sent successfully!",
-    "confirmText": "OK"
-    },
-    "transferExceptionModal": {
-    "title": "Oops...",
-    "content": "An error occurred. Please report this error: {details}",
-    "confirmText": "OK"
-    },
-    "invalidAmountModal": {
-    "title": "Oops...",
-    "content": "Invalid amount",
-    "confirmText": "OK"
-    },
-    "creatingTransferModal": {
-    "title": "Creating transfer ...",
-    "content": "Please wait..."
-    },
-    "finalizingTransferModal": {
-    "title": "Finalizing transfer ...",
-    "content": "Please wait..."
-    },
-    "confirmTransactionModal": {
-    "title": "Confirm transfer?",
-    "content": "Amount: {amount}<br/>Fees: {fees}<br/>Total: {total}",
-    "confirmText": "Confirm",
-    "cancelText": "Cancel"
-    },
-    "waitingNfcModal": {
-    "title": "Waiting Nfc",
-    "content": "Bring closer to the other device"
-    }
-    },
-    "receivePage": {
-    "title": "Receive QWC",
-    "receiveBlock": {
-    "address": {
-    "title": "Your address to receive funds:",
-    "label": "Give this address to receive funds"
-    },
-    "qrCode": {
-    "title": "Or personalize the QR code:",
-    "labelAmount": "Amount (optional)",
-    "labelRecipient": "Recipient name (optional)",
-    "labelDescription": "Transaction description (optional)",
-    "updateButton": "Update"
-    }
-    },
-    "qrBlock": {
-    "title": "Your customized QR code"
-    },
-    "waitingNfcToWriteModal": {
-    "title": "Waiting Nfc",
-    "titleSuccess": "Nfc Tag written",
-    "content": "Bring closer the NFC tag to write"
-    },
-    "nfcErrorModal": {
-    "titleInsufficientCapacity": "Tag capacity insufficient"
-    }
-    },
-    "miningPage": {
-    "title": "Mine directly in your browser",
-    "subtitle": "Support the network by mining and be rewarded with QWC",
-    "parameterBlock": {
-    "title": "Parameters",
-    "labelDestinationAddress": "Wallet to mine",
-    "labelThreads": "Number of threads (more = higher hashrate)",
-    "start": "Start",
-    "stop": "Stop"
-    },
-    "statisticsBlocks": {
-    "title": "Statistics",
-    "validShares": "Valid shares",
-    "hashrate": "Hashrate",
-    "maxHashrate": "Max Hashrate",
-    "dedicatedHardware": "With dedicating mining software and hardware, you could earn more and help decentralize the network.",
-    "miningHandledBy": "This mining is handled by the mining pool pool.qwertycoin.org"
-    }
-    },
-    "settingsPage": {
-    "title": "Settings",
-    "subtitle": "Change your parameters here",
-    "versionBlock": {
-    "versionNumber": "Version number: ",
-    "versionCode": "Version code: "
-    },
-    "settingsBlock": {
-    "speed": {
-    "label": "Speed to update the wallet (will consume more resources)",
-    "fastest": "Fastest",
-    "fast": "Fast",
-    "medium": "Medium",
-    "slow": "Slow"
-    },
-    "language": {
-    "label": "Language"
-    },
-    "currency": {
-    "label": "National Currency"
-    },
-    "readMinerTx": {
-    "label": "Read miner transactions (only for solo mining)"
-    }
-    },
-    "changePasswordButton": "Change my wallet password",
-    "deleteWalletButton": "Delete my wallet (local copy)",
-    "walletSettings": {
-    "creationHeight": {
-    "label": "Creation height of the wallet"
-    },
-    "currentScanningHeight": {
-    "label": "Current scanning height"
-    },
-    "updateButton": "Update"
-    },
-    "deleteWalletModal": {
-    "title": "Delete My Wallet (local copy)",
-    "content": "Are you sure you REALLY want to delete your wallet ?",
-    "confirmText": "Yes I'm sure",
-    "cancelText": "Cancel"
-    }
-    },
-    "importBasePage": {
-    "parametersBlock": {
-    "title": "Parameters",
-    "password": {
-    "label": "Password to protect your wallet"
-    },
-    "passwordConfirm": {
-    "label": "Confirm the password",
-    "invalid": "The password does not match the first password you wrote"
-    },
-    "importHeight": {
-    "label": "Height to import from:"
-    }
-    }
-    },
-    "importFromQrPage": {
-    "title": "Importing wallet from a QR code",
-    "subtitle": "Import a wallet from an offline backup",
-    "qrCodeBlock": {
-    "title": "QR code",
-    "startScanButton": "Start the scan",
-    "importButton": "Import"
-    },
-    "qrScanningBlock": {
-    "title": "Present the QR code"
-    }
+    "electionsPage": {
+      "title": "Eleições"
     },
     "exportPage": {
-    "title": "Backup your credentials",
-    "publicAddressBlock": {
-    "title": "Your public address"
+      "exportBlock": {
+        "fileButton": "Export to a file",
+        "mnemonicKeysButton": "Get my mnemonic phrase",
+        "privateKeysButton": "Get my private keys",
+        "title": "Export your RAW credentials"
+      },
+      "mnemonicKeyModal": {
+        "confirmText": "OK",
+        "content": "Please store carefully this mnemonic phrase. <b>Possessing it means possessing the funds associated</b> ! The phrase is:<br/>{mnemonic}",
+        "title": "Mnemonic phrase"
+      },
+      "mnemonicLangSelectionModal": {
+        "confirmText": "Export",
+        "title": "In which language do you want your mnemonic phrase?"
+      },
+      "pdfBlock": {
+        "downloadButton": "Download",
+        "title": "PDF Backup"
+      },
+      "publicAddressBlock": {
+        "title": "Your public address"
+      },
+      "title": "Backup your credentials",
+      "walletKeysModal": {
+        "confirmText": "OK",
+        "content": "Please carefully store these keys. <b>Possessing them means possessing the funds associated</b> !<br/>Spend key: {privSpendKey}<br/>Private view key: {privViewKey}",
+        "title": "Private keys"
+      },
+      "warningBlock": {
+        "content": "If you choose to save your private keys or your mnemonic phrase, PLEASE DO NOT store them in clear-text for your own safety.<br/>The file is an alternate solution where your keys are encrypted and contains a backup of all your transactions to spare you a future synchronisation.",
+        "title": "Warning"
+      }
     },
-    "pdfBlock": {
-    "title": "PDF Backup",
-    "downloadButton": "Download"
+    "global": {
+      "disableSecurity": "Disable this security, I understand the risk",
+      "download": "Download",
+      "invalidMnemonicModal": {
+        "confirmText": "OK",
+        "content": "The mnemonic phrase is invalid",
+        "title": "Oops..."
+      },
+      "invalidPasswordModal": {
+        "confirmText": "OK",
+        "content": "Your password seems invalid",
+        "title": "Oops..."
+      },
+      "loading": "Loading",
+      "newVersionModal": {
+        "cancelText": "Back",
+        "confirmText": "Yes",
+        "content": "Do you want to reload to load the new version?",
+        "title": "A new version is available"
+      },
+      "openWalletModal": {
+        "cancelText": "Cancel",
+        "confirmText": "Open",
+        "title": "Wallet Password"
+      },
+      "passwordConfirmationNotMatching": "The password does not match the first password you wrote",
+      "passwordInvalidRequirements": "The password needs at least 8 characters - 1 upper case letter, 1 lower case letter, one number, and one special character",
+      "passwordNotComplexEnoughModal": {
+        "confirmText": "OK",
+        "title": "The password is not complex enough"
+      },
+      "permissionRequiredForCameraModal": {
+        "confirmText": "OK",
+        "content": "The permission to access your camera is required to scan the QR code",
+        "title": "Oops..."
+      }
     },
-    "warningBlock": {
-    "title": "Warning",
-    "content": "If you choose to save your private keys or your mnemonic phrase, PLEASE DO NOT store them in clear-text for your own safety.<br/>The file is an alternate solution where your keys are encrypted and contains a backup of all your transactions to spare you a future synchronisation."
+    "homepage": {
+      "actions": {
+        "create": "Create",
+        "createWallet": "Create a wallet",
+        "importWallet": "Import a wallet",
+        "loadWallet": "Load my wallet"
+      },
+      "mainTitle": "Qwertycoin Wallet",
+      "tagLine": "anywhere. anytime. anyplace. any device.",
+      "tagLineTwo": "The simplest way to use Qwertycoin"
     },
-    "exportBlock": {
-    "title": "Export your RAW credentials",
-    "privateKeysButton": "Get my private keys",
-    "mnemonicKeysButton": "Get my mnemonic phrase",
-    "fileButton": "Export to a file"
-    },
-    "walletKeysModal": {
-    "title": "Private keys",
-    "confirmText": "OK",
-    "content": "Please carefully store these keys. <b>Possessing them means possessing the funds associated</b> !<br/>Spend key: {privSpendKey}<br/>Private view key: {privViewKey}"
-    },
-    "mnemonicKeyModal": {
-    "title": "Mnemonic phrase",
-    "confirmText": "OK",
-    "content": "Please store carefully this mnemonic phrase. <b>Possessing it means possessing the funds associated</b> ! The phrase is:<br/>{mnemonic}"
-    },
-    "mnemonicLangSelectionModal": {
-    "title": "In which language do you want your mnemonic phrase?",
-    "confirmText": "Export"
-    }
-    },
-    "importPage": {
-    "title": "Create a wallet",
-    "subtitle": "From previously created keys, file, or mnemonic phrase",
-    "chooseMethod": "Choose your import method:",
-    "fromKeys": "From keys",
-    "fromFile": "From a file",
-    "fromMnemonic": "From a mnemonic phrase",
-    "fromQr": "From a QR code"
-    },
-    "termsOfUsePage": {
-    "title": "Terms of use",
-    "subtitle": "Please read them carefully."
-    },
-    "privacyPolicyPage": {
-    "title": "Privacy Policy",
-    "subtitle": "Please read them carefully."
+    "importBasePage": {
+      "parametersBlock": {
+        "importHeight": {
+          "label": "Height to import from:"
+        },
+        "password": {
+          "label": "Password to protect your wallet"
+        },
+        "passwordConfirm": {
+          "invalid": "The password does not match the first password you wrote",
+          "label": "Confirm the password"
+        },
+        "title": "Parameters"
+      }
     },
     "importFromFilePage": {
-    "title": "Importing wallet from a backup file",
-    "subtitle": "Use your backup file to create a wallet",
-    "walletBlock": {
-    "title": "Wallet file",
-    "label": "Select the file",
-    "importButton": "Import"
-    }
-    },
-    "importFromMnemonicPage": {
-    "title": "Importing wallet from a mnemonic phrase",
-    "subtitle": "Use your phrase to create a wallet",
-    "mnemonicBlock": {
-    "title": "Mnemonic phrase",
-    "mnemonic": {
-    "label": "Mnemonic phrase: 25 words",
-    "invalid": "The mnemonic phrase is invalid",
-    "language": "Language"
-    },
-    "importButton": "Import"
-    }
+      "subtitle": "Use your backup file to create a wallet",
+      "title": "Importing wallet from a backup file",
+      "walletBlock": {
+        "importButton": "Import",
+        "label": "Select the file",
+        "title": "Wallet file"
+      }
     },
     "importFromKeysPage": {
-    "title": "Importing wallet from keys",
-    "subtitle": "Use your keys to create a wallet",
-    "parametersBlock": {
-    "viewOnlyWallet": {
-    "label": "Do you want a view only wallet?"
-    }
+      "keysBlock": {
+        "importButton": "Import",
+        "privateSpend": {
+          "label": "Private spend key"
+        },
+        "privateView": {
+          "label": "Private view key",
+          "optional": "(optional)"
+        },
+        "publicKey": {
+          "label": "Public key"
+        },
+        "titleNotViewOnly": "Wallet keys",
+        "titleViewOnly": "View only wallet"
+      },
+      "parametersBlock": {
+        "viewOnlyWallet": {
+          "label": "Do you want a view only wallet?"
+        }
+      },
+      "subtitle": "Use your keys to create a wallet",
+      "title": "Importing wallet from keys"
     },
-    "keysBlock": {
-    "titleNotViewOnly": "Wallet keys",
-    "titleViewOnly": "View only wallet",
-    "privateSpend": {
-    "label": "Private spend key"
+    "importFromMnemonicPage": {
+      "mnemonicBlock": {
+        "importButton": "Import",
+        "mnemonic": {
+          "invalid": "The mnemonic phrase is invalid",
+          "label": "Mnemonic phrase: 25 words",
+          "language": "Language"
+        },
+        "title": "Mnemonic phrase"
+      },
+      "subtitle": "Use your phrase to create a wallet",
+      "title": "Importing wallet from a mnemonic phrase"
     },
-    "privateView": {
-    "label": "Private view key",
-    "optional": "(optional)"
+    "importFromQrPage": {
+      "qrCodeBlock": {
+        "importButton": "Import",
+        "startScanButton": "Start the scan",
+        "title": "QR code"
+      },
+      "qrScanningBlock": {
+        "title": "Present the QR code"
+      },
+      "subtitle": "Import a wallet from an offline backup",
+      "title": "Importing wallet from a QR code"
     },
-    "publicKey": {
-    "label": "Public key"
+    "importPage": {
+      "chooseMethod": "Choose your import method:",
+      "fromFile": "From a file",
+      "fromKeys": "From keys",
+      "fromMnemonic": "From a mnemonic phrase",
+      "fromQr": "From a QR code",
+      "subtitle": "From previously created keys, file, or mnemonic phrase",
+      "title": "Create a wallet"
     },
-    "importButton": "Import"
-    }
-    }
+    "menu": {
+      "account": "Conta",
+      "contacts": "Contatos",
+      "disconnect": "desconectar",
+      "donate": "Doar",
+      "elections": "Eleições",
+      "export": "Exportar",
+      "home": "Casa",
+      "mining": "Mineração",
+      "network": "Estatística de redes",
+      "receive": "Receber",
+      "send": "Mandar",
+      "settings": "Definições"
     },
-    "number": {},
-    "date": {
-    "short": {
-    "year": "numeric",
-    "month": "short",
-    "day": "numeric"
+    "miningPage": {
+      "parameterBlock": {
+        "labelDestinationAddress": "Wallet to mine",
+        "labelThreads": "Number of threads (more = higher hashrate)",
+        "start": "Start",
+        "stop": "Stop",
+        "title": "Parameters"
+      },
+      "statisticsBlocks": {
+        "dedicatedHardware": "With dedicating mining software and hardware, you could earn more and help decentralize the network.",
+        "hashrate": "Hashrate",
+        "maxHashrate": "Max Hashrate",
+        "miningHandledBy": "This mining is handled by the mining pool pool.qwertycoin.org",
+        "title": "Statistics",
+        "validShares": "Valid shares"
+      },
+      "subtitle": "Support the network by mining and be rewarded with QWC",
+      "title": "Mine directly in your browser"
     },
-    "long": {
-    "year": "numeric",
-    "month": "short",
-    "day": "numeric",
-    "weekday": "short",
-    "hour": "numeric",
-    "minute": "numeric",
-    "hour12": true
+    "networkPage": {
+      "statsBlock": {
+        "connectNode": "Connected Masternode",
+        "difficulty": "Network difficulty",
+        "hashrate": "Network hashrate",
+        "height": "Blockchain height",
+        "lastReward": "Last block reward",
+        "lastTimeBlock": "Last block found"
+      },
+      "subtitle": "Insights on the Qwertycoin network",
+      "title": "Network stats"
+    },
+    "privacyPolicyPage": {
+      "subtitle": "Please read them carefully.",
+      "title": "Privacy Policy"
+    },
+    "receivePage": {
+      "nfcErrorModal": {
+        "titleInsufficientCapacity": "Tag capacity insufficient"
+      },
+      "qrBlock": {
+        "title": "Your customized QR code"
+      },
+      "receiveBlock": {
+        "address": {
+          "label": "Give this address to receive funds",
+          "title": "Your address to receive funds:"
+        },
+        "qrCode": {
+          "labelAmount": "Amount (optional)",
+          "labelDescription": "Transaction description (optional)",
+          "labelRecipient": "Recipient name (optional)",
+          "title": "Or personalize the QR code:",
+          "updateButton": "Update"
+        }
+      },
+      "title": "Receive QWC",
+      "waitingNfcToWriteModal": {
+        "content": "Bring closer the NFC tag to write",
+        "title": "Waiting Nfc",
+        "titleSuccess": "Nfc Tag written"
+      }
+    },
+    "sendPage": {
+      "confirmTransactionModal": {
+        "cancelText": "Cancel",
+        "confirmText": "Confirm",
+        "content": "Amount: {amount}<br/>Fees: {fees}<br/>Total: {total}",
+        "title": "Confirm transfer?"
+      },
+      "creatingTransferModal": {
+        "content": "Please wait...",
+        "title": "Creating transfer ..."
+      },
+      "finalizingTransferModal": {
+        "content": "Please wait...",
+        "title": "Finalizing transfer ..."
+      },
+      "invalidAmountModal": {
+        "confirmText": "OK",
+        "content": "Invalid amount",
+        "title": "Oops..."
+      },
+      "notEnoughMoneyModal": {
+        "confirmText": "OK",
+        "content": "You don't have enough funds in your wallet to execute this transfer",
+        "title": "Oops..."
+      },
+      "qrCodeScanning": {
+        "explication": "Present the QR code"
+      },
+      "sendBlock": {
+        "address": {
+          "description": "Description",
+          "fundsTo": "The funds will be sent to",
+          "invalid": "The destination address is invalid",
+          "label": "Destination address",
+          "placeholder": "Write the address where you want to send funds",
+          "receiver": "Receiver"
+        },
+        "amount": {
+          "invalid": "The amount is invalid",
+          "label": "Amount to send"
+        },
+        "cancelButton": "Cancel",
+        "paymentId": {
+          "invalid": "The payment ID is invalid. The length must be 16 or 64 characters",
+          "label": "Payment ID (optional)"
+        },
+        "sendButton": "Send",
+        "useCountryCurrency": "Send with main Currency"
+      },
+      "thankYouDonationModal": {
+        "confirmText": "OK",
+        "content": "Your help is appreciated. This donation will help make Qwertycoin better",
+        "title": "Thank you for your donation!"
+      },
+      "title": "Send QWC",
+      "transferExceptionModal": {
+        "confirmText": "OK",
+        "content": "An error occurred. Please report this error: {details}",
+        "title": "Oops..."
+      },
+      "transferSentModal": {
+        "confirmText": "OK",
+        "title": "Transfer sent successfully!"
+      },
+      "waitingNfcModal": {
+        "content": "Bring closer to the other device",
+        "title": "Waiting Nfc"
+      }
+    },
+    "settingsPage": {
+      "changePasswordButton": "Change my wallet password",
+      "deleteWalletButton": "Delete my wallet (local copy)",
+      "deleteWalletModal": {
+        "cancelText": "Cancel",
+        "confirmText": "Yes I'm sure",
+        "content": "Are you sure you REALLY want to delete your wallet ?",
+        "title": "Delete My Wallet (local copy)"
+      },
+      "settingsBlock": {
+        "currency": {
+          "label": "National Currency"
+        },
+        "language": {
+          "label": "Language"
+        },
+        "readMinerTx": {
+          "label": "Read miner transactions (only for solo mining)"
+        },
+        "speed": {
+          "fast": "Fast",
+          "fastest": "Fastest",
+          "label": "Speed to update the wallet (will consume more resources)",
+          "medium": "Medium",
+          "slow": "Slow"
+        }
+      },
+      "subtitle": "Change your parameters here",
+      "title": "Settings",
+      "versionBlock": {
+        "versionCode": "Version code: ",
+        "versionNumber": "Version number: "
+      },
+      "walletSettings": {
+        "creationHeight": {
+          "label": "Creation height of the wallet"
+        },
+        "currentScanningHeight": {
+          "label": "Current scanning height"
+        },
+        "updateButton": "Update"
+      }
+    },
+    "supportPage": {
+      "getInTouchBlock": {
+        "content": "Do you have ideas or feedback that could help us improve the wallet? Contact us!",
+        "discord": "Qwertycoin Discord Channel",
+        "title": "Let's Get In Touch!"
+      },
+      "subtitle": "We are here to help!",
+      "title": "Support"
+    },
+    "termsOfUsePage": {
+      "subtitle": "Please read them carefully.",
+      "title": "Terms of use"
     }
-    }
-    }
+  },
+  "number": "{}",
+  "website": {
+    "description": "Carteira online oficial da moeda Qwertycoin - totalmente manuseada no seu navegador para uma segurança ideal",
+    "title": "Qwertycoin Carteira | Simples, sem costura, seguro. Bem vindo ao futuro."
+  }
+}

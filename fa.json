@@ -21,24 +21,24 @@
         "title": "کل حساب",
         "unlocked": "در دسترس"
       },
-      "currencyBlock" : {
-        "btc": "BTC",
-        "eth": "ETH",
-        "ltc": "LTC",
-        "usd": "USD",
-        "eur": "EUR",
+      "currencyBlock": {
         "aud": "AUD",
+        "btc": "BTC",
         "cad": "CAD",
         "chf": "CHF",
         "cny": "CNY",
+        "eth": "ETH",
+        "eur": "EUR",
         "gbp": "GBP",
         "jpy": "JPY",
-        "kwd": "KWD",
         "krw": "KRW",
+        "kwd": "KWD",
+        "ltc": "LTC",
         "rub": "RUB",
         "try": "TRY",
+        "usd": "USD",
         "vnd": "VND"
-        },
+      },
       "historyBlock": {
         "beReallyPatient": "این پروسه ممکن است مقداری به طول بیانجامد",
         "emptyWallet": "کیف پول شما در حال حاضر خالی میباشد",
@@ -467,7 +467,8 @@
           "invalid": "شناسه ی واریز اشتباه است مقداری را بین شانزده تا شصت و چهار کاراکتر وارد نمایید",
           "label": "شناسه واریز"
         },
-        "sendButton": "ارسال"
+        "sendButton": "ارسال",
+        "useCountryCurrency": "Send with main Currency"
       },
       "thankYouDonationModal": {
         "confirmText": "بستن",

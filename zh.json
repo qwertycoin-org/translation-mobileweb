@@ -21,24 +21,24 @@
         "title": "余额",
         "unlocked": "解锁"
       },
-      "currencyBlock" : {
-        "btc": "BTC",
-        "eth": "ETH",
-        "ltc": "LTC",
-        "usd": "USD",
-        "eur": "EUR",
+      "currencyBlock": {
         "aud": "AUD",
+        "btc": "BTC",
         "cad": "CAD",
         "chf": "CHF",
         "cny": "CNY",
+        "eth": "ETH",
+        "eur": "EUR",
         "gbp": "GBP",
         "jpy": "JPY",
-        "kwd": "KWD",
         "krw": "KRW",
+        "kwd": "KWD",
+        "ltc": "LTC",
         "rub": "RUB",
         "try": "TRY",
+        "usd": "USD",
         "vnd": "VND"
-        },
+      },
       "historyBlock": {
         "beReallyPatient": "初始设置可能需要一些时间",
         "emptyWallet": "钱包没有余额",
@@ -467,7 +467,8 @@
           "invalid": "非法的付款ID. 长度必须是64位。",
           "label": "付款ID（可选）"
         },
-        "sendButton": "发送"
+        "sendButton": "发送",
+        "useCountryCurrency": "Send with main Currency"
       },
       "thankYouDonationModal": {
         "confirmText": "确认",

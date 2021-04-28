@@ -523,7 +523,14 @@
           "label": "Скорость обновления кошелька (будет потреблять больше ресурсов)",
           "medium": "Средняя",
           "slow": "Медленная"
-        }
+        },
+        "customNode": {
+          "label": "Use custom node"
+        },
+        "nodeUrl": {
+          "label": "Node URL"
+        },
+        "chooseNode": "Choose your node:"
       },
       "subtitle": "Тут вы можете изменить параметры",
       "title": "Настройки",

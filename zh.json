@@ -523,7 +523,14 @@
           "label": "更新钱包的速度（将会消耗更多资源）",
           "medium": "中等",
           "slow": "慢"
-        }
+        },
+        "customNode": {
+          "label": "Use custom node"
+        },
+        "nodeUrl": {
+          "label": "Node URL"
+        },
+        "chooseNode": "Choose your node:"
       },
       "subtitle": "在这里更改您的参数",
       "title": "设置",

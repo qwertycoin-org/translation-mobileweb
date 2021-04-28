@@ -523,7 +523,14 @@
           "label": "Vitesse d'actualisation du portefeuille (will consume more energy)",
           "medium": "Normal",
           "slow": "Lent"
-        }
+        },
+        "customNode": {
+          "label": "Use custom node"
+        },
+        "nodeUrl": {
+          "label": "Node URL"
+        },
+        "chooseNode": "Choose your node:"
       },
       "subtitle": "Changez vos paramètres ici",
       "title": "Paramètres",

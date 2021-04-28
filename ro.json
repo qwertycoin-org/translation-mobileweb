@@ -493,7 +493,14 @@
           "label": "Speed to update the wallet (will consume more resources)",
           "medium": "Medium",
           "slow": "Slow"
-        }
+        },
+        "customNode": {
+          "label": "Use custom node"
+        },
+        "nodeUrl": {
+          "label": "Node URL"
+        },
+        "chooseNode": "Choose your node:"
       },
       "subtitle": "Change your parameters here",
       "title": "Settings",

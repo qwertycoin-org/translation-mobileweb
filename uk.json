@@ -523,7 +523,14 @@
           "label": "Швидкість оновлення гаманця (споживатиме більше ресурсів)",
           "medium": "Середня",
           "slow": "Повільна"
-        }
+        },
+        "customNode": {
+          "label": "Use custom node"
+        },
+        "nodeUrl": {
+          "label": "Node URL"
+        },
+        "chooseNode": "Choose your node:"
       },
       "subtitle": "Тут ви можете змінити параметри",
       "title": "Налаштування",

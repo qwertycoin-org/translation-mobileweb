@@ -523,7 +523,14 @@
           "label": "Брзина ажурирања новчаника(утиче на потрошњу енергије)",
           "medium": "Средње",
           "slow": "Споро"
-        }
+        },
+        "customNode": {
+          "label": "Use custom node"
+        },
+        "nodeUrl": {
+          "label": "Node URL"
+        },
+        "chooseNode": "Choose your node:"
       },
       "subtitle": "Промените подешавања овде",
       "title": "Подешавања",

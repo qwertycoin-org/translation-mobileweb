@@ -523,7 +523,14 @@
           "label": "지갑 업데이트 속도 (속도가 빠를수록 컴퓨팅 자원이 더 소모됩니다.)",
           "medium": "보통",
           "slow": "천천히"
-        }
+        },
+        "customNode": {
+          "label": "Use custom node"
+        },
+        "nodeUrl": {
+          "label": "Node URL"
+        },
+        "chooseNode": "Choose your node:"
       },
       "subtitle": "여기서  바꿀 수 있습니다.",
       "title": "설정",

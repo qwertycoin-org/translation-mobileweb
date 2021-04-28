@@ -493,7 +493,14 @@
           "label": "Velocidad para actualizar la billetera (consumirá más recursos)",
           "medium": "Medio",
           "slow": "Lento"
-        }
+        },
+        "customNode": {
+          "label": "Use custom node"
+        },
+        "nodeUrl": {
+          "label": "Node URL"
+        },
+        "chooseNode": "Choose your node:"
       },
       "subtitle": "Cambie sus parámetros aquí",
       "title": "Ajustes",

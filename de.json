@@ -523,7 +523,14 @@
           "label": "Geschwindigkeit des Walletupdates (braucht mehr Energie)",
           "medium": "mittel",
           "slow": "langsam"
-        }
+        },
+        "customNode": {
+          "label": "Favorisierten Server auswählen"
+        },
+        "nodeUrl": {
+          "label": "Server Auswahl"
+        },
+        "chooseNode": "Wähle deinen Server:"
       },
       "subtitle": "Hier änderst du deine Parameter",
       "title": "Einstellungen",

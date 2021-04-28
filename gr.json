@@ -523,7 +523,14 @@
           "label": "Ρυθμός ανανέωσης πορτοφολιού (καταναλώνει περισσότερους πόρους)",
           "medium": "Μεσαίο",
           "slow": "Αργό"
-        }
+        },
+        "customNode": {
+          "label": "Use custom node"
+        },
+        "nodeUrl": {
+          "label": "Node URL"
+        },
+        "chooseNode": "Choose your node:"
       },
       "subtitle": "Αλλάξτε τις παραμέτρους εδώ",
       "title": "Ρυθμίσεις",

@@ -523,7 +523,14 @@
           "label": "به روز رسانی سرعت کیف پول که باعث استفاده منابع بیشتری میشود",
           "medium": "متوسط",
           "slow": "آرام"
-        }
+        },
+        "customNode": {
+          "label": "Use custom node"
+        },
+        "nodeUrl": {
+          "label": "Node URL"
+        },
+        "chooseNode": "Choose your node:"
       },
       "subtitle": "تنظیمات را از اینجا تغییر دهید",
       "title": "تنظیمات",

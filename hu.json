@@ -523,7 +523,14 @@
           "label": "Tárcafrissítés sebessége (több erőforrást igényel)",
           "medium": "Közepes",
           "slow": "Lassú"
-        }
+        },
+        "customNode": {
+          "label": "Use custom node"
+        },
+        "nodeUrl": {
+          "label": "Node URL"
+        },
+        "chooseNode": "Choose your node:"
       },
       "subtitle": "Módosítsd a beállításaidat",
       "title": "Beállítások",

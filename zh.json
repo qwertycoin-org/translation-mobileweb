@@ -18,7 +18,7 @@
   "messages": {
     "accountPage": {
       "balanceBlock": {
-        "title": "余额",
+        "title": "我的余额",
         "unlocked": "解锁"
       },
       "currencyBlock": {
@@ -49,7 +49,7 @@
       },
       "subtitle": "账户信息和交易记录",
       "synchronizingBlock": {
-        "text": "同步"
+        "text": "同步区块中..."
       },
       "title": "账户",
       "txDetails": {
@@ -150,7 +150,7 @@
     "donatePage": {
       "devFundBlock": {
         "content": "为了Qwertycoin更好的发展，您可以捐款到以下地址",
-        "title": "Qwerty开发基金"
+        "title": "Qwertycoin开发基金"
       },
       "masariFundBlock": {
         "content": "如果您想发送礼物，请将其发送到以下钱包",
@@ -168,14 +168,14 @@
       }
     },
     "electionsPage": {
-      "title": "选举"
+      "title": "投票"
     },
     "exportPage": {
       "exportBlock": {
         "fileButton": "导出到文件",
         "mnemonicKeysButton": "查看关联词",
         "privateKeysButton": "查看私匙",
-        "title": "导出您的RAW凭证"
+        "title": "导出您的钱包原始凭证"
       },
       "mnemonicKeyModal": {
         "confirmText": "OK",
@@ -183,7 +183,7 @@
         "title": "助词短语"
       },
       "mnemonicLangSelectionModal": {
-        "confirmText": "出口",
+        "confirmText": "取消",
         "title": "你想用哪种语言写你的助记词"
       },
       "pdfBlock": {
@@ -268,7 +268,7 @@
         }
       },
       "tagLine": "无论何时、何地、何种设备。",
-      "tagLineTwo": "使用Qwertycoin最简单的方法"
+      "tagLineTwo": "使用Qwertycoin最便捷的方式"
     },
     "importBasePage": {
       "parametersBlock": {
@@ -348,7 +348,7 @@
         "title": "二维码扫描"
       },
       "qrScanningBlock": {
-        "title": "请展示二维码"
+        "title": "请扫描二维码"
       },
       "subtitle": "从一个离线备份文件导入钱包",
       "title": "从二维码导入钱包",
@@ -387,7 +387,7 @@
         "lastReward": "最新出块奖励",
         "lastTimeBlock": "最新出块"
       },
-      "subtitle": "Qwertycoin网络详情",
+      "subtitle": "Qwertycoin网络统计",
       "title": "网络统计"
     },
     "privacyPolicyPage": {
@@ -403,14 +403,14 @@
       },
       "receiveBlock": {
         "address": {
-          "label": "给这个地址接收资金",
-          "title": "您收到资金的地址："
+          "label": "请发送QWC到这个地址",
+          "title": "QWC的接收地址："
         },
         "qrCode": {
           "labelAmount": "金额（可选）",
           "labelDescription": "交易描述 (可选)",
           "labelRecipient": "收据名称 (可选)",
-          "title": "或者个性化二维码:",
+          "title": "使用个性化二维码来接收QWC:",
           "updateButton": "更新"
         }
       },
@@ -443,7 +443,7 @@
       },
       "notEnoughMoneyModal": {
         "confirmText": "确认",
-        "content": "您没有足够的资金，转账无法完成。",
+        "content": "您的钱包没有足够的QWC，无法进行投票！",
         "title": "糟糕..."
       },
       "qrCodeScanning": {
@@ -468,7 +468,7 @@
           "label": "付款ID（可选）"
         },
         "sendButton": "发送",
-        "useCountryCurrency": "Send with main Currency"
+        "useCountryCurrency": "使用主要货币发送"
       },
       "thankYouDonationModal": {
         "confirmText": "确认",
@@ -499,7 +499,7 @@
         "title": "删除我的联系人"
       },
       "deleteContactsButton": "删除联系人",
-      "deleteWalletButton": "删除我的钱包 (本地拷贝)",
+      "deleteWalletButton": "删除我的钱包 (本地副本)",
       "deleteWalletModal": {
         "cancelButtonText": "取消",
         "cancelText": "取消",
@@ -518,21 +518,21 @@
           "label": "读取挖矿交易信息（仅适用于Solo挖矿）"
         },
         "speed": {
-          "fast": "块",
+          "fast": "快",
           "fastest": "最快",
-          "label": "更新钱包的速度（将会消耗更多资源）",
+          "label": "更新钱包的速度（可能会耗资源）",
           "medium": "中等",
           "slow": "慢"
         },
         "customNode": {
-          "label": "Use custom node"
+          "label": "使用自定义的节点"
         },
         "nodeUrl": {
-          "label": "Node URL"
+          "label": "节点链接"
         },
-        "chooseNode": "Choose your node:"
+        "chooseNode": "请选择一个节点:"
       },
-      "subtitle": "在这里更改您的参数",
+      "subtitle": "在这里更改钱包配置",
       "title": "设置",
       "versionBlock": {
         "versionAppName": "应用版本名字: ",
@@ -541,12 +541,12 @@
       },
       "walletSettings": {
         "creationHeight": {
-          "label": "钱包创建的区块高度"
+          "label": "钱包同步起始区块高度"
         },
         "currentScanningHeight": {
-          "label": "当前扫描高度"
+          "label": "当前区块同步高度"
         },
-        "updateButton": "更新"
+        "updateButton": "确认更新"
       }
     },
     "supportPage": {
@@ -564,7 +564,7 @@
     }
   },
   "website": {
-    "description": "Qwertycoin官方在线钱包 - 在您的浏览器中完全处理以获得最佳安全性",
-    "title": "Qwertycoin钱包|简单，无缝，安全。欢迎来到未来"
+    "description": "Qwertycoin官方在线钱包 - 在浏览器中完成所有处理以获得最佳安全性",
+    "title": "Qwertycoin钱包|简单，无缝，安全。欢迎来到区块链的未来"
   }
 }
